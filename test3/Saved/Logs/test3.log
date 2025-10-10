@@ -1322,3 +1322,235 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.10.10-13.23.31:923][110]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
 [2025.10.10-13.23.31:923][110]LogShaderCompilers: Display: ================================================
 [2025.10.10-13.23.31:924][110]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2025.10.10-13.25.57:347][801]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 328.825409
+[2025.10.10-13.25.58:346][804]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.10-13.25.58:347][804]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 329.490387, Update Interval: 316.007568
+[2025.10.10-13.27.09:760][237]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.10.10-13.27.20:897][932]LogContentBrowser: Deferred new asset file creation: NewBehaviorTree
+[2025.10.10-13.27.20:906][932]LogContentBrowser: Creating deferred item: NewBehaviorTree
+[2025.10.10-13.27.20:927][933]LogContentBrowser: Renaming the item being created (Deferred Item: NewBehaviorTree).
+[2025.10.10-13.27.33:985][997]LogContentBrowser: Attempting asset rename: NewBehaviorTree -> NewBehaviorTree
+[2025.10.10-13.27.33:986][997]LogContentBrowser: End creating deferred item NewBehaviorTree
+[2025.10.10-13.27.57:382][573]LogContentBrowser: Attempting asset rename: NewBehaviorTree -> BT_AI
+[2025.10.10-13.27.57:508][573]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.10-13.27.57:509][573]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/BT_AI] ([1] browsable assets)...
+[2025.10.10-13.27.57:509][573]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/BT_AI]
+[2025.10.10-13.27.57:509][573]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/BT_AI" FILE="../../../../../Users/N00230651/Documents/game-development/test3/Content/Blueprint/BT_AI.uasset" SILENT=true
+[2025.10.10-13.27.57:516][573]LogSavePackage: Moving output files for package: /Game/Blueprint/BT_AI
+[2025.10.10-13.27.57:516][573]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/BT_AI2329A9B74F842DEB5E554E9AF6BB738C.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Content/Blueprint/BT_AI.uasset'
+[2025.10.10-13.27.57:518][573]LogFileHelpers: InternalPromptForCheckoutAndSave took 9.379 ms
+[2025.10.10-13.27.57:652][573]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.10.10-13.27.57:678][573]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.10.10-13.27.57:700][573]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.10.10-13.27.57:775][573]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.10-13.27.57:775][573]LogContentValidation: Enabled validators:
+[2025.10.10-13.27.57:775][573]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.10-13.27.57:775][573]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.10-13.27.57:775][573]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.10-13.27.57:775][573]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.10-13.27.57:775][573]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.10-13.27.57:775][573]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.10-13.27.57:775][573]AssetCheck: /Game/Blueprint/BT_AI Validating asset
+[2025.10.10-13.27.57:825][573]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../Users/N00230651/Documents/game-development/test3/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.10-13.28.04:681][975]LogContentBrowser: Deferred new asset file creation: NewBlackboardData
+[2025.10.10-13.28.04:690][975]LogContentBrowser: Creating deferred item: NewBlackboardData
+[2025.10.10-13.28.04:717][976]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlackboardData).
+[2025.10.10-13.28.35:077][787]LogContentBrowser: Attempting asset rename: NewBlackboardData -> BBD_AI
+[2025.10.10-13.28.35:080][787]LogContentBrowser: End creating deferred item NewBlackboardData
+[2025.10.10-13.28.48:171][947]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/Blueprint/BT_AI.BT_AI
+[2025.10.10-13.28.48:441][947]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.10.10-13.30.46:467][269]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.10-13.30.46:563][269]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/BT_AI] ([1] browsable assets)...
+[2025.10.10-13.30.46:563][269]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/BT_AI]
+[2025.10.10-13.30.46:563][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/BT_AI" FILE="../../../../../Users/N00230651/Documents/game-development/test3/Content/Blueprint/BT_AI.uasset" SILENT=true
+[2025.10.10-13.30.46:573][269]LogSavePackage: Moving output files for package: /Game/Blueprint/BT_AI
+[2025.10.10-13.30.46:573][269]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/BT_AI6F2DD19646C7B2C20AD0279DE19C126D.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Content/Blueprint/BT_AI.uasset'
+[2025.10.10-13.30.46:583][269]LogFileHelpers: InternalPromptForCheckoutAndSave took 115.132 ms (total: 124.511 ms)
+[2025.10.10-13.30.46:646][269]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.10-13.30.46:646][269]LogContentValidation: Enabled validators:
+[2025.10.10-13.30.46:646][269]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.10-13.30.46:646][269]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.10-13.30.46:646][269]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.10-13.30.46:646][269]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.10-13.30.46:646][269]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.10-13.30.46:646][269]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.10-13.30.46:646][269]AssetCheck: /Game/Blueprint/BT_AI Validating asset
+[2025.10.10-13.31.16:605][297]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 648.083191
+[2025.10.10-13.31.16:737][313]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.10-13.31.16:737][313]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 648.208191, Update Interval: 314.694672
+[2025.10.10-13.32.04:045][716]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.10.10-13.32.04:054][716]LogContentBrowser: Creating deferred item: NewFolder
+[2025.10.10-13.32.04:063][717]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.10.10-13.32.11:266][222]LogContentBrowser: Attempting asset rename: NewFolder -> AI
+[2025.10.10-13.32.11:266][222]LogContentBrowser: End creating deferred item NewFolder
+[2025.10.10-13.32.22:095][119]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.10-13.32.22:096][119]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BP_EnemyAI] ([2] browsable assets)...
+[2025.10.10-13.32.22:096][119]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BP_EnemyAI]
+[2025.10.10-13.32.22:096][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BP_EnemyAI" FILE="../../../../../Users/N00230651/Documents/game-development/test3/Content/AI/BP_EnemyAI.uasset" SILENT=true
+[2025.10.10-13.32.22:104][119]LogSavePackage: Moving output files for package: /Game/AI/BP_EnemyAI
+[2025.10.10-13.32.22:104][119]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/BP_EnemyAIAA99F9E6496BD2F1B8C16FAC7E792E1A.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Content/AI/BP_EnemyAI.uasset'
+[2025.10.10-13.32.22:106][119]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AI/BP_EnemyAI.
+[2025.10.10-13.32.22:109][119]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BT_AI] ([1] browsable assets)...
+[2025.10.10-13.32.22:109][119]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BT_AI]
+[2025.10.10-13.32.22:109][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BT_AI" FILE="../../../../../Users/N00230651/Documents/game-development/test3/Content/AI/BT_AI.uasset" SILENT=true
+[2025.10.10-13.32.22:117][119]LogSavePackage: Moving output files for package: /Game/AI/BT_AI
+[2025.10.10-13.32.22:117][119]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/BT_AI27A3CF694C5615A0F5824789D55F5192.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Content/AI/BT_AI.uasset'
+[2025.10.10-13.32.22:118][119]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BBD_AI] ([1] browsable assets)...
+[2025.10.10-13.32.22:118][119]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BBD_AI]
+[2025.10.10-13.32.22:118][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BBD_AI" FILE="../../../../../Users/N00230651/Documents/game-development/test3/Content/AI/BBD_AI.uasset" SILENT=true
+[2025.10.10-13.32.22:125][119]LogSavePackage: Moving output files for package: /Game/AI/BBD_AI
+[2025.10.10-13.32.22:125][119]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/BBD_AI273BCB784CD18176D15A6095CE473CC0.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Content/AI/BBD_AI.uasset'
+[2025.10.10-13.32.22:126][119]LogFileHelpers: InternalPromptForCheckoutAndSave took 30.814 ms (total: 155.326 ms)
+[2025.10.10-13.32.22:228][119]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.10.10-13.32.22:253][119]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2025.10.10-13.32.22:276][119]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.10.10-13.32.22:310][119]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.10.10-13.32.22:310][119]LogContentValidation: Display: Starting to validate 3 assets
+[2025.10.10-13.32.22:310][119]LogContentValidation: Enabled validators:
+[2025.10.10-13.32.22:310][119]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.10-13.32.22:310][119]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.10-13.32.22:310][119]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.10-13.32.22:310][119]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.10-13.32.22:310][119]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.10-13.32.22:310][119]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.10-13.32.22:310][119]AssetCheck: /Game/AI/BP_EnemyAI Validating asset
+[2025.10.10-13.32.22:310][119]AssetCheck: /Game/AI/BT_AI Validating asset
+[2025.10.10-13.32.22:310][119]AssetCheck: /Game/AI/BBD_AI Validating asset
+[2025.10.10-13.32.22:327][119]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../Users/N00230651/Documents/game-development/test3/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.10-13.32.50:008][684]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.10.10-13.32.50:028][684]LogContentBrowser: Creating deferred item: NewFolder
+[2025.10.10-13.32.50:052][684]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.10.10-13.32.56:885][684]LogContentBrowser: Attempting asset rename: NewFolder -> tasks
+[2025.10.10-13.32.56:886][684]LogContentBrowser: End creating deferred item NewFolder
+[2025.10.10-13.33.17:540][684]LogSlate: Window 'Save Asset As' being destroyed
+[2025.10.10-13.33.17:551][684]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AI/tasks/BTTask_RoamAround.BTTask_RoamAround
+[2025.10.10-13.33.17:551][684]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2025.10.10-13.33.17:615][684]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/AI/tasks/BTTask_RoamAround.
+[2025.10.10-13.33.20:971][902]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.10.10-13.33.20:973][902]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Lvl_ThirdPerson' took 0.037
+[2025.10.10-13.33.20:974][902]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/tasks/BTTask_RoamAround] ([2] browsable assets)...
+[2025.10.10-13.33.20:974][902]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/tasks/BTTask_RoamAround]
+[2025.10.10-13.33.20:983][902]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/AI/tasks/BTTask_RoamAround_Auto1
+[2025.10.10-13.33.20:983][902]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/BTTask_RoamAround_Auto1D16DD6A24CBF1572D4710E845D32AC83.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Saved/Autosaves/Game/AI/tasks/BTTask_RoamAround_Auto1.uasset'
+[2025.10.10-13.33.20:984][902]LogFileHelpers: Auto-saving content packages took 0.010
+[2025.10.10-13.36.37:964][499]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 969.448364
+[2025.10.10-13.36.38:090][514]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.10-13.36.38:090][514]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 969.565430, Update Interval: 315.617554
+[2025.10.10-13.38.44:958][177]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.10-13.38.45:035][177]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/tasks/BTTask_RoamAround] ([2] browsable assets)...
+[2025.10.10-13.38.45:035][177]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/tasks/BTTask_RoamAround]
+[2025.10.10-13.38.45:035][177]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/tasks/BTTask_RoamAround" FILE="../../../../../Users/N00230651/Documents/game-development/test3/Content/AI/tasks/BTTask_RoamAround.uasset" SILENT=true
+[2025.10.10-13.38.45:045][177]LogSavePackage: Moving output files for package: /Game/AI/tasks/BTTask_RoamAround
+[2025.10.10-13.38.45:045][177]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/BTTask_RoamAroundCEC37F96484038C907E9148E28DA3FD4.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Content/AI/tasks/BTTask_RoamAround.uasset'
+[2025.10.10-13.38.45:047][177]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AI/tasks/BTTask_RoamAround.
+[2025.10.10-13.38.45:056][177]LogFileHelpers: InternalPromptForCheckoutAndSave took 98.456 ms (total: 253.782 ms)
+[2025.10.10-13.38.45:118][177]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.10-13.38.45:118][177]LogContentValidation: Enabled validators:
+[2025.10.10-13.38.45:118][177]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.10-13.38.45:118][177]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.10-13.38.45:118][177]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.10-13.38.45:118][177]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.10-13.38.45:118][177]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.10-13.38.45:118][177]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.10-13.38.45:118][177]AssetCheck: /Game/AI/tasks/BTTask_RoamAround Validating asset
+[2025.10.10-13.38.45:136][177]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../Users/N00230651/Documents/game-development/test3/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.10-13.38.45:845][231]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.10.10-13.38.58:512][284]LogStreaming: Display: FlushAsyncLoading(593): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.10-13.39.29:222][ 95]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.10-13.39.29:322][ 95]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BT_AI] ([1] browsable assets)...
+[2025.10.10-13.39.29:322][ 95]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BT_AI]
+[2025.10.10-13.39.29:322][ 95]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BT_AI" FILE="../../../../../Users/N00230651/Documents/game-development/test3/Content/AI/BT_AI.uasset" SILENT=true
+[2025.10.10-13.39.29:332][ 95]LogSavePackage: Moving output files for package: /Game/AI/BT_AI
+[2025.10.10-13.39.29:333][ 95]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/BT_AI9171595F4406668D588CE18736EA2432.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Content/AI/BT_AI.uasset'
+[2025.10.10-13.39.29:340][ 95]LogFileHelpers: InternalPromptForCheckoutAndSave took 118.663 ms (total: 372.445 ms)
+[2025.10.10-13.39.29:425][ 95]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.10-13.39.29:425][ 95]LogContentValidation: Enabled validators:
+[2025.10.10-13.39.29:425][ 95]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.10-13.39.29:425][ 95]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.10-13.39.29:425][ 95]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.10-13.39.29:425][ 95]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.10-13.39.29:425][ 95]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.10-13.39.29:425][ 95]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.10-13.39.29:425][ 95]AssetCheck: /Game/AI/BT_AI Validating asset
+[2025.10.10-13.39.58:131][571]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2025.10.10-13.40.04:334][231]LogStreaming: Display: FlushAsyncLoading(594): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.10-13.40.04:422][231]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_Manny_Simple) ...
+[2025.10.10-13.40.04:451][231]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2025.10.10-13.40.04:618][237]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2025.10.10-13.40.18:707][101]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.10-13.40.18:795][101]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/AI/BP_EnemyAI] ([2] browsable assets)...
+[2025.10.10-13.40.18:795][101]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2025.10.10-13.40.18:808][101]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/AI/BP_EnemyAI.BP_EnemyAI_C]
+[2025.10.10-13.40.18:812][101]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AI/BP_EnemyAI.BP_EnemyAI]
+[2025.10.10-13.40.18:812][101]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BP_EnemyAI]
+[2025.10.10-13.40.18:812][101]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BP_EnemyAI" FILE="../../../../../Users/N00230651/Documents/game-development/test3/Content/AI/BP_EnemyAI.uasset" SILENT=true
+[2025.10.10-13.40.18:822][101]LogSavePackage: Moving output files for package: /Game/AI/BP_EnemyAI
+[2025.10.10-13.40.18:823][101]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/BP_EnemyAI3926F5C4413CE355D09F72A2CD60D2D8.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Content/AI/BP_EnemyAI.uasset'
+[2025.10.10-13.40.18:831][101]LogFileHelpers: InternalPromptForCheckoutAndSave took 124.490 ms (total: 496.935 ms)
+[2025.10.10-13.40.18:896][101]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.10-13.40.18:896][101]LogContentValidation: Enabled validators:
+[2025.10.10-13.40.18:896][101]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.10-13.40.18:896][101]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.10-13.40.18:896][101]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.10-13.40.18:896][101]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.10-13.40.18:896][101]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.10-13.40.18:896][101]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.10-13.40.18:896][101]AssetCheck: /Game/AI/BP_EnemyAI Validating asset
+[2025.10.10-13.40.20:197][182]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2025.10.10-13.40.58:818][307]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/AI/BP_EnemyAI.BP_EnemyAI_C
+[2025.10.10-13.40.58:818][307]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/AI/BP_EnemyAI.BP_EnemyAI_C
+[2025.10.10-13.40.58:820][307]LogActorFactory: Actor Factory spawned Blueprint /Game/AI/BP_EnemyAI.BP_EnemyAI as actor: BP_EnemyAI_C /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_EnemyAI_C_0
+[2025.10.10-13.40.58:820][307]LogActorFactory: Actor Factory spawned Blueprint /Game/AI/BP_EnemyAI.BP_EnemyAI as actor: BP_EnemyAI_C /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_EnemyAI_C_0
+[2025.10.10-13.40.58:825][307]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2025.10.10-13.40.59:672][385]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2025.10.10-13.40.59:674][385]LogEditorActor: Deleted 0 Actors (0.026 secs)
+[2025.10.10-13.40.59:681][385]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/AI/BP_EnemyAI.BP_EnemyAI_C
+[2025.10.10-13.40.59:681][385]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/AI/BP_EnemyAI.BP_EnemyAI_C
+[2025.10.10-13.40.59:685][385]LogActorFactory: Actor Factory spawned Blueprint /Game/AI/BP_EnemyAI.BP_EnemyAI as actor: BP_EnemyAI_C /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_EnemyAI_C_UAID_D0460C861981189702_1711316175
+[2025.10.10-13.40.59:687][385]LogActorFactory: Actor Factory spawned Blueprint /Game/AI/BP_EnemyAI.BP_EnemyAI as actor: BP_EnemyAI_C /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_EnemyAI_C_UAID_D0460C861981189702_1711316175
+[2025.10.10-13.42.06:028][460]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1297.514404
+[2025.10.10-13.42.06:171][477]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.10-13.42.06:171][477]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1297.648804, Update Interval: 336.598419
+[2025.10.10-13.44.29:264][546]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2025.10.10-13.44.29:276][546]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/1C/DEHMX5K3ROMM675A8ING6B_Auto2
+[2025.10.10-13.44.29:276][546]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/DEHMX5K3ROMM675A8ING6B_Auto282D7AD324265396536CB3CA5119A5FDE.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/1C/DEHMX5K3ROMM675A8ING6B_Auto2.uasset'
+[2025.10.10-13.44.29:277][546]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Lvl_ThirdPerson' took 0.040
+[2025.10.10-13.44.29:277][546]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.040
+[2025.10.10-13.45.07:797][516]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.10.10-13.45.07:805][516]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.10.10-13.45.07:816][516]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.10.10-13.45.07:842][517]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.10.10-13.45.15:234][104]LogContentBrowser: Attempting asset rename: NewBlueprint -> AI_Controller
+[2025.10.10-13.45.15:238][104]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/AI/AI_Controller.
+[2025.10.10-13.45.15:240][104]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.10.10-13.45.29:092][208]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AI/AI_Controller.AI_Controller
+[2025.10.10-13.45.29:092][208]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2025.10.10-13.46.44:959][979]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.10-13.46.45:015][979]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AI/BP_EnemyAI] ([2] browsable assets)...
+[2025.10.10-13.46.45:020][979]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AI/BP_EnemyAI.BP_EnemyAI]
+[2025.10.10-13.46.45:020][979]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BP_EnemyAI]
+[2025.10.10-13.46.45:020][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BP_EnemyAI" FILE="../../../../../Users/N00230651/Documents/game-development/test3/Content/AI/BP_EnemyAI.uasset" SILENT=true
+[2025.10.10-13.46.45:032][979]LogSavePackage: Moving output files for package: /Game/AI/BP_EnemyAI
+[2025.10.10-13.46.45:032][979]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/BP_EnemyAI5474B23A4F84A651A267D4B66B380B11.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Content/AI/BP_EnemyAI.uasset'
+[2025.10.10-13.46.45:042][979]LogFileHelpers: InternalPromptForCheckoutAndSave took 83.578 ms (total: 580.514 ms)
+[2025.10.10-13.46.45:097][979]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.10-13.46.45:097][979]LogContentValidation: Enabled validators:
+[2025.10.10-13.46.45:097][979]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.10-13.46.45:097][979]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.10-13.46.45:097][979]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.10-13.46.45:097][979]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.10-13.46.45:097][979]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.10-13.46.45:097][979]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.10-13.46.45:097][979]AssetCheck: /Game/AI/BP_EnemyAI Validating asset
+[2025.10.10-13.46.46:139][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2025.10.10-13.48.06:095][640]LogActorFactory: Actor Factory attempting to spawn Class /Script/NavigationSystem.NavMeshBoundsVolume
+[2025.10.10-13.48.06:095][640]LogActorFactory: Actor Factory attempting to spawn Class /Script/NavigationSystem.NavMeshBoundsVolume
+[2025.10.10-13.48.06:097][640]LogActorFactory: Actor Factory spawned Class /Script/NavigationSystem.NavMeshBoundsVolume as actor: NavMeshBoundsVolume /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.NavMeshBoundsVolume_UAID_D0460C861981189702_2137729176
+[2025.10.10-13.48.06:098][640]LogActorFactory: Actor Factory spawned Class /Script/NavigationSystem.NavMeshBoundsVolume as actor: NavMeshBoundsVolume /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.NavMeshBoundsVolume_UAID_D0460C861981189702_2137729176
+[2025.10.10-13.48.14:652][936]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1666.136475
+[2025.10.10-13.48.15:652][939]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.10-13.48.15:652][940]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1666.802490, Update Interval: 321.951355
+[2025.10.10-13.48.36:526][673]LogStreaming: Display: FlushAsyncLoading(595): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.10-13.49.38:789][607]LogEditorTransaction: Undo Modify Component Scale
+[2025.10.10-13.51.43:883][907]LogStreaming: Display: FlushAsyncLoading(596): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.10-13.51.47:123][115]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9

@@ -1,0 +1,16 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/N00230651/Documents/game-development/test3/Content/Blueprint/BT_AI.uasset",
+				"C:/Users/N00230651/Documents/game-development/test3/Content/AI/BP_EnemyAI.uasset",
+				"C:/Users/N00230651/Documents/game-development/test3/Content/AI/BT_AI.uasset",
+				"C:/Users/N00230651/Documents/game-development/test3/Content/AI/BBD_AI.uasset",
+				"C:/Users/N00230651/Documents/game-development/test3/Content/AI/tasks/BTTask_RoamAround.uasset"
+			]
+		}
+	]
+}
