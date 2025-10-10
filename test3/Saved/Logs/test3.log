@@ -1554,3 +1554,689 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.10.10-13.49.38:789][607]LogEditorTransaction: Undo Modify Component Scale
 [2025.10.10-13.51.43:883][907]LogStreaming: Display: FlushAsyncLoading(596): 1 QueuedPackages, 0 AsyncPackages
 [2025.10.10-13.51.47:123][115]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2025.10.10-13.53.18:988][ 63]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2025.10.10-13.53.18:988][ 63]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2025.10.10-13.53.32:259][993]LogShaderCompilers: Display: ================================================
+[2025.10.10-13.53.32:259][993]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.10-13.53.32:259][993]LogShaderCompilers: Display: Total job queries 2,566, among them cache hits 622 (24.24%), DDC hits 1,829 (71.28%), Duplicates 109 (4.25%)
+[2025.10.10-13.53.32:259][993]LogShaderCompilers: Display: Tracking 1,835 distinct input hashes that result in 1,162 distinct outputs (63.32%)
+[2025.10.10-13.53.32:259][993]LogShaderCompilers: Display: RAM used: 11.82 MiB of 3.20 GiB budget. Usage: 0.36%
+[2025.10.10-13.53.32:259][993]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.10-13.53.32:259][993]LogShaderCompilers: Display: Shaders Compiled: 6
+[2025.10.10-13.53.32:259][993]LogShaderCompilers: Display: Jobs assigned 6, completed 6 (100%)
+[2025.10.10-13.53.32:259][993]LogShaderCompilers: Display: Average time worker was idle: 623.94 s
+[2025.10.10-13.53.32:259][993]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.08 s
+[2025.10.10-13.53.32:259][993]LogShaderCompilers: Display: Job execution time: average 0.75 s, max 1.33 s
+[2025.10.10-13.53.32:259][993]LogShaderCompilers: Display: Job life time (pending + execution): average 0.83 s, max 1.40
+[2025.10.10-13.53.32:259][993]LogShaderCompilers: Display: Shader code size: total 48.82 KiB, numShaders 6, average 8.137 KiB, min 5.859 KiB, max 11.094 KiB
+[2025.10.10-13.53.32:259][993]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.88 s
+[2025.10.10-13.53.32:259][993]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.10.10-13.53.32:259][993]LogShaderCompilers: Display: Jobs were issued in 6 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.10.10-13.53.32:259][993]LogShaderCompilers: Display: Average processing rate: 1.54 jobs/sec
+[2025.10.10-13.53.32:259][993]LogShaderCompilers: Display: Total thread time: 2.664 s
+[2025.10.10-13.53.32:259][993]LogShaderCompilers: Display: Total thread preprocess time: 50.306 s
+[2025.10.10-13.53.32:259][993]LogShaderCompilers: Display: Percentage time preprocessing: 1888.53%
+[2025.10.10-13.53.32:260][993]LogShaderCompilers: Display: Effective parallelization: 0.69 (times faster than compiling all shaders on one thread). Compare with number of workers: 16 - 0.042870
+[2025.10.10-13.53.32:260][993]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.10-13.53.32:260][993]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    2 times, average 0.68 sec, max 0.69 sec, min 0.67 sec)
+[2025.10.10-13.53.32:260][993]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    3 times, average 0.35 sec, max 0.36 sec, min 0.33 sec)
+[2025.10.10-13.53.32:260][993]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.25 sec, max 0.25 sec, min 0.25 sec)
+[2025.10.10-13.53.32:260][993]LogShaderCompilers: Display:                     TVirtualTexturePSBaseColorNormalSpecular (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.10-13.53.32:260][993]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.10-13.53.32:260][993]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.10-13.53.32:260][993]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 51.31% of total time (compiled    2 times, average 0.68 sec, max 0.69 sec, min 0.67 sec)
+[2025.10.10-13.53.32:260][993]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 39.18% of total time (compiled    3 times, average 0.35 sec, max 0.36 sec, min 0.33 sec)
+[2025.10.10-13.53.32:260][993]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 9.51% of total time (compiled    1 times, average 0.25 sec, max 0.25 sec, min 0.25 sec)
+[2025.10.10-13.53.32:260][993]LogShaderCompilers: Display:                                             FDebugViewModePS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.10-13.53.32:260][993]LogShaderCompilers: Display:                                 TVirtualTextureVSWorldHeight - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.10-13.53.32:260][993]LogShaderCompilers: Display: === Material stats ===
+[2025.10.10-13.53.32:260][993]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.10-13.53.32:260][993]LogShaderCompilers: Display: Materials Translated:    148
+[2025.10.10-13.53.32:260][993]LogShaderCompilers: Display: Material Total Translate Time: 0.10 s
+[2025.10.10-13.53.32:260][993]LogShaderCompilers: Display: Material Translation Only: 0.04 s (43%)
+[2025.10.10-13.53.32:260][993]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.10.10-13.53.32:260][993]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.10.10-13.53.32:260][993]LogShaderCompilers: Display: ================================================
+[2025.10.10-13.54.34:216][673]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2045.702393
+[2025.10.10-13.54.34:380][685]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.10-13.54.34:380][685]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2045.852051, Update Interval: 300.754425
+[2025.10.10-13.54.38:547][989]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.10-13.54.38:606][989]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AI/BP_EnemyAI] ([2] browsable assets)...
+[2025.10.10-13.54.38:612][989]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AI/BP_EnemyAI.BP_EnemyAI]
+[2025.10.10-13.54.38:612][989]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BP_EnemyAI]
+[2025.10.10-13.54.38:612][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BP_EnemyAI" FILE="../../../../../Users/N00230651/Documents/game-development/test3/Content/AI/BP_EnemyAI.uasset" SILENT=true
+[2025.10.10-13.54.38:623][989]LogSavePackage: Moving output files for package: /Game/AI/BP_EnemyAI
+[2025.10.10-13.54.38:624][989]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/BP_EnemyAI0867466542F71C09F1DE20A743834721.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Content/AI/BP_EnemyAI.uasset'
+[2025.10.10-13.54.38:631][989]LogFileHelpers: InternalPromptForCheckoutAndSave took 83.566 ms (total: 664.080 ms)
+[2025.10.10-13.54.38:689][989]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.10-13.54.38:689][989]LogContentValidation: Enabled validators:
+[2025.10.10-13.54.38:689][989]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.10-13.54.38:689][989]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.10-13.54.38:689][989]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.10-13.54.38:689][989]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.10-13.54.38:689][989]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.10-13.54.38:689][989]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.10-13.54.38:689][989]AssetCheck: /Game/AI/BP_EnemyAI Validating asset
+[2025.10.10-13.54.39:584][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.10.10-13.54.56:194][849]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.10-13.54.56:198][849]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.10.10-13.54.56:198][849]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2025.10.10-13.54.56:199][849]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 970 us
+[2025.10.10-13.54.56:206][849]LogPlayLevel: [PlayLevel] Compiling AI_Controller before play...
+[2025.10.10-13.54.56:253][849]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.10.10-13.54.56:255][849]LogPlayLevel: PlayLevel: Blueprint regeneration took 49 ms (1 blueprints)
+[2025.10.10-13.54.56:255][849]LogPlayLevel: Display: Creating online subsystem for client :Context_12
+[2025.10.10-13.54.56:257][849]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2025.10.10-13.54.56:281][850]LogPlayLevel: Creating play world package: /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.10.10-13.54.56:288][850]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.10.10-13.54.56:289][850]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.154 ms
+[2025.10.10-13.54.56:289][850]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007159s)
+[2025.10.10-13.54.56:289][850]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.007229s)
+[2025.10.10-13.54.56:317][850]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.10.10-13.54.56:320][850]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2025.10.10-13.54.56:322][850]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.10-13.54.56:322][850]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.10-13.54.56:322][850]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.10-13.54.56:322][850]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.10-13.54.56:323][850]LogWorldPartition: Display: WorldPartition initialize took 1.749 ms (total: 50.572 ms)
+[2025.10.10-13.54.56:323][850]LogPlayLevel: PIE: World Init took: (0.003432s)
+[2025.10.10-13.54.56:324][850]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2025.10.10-13.54.56:324][850]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.10-13.54.56:324][850]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.10-13.54.56:324][850]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.10-13.54.56:324][850]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.10-13.54.56:324][850]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.10-13.54.56:324][850]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.10-13.54.56:324][850]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.10-13.54.56:324][850]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.10-13.54.56:324][850]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.10-13.54.56:324][850]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.10-13.54.56:324][850]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.10-13.54.56:326][850]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.10-13.54.56:354][850]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.10-13.54.56:354][850]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.10-13.54.56:354][850]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.10-13.54.56:354][850]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.10-13.54.56:355][850]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2025.10.10-13.54.56:355][850]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2025.10.10-13.54.56:357][850]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2025.10.10-13.54.56:357][850]LogInit: FAudioDevice initialized with ID 2.
+[2025.10.10-13.54.56:357][850]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2025.10.10-13.54.56:357][850]LogAudio: Display: Audio Device (ID: 2) registered with world 'Lvl_ThirdPerson'.
+[2025.10.10-13.54.56:357][850]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2025.10.10-13.54.56:361][850]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.10.10-13.54.56:364][850]LogWorld: Bringing World /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 0) at 2025.10.10-14.54.56
+[2025.10.10-13.54.56:365][850]LogWorld: Bringing up level for play took: 0.003306
+[2025.10.10-13.54.56:370][850]PIE: Server logged in
+[2025.10.10-13.54.56:372][850]PIE: Play in editor total start time 0.175 seconds.
+[2025.10.10-13.55.16:837][299]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-13.55.16:837][299]LogWorld: BeginTearingDown for /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.10.10-13.55.16:837][299]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.10-13.55.16:837][299]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.10.10-13.55.16:838][299]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-13.55.16:838][299]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.10.10-13.55.16:841][299]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.10-13.55.16:845][299]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-13.55.16:875][299]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-13.55.16:875][299]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2025.10.10-13.55.16:875][299]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=4
+[2025.10.10-13.55.16:878][299]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=2
+[2025.10.10-13.55.16:886][299]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2025.10.10-13.55.17:010][300]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2025.10.10-13.55.34:276][318]LogSlate: Vector cache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 125315
+[2025.10.10-13.55.34:276][318]LogSlate: Warning: Setting the threshold to trigger a flush to 2 non-atlased textures as there is a lot of font data being cached.
+[2025.10.10-13.55.34:283][318]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-13.55.42:853][330]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.10.10-13.55.42:864][330]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/1C/DEHMX5K3ROMM675A8ING6B_Auto3
+[2025.10.10-13.55.42:864][330]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/DEHMX5K3ROMM675A8ING6B_Auto3037B176D4DB8BD3383DBA68E4BFA2925.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/1C/DEHMX5K3ROMM675A8ING6B_Auto3.uasset'
+[2025.10.10-13.55.42:872][330]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/41/LMLZXQJSFRL2MX9CXQY2QG_Auto3
+[2025.10.10-13.55.42:872][330]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/LMLZXQJSFRL2MX9CXQY2QG_Auto3E30E83F944F3BB00B07FC0B81815D0A0.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/41/LMLZXQJSFRL2MX9CXQY2QG_Auto3.uasset'
+[2025.10.10-13.55.42:879][330]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/QJ/C6E7ZR1FZL0MS83IPEXIFJ_Auto3
+[2025.10.10-13.55.42:879][330]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/C6E7ZR1FZL0MS83IPEXIFJ_Auto3CAD68D0F48A8E24E69C886B11291548D.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/QJ/C6E7ZR1FZL0MS83IPEXIFJ_Auto3.uasset'
+[2025.10.10-13.55.42:880][330]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Lvl_ThirdPerson' took 0.053
+[2025.10.10-13.55.42:880][330]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.053
+[2025.10.10-13.55.42:880][330]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/AI_Controller] ([2] browsable assets)...
+[2025.10.10-13.55.42:880][330]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/AI_Controller]
+[2025.10.10-13.55.42:880][330]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_Controller" FILE="../../../../../Users/N00230651/Documents/game-development/test3/Saved/Autosaves/Game/AI/AI_Controller_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2025.10.10-13.55.42:889][330]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/AI/AI_Controller_Auto3
+[2025.10.10-13.55.42:889][330]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/AI_Controller_Auto3A4C7DC3A4CE13C8B26D0C28400EFB59E.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Saved/Autosaves/Game/AI/AI_Controller_Auto3.uasset'
+[2025.10.10-13.55.42:889][330]LogFileHelpers: Auto-saving content packages took 0.009
+[2025.10.10-13.56.27:168][761]LogContentBrowser: Deferred new asset file creation: BP_EnemyAI1
+[2025.10.10-13.56.27:177][761]LogContentBrowser: Creating deferred item: BP_EnemyAI1
+[2025.10.10-13.56.27:191][762]LogContentBrowser: Renaming the item being created (Deferred Item: BP_EnemyAI1).
+[2025.10.10-13.56.28:742][921]LogContentBrowser: Attempting asset rename: BP_EnemyAI1 -> BP_EnemyAI1
+[2025.10.10-13.56.28:800][921]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.10.10-13.56.28:809][921]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/AI/BP_EnemyAI1.
+[2025.10.10-13.56.28:812][921]LogContentBrowser: End creating deferred item BP_EnemyAI1
+[2025.10.10-13.56.28:813][921]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2025.10.10-13.56.38:900][793]LogContentBrowser: Attempting asset rename: BP_EnemyAI -> Npc
+[2025.10.10-13.56.38:995][793]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.10-13.56.38:995][793]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/AI/Npc] ([2] browsable assets)...
+[2025.10.10-13.56.38:996][793]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2025.10.10-13.56.39:009][793]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/AI/Npc.Npc_C]
+[2025.10.10-13.56.39:010][793]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2025.10.10-13.56.39:025][793]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AI/Npc.Npc]
+[2025.10.10-13.56.39:025][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/Npc]
+[2025.10.10-13.56.39:025][793]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Npc" FILE="../../../../../Users/N00230651/Documents/game-development/test3/Content/AI/Npc.uasset" SILENT=true
+[2025.10.10-13.56.39:035][793]LogSavePackage: Moving output files for package: /Game/AI/Npc
+[2025.10.10-13.56.39:035][793]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/NpcDB2B58B14F530660922605A617B5FB00.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Content/AI/Npc.uasset'
+[2025.10.10-13.56.39:037][793]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AI/Npc.
+[2025.10.10-13.56.39:040][793]LogFileHelpers: InternalPromptForCheckoutAndSave took 45.542 ms (total: 709.622 ms)
+[2025.10.10-13.56.39:088][793]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2025.10.10-13.56.39:117][793]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.10.10-13.56.39:149][793]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.10.10-13.56.39:224][793]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.10-13.56.39:224][793]LogContentValidation: Enabled validators:
+[2025.10.10-13.56.39:224][793]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.10-13.56.39:224][793]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.10-13.56.39:224][793]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.10-13.56.39:224][793]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.10-13.56.39:224][793]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.10-13.56.39:224][793]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.10-13.56.39:224][793]AssetCheck: /Game/AI/Npc Validating asset
+[2025.10.10-13.56.39:265][793]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../Users/N00230651/Documents/game-development/test3/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.10-13.57.08:249][306]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2025.10.10-13.57.11:262][616]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.10-13.57.11:332][616]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/AI_Controller] ([2] browsable assets)...
+[2025.10.10-13.57.11:332][616]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/AI_Controller]
+[2025.10.10-13.57.11:332][616]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_Controller" FILE="../../../../../Users/N00230651/Documents/game-development/test3/Content/AI/AI_Controller.uasset" SILENT=true
+[2025.10.10-13.57.11:342][616]LogSavePackage: Moving output files for package: /Game/AI/AI_Controller
+[2025.10.10-13.57.11:342][616]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/AI_Controller295683BA4E86310DC9D67CA9AC910B12.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Content/AI/AI_Controller.uasset'
+[2025.10.10-13.57.11:344][616]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AI/AI_Controller.
+[2025.10.10-13.57.11:352][616]LogFileHelpers: InternalPromptForCheckoutAndSave took 90.329 ms (total: 799.951 ms)
+[2025.10.10-13.57.11:415][616]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.10-13.57.11:415][616]LogContentValidation: Enabled validators:
+[2025.10.10-13.57.11:415][616]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.10-13.57.11:415][616]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.10-13.57.11:415][616]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.10-13.57.11:415][616]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.10-13.57.11:415][616]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.10-13.57.11:415][616]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.10-13.57.11:415][616]AssetCheck: /Game/AI/AI_Controller Validating asset
+[2025.10.10-13.57.11:434][616]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../Users/N00230651/Documents/game-development/test3/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.10-13.58.23:106][597]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.10-13.58.23:175][597]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AI/Npc] ([2] browsable assets)...
+[2025.10.10-13.58.23:181][597]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AI/Npc.Npc]
+[2025.10.10-13.58.23:181][597]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/Npc]
+[2025.10.10-13.58.23:181][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Npc" FILE="../../../../../Users/N00230651/Documents/game-development/test3/Content/AI/Npc.uasset" SILENT=true
+[2025.10.10-13.58.23:191][597]LogSavePackage: Moving output files for package: /Game/AI/Npc
+[2025.10.10-13.58.23:192][597]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/NpcA5FB57064A4583D7C9C080B95EBB16C8.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Content/AI/Npc.uasset'
+[2025.10.10-13.58.23:200][597]LogFileHelpers: InternalPromptForCheckoutAndSave took 93.963 ms (total: 893.915 ms)
+[2025.10.10-13.58.23:240][597]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.10-13.58.23:240][597]LogContentValidation: Enabled validators:
+[2025.10.10-13.58.23:240][597]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.10-13.58.23:240][597]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.10-13.58.23:240][597]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.10-13.58.23:240][597]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.10-13.58.23:240][597]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.10-13.58.23:240][597]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.10-13.58.23:240][597]AssetCheck: /Game/AI/Npc Validating asset
+[2025.10.10-13.58.23:923][639]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.10.10-13.59.36:506][526]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.10.10-13.59.36:521][526]LogContentBrowser: Creating deferred item: NewFolder
+[2025.10.10-13.59.36:538][527]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.10.10-13.59.44:250][114]LogContentBrowser: Attempting asset rename: NewFolder -> Navmesh
+[2025.10.10-13.59.44:252][114]LogContentBrowser: End creating deferred item NewFolder
+[2025.10.10-14.00.06:225][590]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.10-14.00.06:225][590]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/AI/Navmesh/Npc] ([2] browsable assets)...
+[2025.10.10-14.00.06:232][590]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/AI/Navmesh/Npc.Npc_C]
+[2025.10.10-14.00.06:237][590]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AI/Navmesh/Npc.Npc]
+[2025.10.10-14.00.06:237][590]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/Navmesh/Npc]
+[2025.10.10-14.00.06:237][590]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Navmesh/Npc" FILE="../../../../../Users/N00230651/Documents/game-development/test3/Content/AI/Navmesh/Npc.uasset" SILENT=true
+[2025.10.10-14.00.06:248][590]LogSavePackage: Moving output files for package: /Game/AI/Navmesh/Npc
+[2025.10.10-14.00.06:248][590]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/NpcF25BE1534FBA5F5FD7FFA7B2D43C00C0.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Content/AI/Navmesh/Npc.uasset'
+[2025.10.10-14.00.06:250][590]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AI/Navmesh/Npc.
+[2025.10.10-14.00.06:252][590]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/Navmesh/AI_Controller] ([2] browsable assets)...
+[2025.10.10-14.00.06:252][590]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/Navmesh/AI_Controller]
+[2025.10.10-14.00.06:252][590]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Navmesh/AI_Controller" FILE="../../../../../Users/N00230651/Documents/game-development/test3/Content/AI/Navmesh/AI_Controller.uasset" SILENT=true
+[2025.10.10-14.00.06:262][590]LogSavePackage: Moving output files for package: /Game/AI/Navmesh/AI_Controller
+[2025.10.10-14.00.06:262][590]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/AI_Controller6810B2674FB78FFC299162BAE0E7618B.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Content/AI/Navmesh/AI_Controller.uasset'
+[2025.10.10-14.00.06:263][590]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AI/Navmesh/AI_Controller.
+[2025.10.10-14.00.06:266][590]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/Navmesh/BT_AI] ([1] browsable assets)...
+[2025.10.10-14.00.06:266][590]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/Navmesh/BT_AI]
+[2025.10.10-14.00.06:266][590]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Navmesh/BT_AI" FILE="../../../../../Users/N00230651/Documents/game-development/test3/Content/AI/Navmesh/BT_AI.uasset" SILENT=true
+[2025.10.10-14.00.06:274][590]LogSavePackage: Moving output files for package: /Game/AI/Navmesh/BT_AI
+[2025.10.10-14.00.06:274][590]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/BT_AI4196F06A43F1017825F5B298486EE33B.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Content/AI/Navmesh/BT_AI.uasset'
+[2025.10.10-14.00.06:275][590]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/Navmesh/BBD_AI] ([1] browsable assets)...
+[2025.10.10-14.00.06:275][590]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/Navmesh/BBD_AI]
+[2025.10.10-14.00.06:275][590]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Navmesh/BBD_AI" FILE="../../../../../Users/N00230651/Documents/game-development/test3/Content/AI/Navmesh/BBD_AI.uasset" SILENT=true
+[2025.10.10-14.00.06:282][590]LogSavePackage: Moving output files for package: /Game/AI/Navmesh/BBD_AI
+[2025.10.10-14.00.06:282][590]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/BBD_AI2C49A5424D7042083EC3EFAB266C3BBB.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Content/AI/Navmesh/BBD_AI.uasset'
+[2025.10.10-14.00.06:283][590]LogFileHelpers: InternalPromptForCheckoutAndSave took 57.744 ms (total: 951.659 ms)
+[2025.10.10-14.00.06:393][590]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.10.10-14.00.06:420][590]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.10.10-14.00.06:448][590]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.10.10-14.00.06:486][590]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.10.10-14.00.06:486][590]LogContentValidation: Display: Starting to validate 4 assets
+[2025.10.10-14.00.06:486][590]LogContentValidation: Enabled validators:
+[2025.10.10-14.00.06:486][590]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.10-14.00.06:486][590]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.10-14.00.06:486][590]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.10-14.00.06:486][590]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.10-14.00.06:486][590]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.10-14.00.06:486][590]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.10-14.00.06:486][590]AssetCheck: /Game/AI/Navmesh/Npc Validating asset
+[2025.10.10-14.00.06:487][590]AssetCheck: /Game/AI/Navmesh/AI_Controller Validating asset
+[2025.10.10-14.00.06:487][590]AssetCheck: /Game/AI/Navmesh/BT_AI Validating asset
+[2025.10.10-14.00.06:487][590]AssetCheck: /Game/AI/Navmesh/BBD_AI Validating asset
+[2025.10.10-14.00.06:506][590]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../Users/N00230651/Documents/game-development/test3/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.10-14.00.09:320][772]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.10.10-14.00.09:334][772]LogContentBrowser: Creating deferred item: NewFolder
+[2025.10.10-14.00.09:356][773]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.10.10-14.00.16:006][288]LogContentBrowser: Attempting asset rename: NewFolder -> EnemySpawn
+[2025.10.10-14.00.16:007][288]LogContentBrowser: End creating deferred item NewFolder
+[2025.10.10-14.00.21:166][622]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.10-14.00.21:166][622]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/AI/EnemySpawn/BP_EnemyAI1] ([2] browsable assets)...
+[2025.10.10-14.00.21:166][622]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_14
+[2025.10.10-14.00.21:180][622]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/AI/EnemySpawn/BP_EnemyAI1.BP_EnemyAI1_C]
+[2025.10.10-14.00.21:184][622]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AI/EnemySpawn/BP_EnemyAI1.BP_EnemyAI1]
+[2025.10.10-14.00.21:184][622]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/EnemySpawn/BP_EnemyAI1]
+[2025.10.10-14.00.21:184][622]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/EnemySpawn/BP_EnemyAI1" FILE="../../../../../Users/N00230651/Documents/game-development/test3/Content/AI/EnemySpawn/BP_EnemyAI1.uasset" SILENT=true
+[2025.10.10-14.00.21:195][622]LogSavePackage: Moving output files for package: /Game/AI/EnemySpawn/BP_EnemyAI1
+[2025.10.10-14.00.21:195][622]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/BP_EnemyAI1FDBABB1345A13F5F8676AEB1C36EDE13.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Content/AI/EnemySpawn/BP_EnemyAI1.uasset'
+[2025.10.10-14.00.21:197][622]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AI/EnemySpawn/BP_EnemyAI1.
+[2025.10.10-14.00.21:200][622]LogFileHelpers: InternalPromptForCheckoutAndSave took 33.738 ms (total: 985.398 ms)
+[2025.10.10-14.00.21:258][622]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.10.10-14.00.21:286][622]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.10.10-14.00.21:314][622]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2025.10.10-14.00.21:354][622]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.10.10-14.00.21:354][622]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.10-14.00.21:354][622]LogContentValidation: Enabled validators:
+[2025.10.10-14.00.21:354][622]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.10-14.00.21:354][622]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.10-14.00.21:354][622]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.10-14.00.21:354][622]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.10-14.00.21:354][622]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.10-14.00.21:354][622]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.10-14.00.21:354][622]AssetCheck: /Game/AI/EnemySpawn/BP_EnemyAI1 Validating asset
+[2025.10.10-14.00.21:368][622]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../Users/N00230651/Documents/game-development/test3/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.10-14.00.22:839][713]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AI/EnemySpawn/BP_EnemyAI1.BP_EnemyAI1
+[2025.10.10-14.00.22:839][713]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_15
+[2025.10.10-14.00.29:024][156]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2400.493652
+[2025.10.10-14.00.29:150][168]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.10-14.00.29:150][168]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2400.609131, Update Interval: 352.243408
+[2025.10.10-14.03.35:024][ 35]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.10.10-14.03.35:035][ 35]LogContentBrowser: Creating deferred item: NewFolder
+[2025.10.10-14.03.35:050][ 36]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.10.10-14.03.39:953][504]LogContentBrowser: Attempting asset rename: NewFolder -> uiHealth
+[2025.10.10-14.03.39:954][504]LogContentBrowser: End creating deferred item NewFolder
+[2025.10.10-14.03.52:637][574]LogSlate: Took 0.007476 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2025.10.10-14.04.15:952][810]LogSlate: Window 'Pick Parent Class for New Widget Blueprint' being destroyed
+[2025.10.10-14.04.15:960][810]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2025.10.10-14.04.15:971][810]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2025.10.10-14.04.16:007][812]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2025.10.10-14.04.19:340][ 84]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> Health
+[2025.10.10-14.04.19:343][ 84]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/uiHealth/Health.
+[2025.10.10-14.04.19:347][ 84]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2025.10.10-14.04.21:035][204]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/uiHealth/Health.Health
+[2025.10.10-14.04.21:036][204]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_16
+[2025.10.10-14.04.21:045][204]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_17
+[2025.10.10-14.04.21:054][204]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2025.10.10-14.04.21:777][204]LogSlate: Took 0.008936 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2025.10.10-14.06.58:448][734]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2789.916504
+[2025.10.10-14.06.58:588][748]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.10-14.06.58:588][749]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2790.048096, Update Interval: 323.919800
+[2025.10.10-14.08.32:889][140]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.10-14.08.32:960][140]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/uiHealth/Health] ([2] browsable assets)...
+[2025.10.10-14.08.32:963][140]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/uiHealth/Health.Health]
+[2025.10.10-14.08.32:963][140]OBJ SavePackage: Finished generating thumbnails for package [/Game/uiHealth/Health]
+[2025.10.10-14.08.32:963][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/uiHealth/Health" FILE="../../../../../Users/N00230651/Documents/game-development/test3/Content/uiHealth/Health.uasset" SILENT=true
+[2025.10.10-14.08.32:975][140]LogSavePackage: Moving output files for package: /Game/uiHealth/Health
+[2025.10.10-14.08.32:975][140]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/HealthE419E9F74118DD564DC882BFF8F0E25C.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Content/uiHealth/Health.uasset'
+[2025.10.10-14.08.32:977][140]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/uiHealth/Health.
+[2025.10.10-14.08.32:985][140]LogFileHelpers: InternalPromptForCheckoutAndSave took 95.798 ms (total: 1.08 sec)
+[2025.10.10-14.08.33:025][140]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.10-14.08.33:025][140]LogContentValidation: Enabled validators:
+[2025.10.10-14.08.33:025][140]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.10-14.08.33:025][140]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.10-14.08.33:025][140]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.10-14.08.33:025][140]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.10-14.08.33:025][140]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.10-14.08.33:025][140]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.10-14.08.33:026][140]AssetCheck: /Game/uiHealth/Health Validating asset
+[2025.10.10-14.08.33:046][140]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../Users/N00230651/Documents/game-development/test3/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.10-14.08.34:592][295]LogBlueprint: Warning: [AssetLog] C:\Users\N00230651\Documents\game-development\test3\Content\uiHealth\Health.uasset: [Compiler] 'BP Third Person Character' does not inherit from 'Player Controller' ( Cast To BP_ThirdPersonCharacter  would always fail).
+[2025.10.10-14.08.34:723][295]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.10.10-14.10.16:037][831]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.10-14.10.16:094][831]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/uiHealth/Health] ([2] browsable assets)...
+[2025.10.10-14.10.16:100][831]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/uiHealth/Health.Health]
+[2025.10.10-14.10.16:100][831]OBJ SavePackage: Finished generating thumbnails for package [/Game/uiHealth/Health]
+[2025.10.10-14.10.16:100][831]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/uiHealth/Health" FILE="../../../../../Users/N00230651/Documents/game-development/test3/Content/uiHealth/Health.uasset" SILENT=true
+[2025.10.10-14.10.16:115][831]LogSavePackage: Moving output files for package: /Game/uiHealth/Health
+[2025.10.10-14.10.16:115][831]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/HealthE38BBEDF4B8432B752D1D8B381BF7426.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Content/uiHealth/Health.uasset'
+[2025.10.10-14.10.16:125][831]LogFileHelpers: InternalPromptForCheckoutAndSave took 87.794 ms (total: 1.16 sec)
+[2025.10.10-14.10.16:160][831]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.10-14.10.16:160][831]LogContentValidation: Enabled validators:
+[2025.10.10-14.10.16:160][831]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.10-14.10.16:160][831]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.10-14.10.16:160][831]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.10-14.10.16:160][831]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.10-14.10.16:160][831]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.10-14.10.16:160][831]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.10-14.10.16:161][831]AssetCheck: /Game/uiHealth/Health Validating asset
+[2025.10.10-14.10.17:273][927]LogBlueprint: Warning: [AssetLog] C:\Users\N00230651\Documents\game-development\test3\Content\uiHealth\Health.uasset: [Compiler] 'BP Third Person Character' does not inherit from 'Player Controller' ( Cast To BP_ThirdPersonCharacter  would always fail).
+[2025.10.10-14.10.17:273][927]LogBlueprint: Warning: [AssetLog] C:\Users\N00230651\Documents\game-development\test3\Content\uiHealth\Health.uasset: [Compiler] 'BP Third Person Character' does not inherit from 'Player Controller' ( Cast To BP_ThirdPersonCharacter  would always fail).
+[2025.10.10-14.10.17:372][927]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.10.10-14.11.39:937][394]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.10-14.11.39:997][394]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2025.10.10-14.11.40:006][394]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2025.10.10-14.11.40:006][394]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2025.10.10-14.11.40:026][394]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2025.10.10-14.11.40:026][394]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/BP_ThirdPersonCharacter05136B784585F94C32CB6B911DEC970C.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2025.10.10-14.11.40:035][394]LogFileHelpers: InternalPromptForCheckoutAndSave took 97.715 ms (total: 1.26 sec)
+[2025.10.10-14.11.40:095][394]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.10-14.11.40:095][394]LogContentValidation: Enabled validators:
+[2025.10.10-14.11.40:095][394]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.10-14.11.40:095][394]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.10-14.11.40:095][394]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.10-14.11.40:095][394]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.10-14.11.40:096][394]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.10-14.11.40:096][394]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.10-14.11.40:096][394]AssetCheck: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter Validating asset
+[2025.10.10-14.11.40:116][394]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../Users/N00230651/Documents/game-development/test3/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.10-14.11.54:822][800]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.10-14.11.54:891][800]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/uiHealth/Health] ([2] browsable assets)...
+[2025.10.10-14.11.54:898][800]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/uiHealth/Health.Health]
+[2025.10.10-14.11.54:898][800]OBJ SavePackage: Finished generating thumbnails for package [/Game/uiHealth/Health]
+[2025.10.10-14.11.54:898][800]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/uiHealth/Health" FILE="../../../../../Users/N00230651/Documents/game-development/test3/Content/uiHealth/Health.uasset" SILENT=true
+[2025.10.10-14.11.54:911][800]LogSavePackage: Moving output files for package: /Game/uiHealth/Health
+[2025.10.10-14.11.54:911][800]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/HealthEE4C2589456883B8358B5BB59347BDCB.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Content/uiHealth/Health.uasset'
+[2025.10.10-14.11.54:920][800]LogFileHelpers: InternalPromptForCheckoutAndSave took 97.582 ms (total: 1.36 sec)
+[2025.10.10-14.11.54:956][800]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.10-14.11.54:956][800]LogContentValidation: Enabled validators:
+[2025.10.10-14.11.54:956][800]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.10-14.11.54:956][800]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.10-14.11.54:956][800]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.10-14.11.54:956][800]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.10-14.11.54:956][800]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.10-14.11.54:956][800]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.10-14.11.54:957][800]AssetCheck: /Game/uiHealth/Health Validating asset
+[2025.10.10-14.11.55:877][878]LogBlueprint: Warning: [AssetLog] C:\Users\N00230651\Documents\game-development\test3\Content\uiHealth\Health.uasset: [Compiler] 'BP Third Person Character' does not inherit from 'Player Controller' ( Cast To BP_ThirdPersonCharacter  would always fail).
+[2025.10.10-14.11.55:877][878]LogBlueprint: Warning: [AssetLog] C:\Users\N00230651\Documents\game-development\test3\Content\uiHealth\Health.uasset: [Compiler] 'BP Third Person Character' does not inherit from 'Player Controller' ( Cast To BP_ThirdPersonCharacter  would always fail).
+[2025.10.10-14.11.56:030][878]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2025.10.10-14.11.57:556][  9]LogBlueprint: Warning: [AssetLog] C:\Users\N00230651\Documents\game-development\test3\Content\uiHealth\Health.uasset: [Compiler] 'BP Third Person Character' does not inherit from 'Player Controller' ( Cast To BP_ThirdPersonCharacter  would always fail).
+[2025.10.10-14.11.57:556][  9]LogBlueprint: Warning: [AssetLog] C:\Users\N00230651\Documents\game-development\test3\Content\uiHealth\Health.uasset: [Compiler] 'BP Third Person Character' does not inherit from 'Player Controller' ( Cast To BP_ThirdPersonCharacter  would always fail).
+[2025.10.10-14.11.57:602][  9]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2025.10.10-14.11.58:648][ 98]LogBlueprint: Warning: [AssetLog] C:\Users\N00230651\Documents\game-development\test3\Content\uiHealth\Health.uasset: [Compiler] 'BP Third Person Character' does not inherit from 'Player Controller' ( Cast To BP_ThirdPersonCharacter  would always fail).
+[2025.10.10-14.11.58:648][ 98]LogBlueprint: Warning: [AssetLog] C:\Users\N00230651\Documents\game-development\test3\Content\uiHealth\Health.uasset: [Compiler] 'BP Third Person Character' does not inherit from 'Player Controller' ( Cast To BP_ThirdPersonCharacter  would always fail).
+[2025.10.10-14.11.58:691][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.10.10-14.12.42:128][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.10.10-14.12.42:141][ 62]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/1C/DEHMX5K3ROMM675A8ING6B_Auto4
+[2025.10.10-14.12.42:141][ 62]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/DEHMX5K3ROMM675A8ING6B_Auto4CFF07F5145F48C28EF9B96B97D1441BD.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/1C/DEHMX5K3ROMM675A8ING6B_Auto4.uasset'
+[2025.10.10-14.12.42:141][ 62]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Lvl_ThirdPerson' took 0.044
+[2025.10.10-14.12.42:141][ 62]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.044
+[2025.10.10-14.12.42:142][ 62]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AI/EnemySpawn/BP_EnemyAI1] ([2] browsable assets)...
+[2025.10.10-14.12.42:151][ 62]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AI/EnemySpawn/BP_EnemyAI1.BP_EnemyAI1]
+[2025.10.10-14.12.42:151][ 62]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/EnemySpawn/BP_EnemyAI1]
+[2025.10.10-14.12.42:160][ 62]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/AI/EnemySpawn/BP_EnemyAI1_Auto4
+[2025.10.10-14.12.42:160][ 62]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/BP_EnemyAI1_Auto46F193F11462B751951A5298D36C53E19.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Saved/Autosaves/Game/AI/EnemySpawn/BP_EnemyAI1_Auto4.uasset'
+[2025.10.10-14.12.42:162][ 62]LogFileHelpers: Auto-saving content packages took 0.020
+[2025.10.10-14.13.14:321][ 55]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3165.792725
+[2025.10.10-14.13.14:475][ 69]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.10-14.13.14:475][ 69]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3165.937256, Update Interval: 319.935303
+[2025.10.10-14.13.56:367][983]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.10-14.13.56:441][983]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/EnemySpawn/BP_EnemyAI1] ([2] browsable assets)...
+[2025.10.10-14.13.56:441][983]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/EnemySpawn/BP_EnemyAI1]
+[2025.10.10-14.13.56:441][983]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/EnemySpawn/BP_EnemyAI1" FILE="../../../../../Users/N00230651/Documents/game-development/test3/Content/AI/EnemySpawn/BP_EnemyAI1.uasset" SILENT=true
+[2025.10.10-14.13.56:453][983]LogSavePackage: Moving output files for package: /Game/AI/EnemySpawn/BP_EnemyAI1
+[2025.10.10-14.13.56:453][983]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/BP_EnemyAI11EDF3ACC4E81F86D2D0C74B437EEEC56.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Content/AI/EnemySpawn/BP_EnemyAI1.uasset'
+[2025.10.10-14.13.56:463][983]LogFileHelpers: InternalPromptForCheckoutAndSave took 96.021 ms (total: 1.46 sec)
+[2025.10.10-14.13.56:525][983]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.10-14.13.56:525][983]LogContentValidation: Enabled validators:
+[2025.10.10-14.13.56:525][983]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.10-14.13.56:525][983]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.10-14.13.56:525][983]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.10-14.13.56:525][983]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.10-14.13.56:525][983]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.10-14.13.56:525][983]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.10-14.13.56:525][983]AssetCheck: /Game/AI/EnemySpawn/BP_EnemyAI1 Validating asset
+[2025.10.10-14.13.58:374][161]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2025.10.10-14.17.07:786][  3]LogEditorTransaction: Undo Add Node
+[2025.10.10-14.17.36:910][595]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.10-14.17.36:974][595]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2025.10.10-14.17.36:978][595]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2025.10.10-14.17.36:978][595]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2025.10.10-14.17.36:998][595]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2025.10.10-14.17.36:999][595]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/BP_ThirdPersonCharacter94DB31C9447B7A2334F48AB89BBC7A28.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2025.10.10-14.17.37:007][595]LogFileHelpers: InternalPromptForCheckoutAndSave took 97.023 ms (total: 1.55 sec)
+[2025.10.10-14.17.37:077][595]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.10-14.17.37:077][595]LogContentValidation: Enabled validators:
+[2025.10.10-14.17.37:077][595]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.10-14.17.37:077][595]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.10-14.17.37:077][595]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.10-14.17.37:077][595]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.10-14.17.37:077][595]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.10-14.17.37:077][595]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.10-14.17.37:078][595]AssetCheck: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter Validating asset
+[2025.10.10-14.17.37:926][661]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2025.10.10-14.18.28:250][725]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.10-14.18.28:319][725]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/uiHealth/Health] ([2] browsable assets)...
+[2025.10.10-14.18.28:326][725]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/uiHealth/Health.Health]
+[2025.10.10-14.18.28:326][725]OBJ SavePackage: Finished generating thumbnails for package [/Game/uiHealth/Health]
+[2025.10.10-14.18.28:326][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/uiHealth/Health" FILE="../../../../../Users/N00230651/Documents/game-development/test3/Content/uiHealth/Health.uasset" SILENT=true
+[2025.10.10-14.18.28:343][725]LogSavePackage: Moving output files for package: /Game/uiHealth/Health
+[2025.10.10-14.18.28:343][725]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/Health5D8ACD074A7FA1DC2C3547868B6BEE51.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Content/uiHealth/Health.uasset'
+[2025.10.10-14.18.28:352][725]LogFileHelpers: InternalPromptForCheckoutAndSave took 101.673 ms (total: 1.65 sec)
+[2025.10.10-14.18.28:436][725]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.10-14.18.28:436][725]LogContentValidation: Enabled validators:
+[2025.10.10-14.18.28:436][725]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.10-14.18.28:436][725]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.10-14.18.28:436][725]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.10-14.18.28:436][725]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.10-14.18.28:436][725]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.10-14.18.28:436][725]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.10-14.18.28:436][725]AssetCheck: /Game/uiHealth/Health Validating asset
+[2025.10.10-14.18.29:300][802]LogBlueprint: Warning: [AssetLog] C:\Users\N00230651\Documents\game-development\test3\Content\uiHealth\Health.uasset: [Compiler] 'BP Third Person Character' does not inherit from 'Player Controller' ( Cast To BP_ThirdPersonCharacter  would always fail).
+[2025.10.10-14.18.29:300][802]LogBlueprint: Warning: [AssetLog] C:\Users\N00230651\Documents\game-development\test3\Content\uiHealth\Health.uasset: [Compiler] 'BP Third Person Character' does not inherit from 'Player Controller' ( Cast To BP_ThirdPersonCharacter  would always fail).
+[2025.10.10-14.18.29:416][802]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.10.10-14.19.21:281][271]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3532.733154
+[2025.10.10-14.19.21:427][283]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.10-14.19.21:427][283]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3532.867676, Update Interval: 326.296570
+[2025.10.10-14.20.59:193][229]LogEditorTransaction: Undo Add Node
+[2025.10.10-14.21.22:129][317]LogEditorTransaction: Undo Add Node
+[2025.10.10-14.21.27:561][747]LogEditorTransaction: Undo Add Node
+[2025.10.10-14.22.20:801][139]LogDerivedDataCache: C:/Users/N00230651/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.10.10-14.23.16:046][ 18]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/AI/EnemySpawn/BP_EnemyAI1.BP_EnemyAI1_C
+[2025.10.10-14.23.16:046][ 18]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/AI/EnemySpawn/BP_EnemyAI1.BP_EnemyAI1_C
+[2025.10.10-14.23.16:048][ 18]LogActorFactory: Actor Factory spawned Blueprint /Game/AI/EnemySpawn/BP_EnemyAI1.BP_EnemyAI1 as actor: BP_EnemyAI1_C /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_EnemyAI1_C_0
+[2025.10.10-14.23.16:049][ 18]LogActorFactory: Actor Factory spawned Blueprint /Game/AI/EnemySpawn/BP_EnemyAI1.BP_EnemyAI1 as actor: BP_EnemyAI1_C /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_EnemyAI1_C_0
+[2025.10.10-14.23.17:555][115]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.10.10-14.23.17:559][115]LogEditorActor: Deleted 0 Actors (0.049 secs)
+[2025.10.10-14.23.17:570][115]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/AI/EnemySpawn/BP_EnemyAI1.BP_EnemyAI1_C
+[2025.10.10-14.23.17:570][115]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/AI/EnemySpawn/BP_EnemyAI1.BP_EnemyAI1_C
+[2025.10.10-14.23.17:575][115]LogActorFactory: Actor Factory spawned Blueprint /Game/AI/EnemySpawn/BP_EnemyAI1.BP_EnemyAI1 as actor: BP_EnemyAI1_C /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_EnemyAI1_C_UAID_D0460C8619811A9702_2101720530
+[2025.10.10-14.23.17:577][115]LogActorFactory: Actor Factory spawned Blueprint /Game/AI/EnemySpawn/BP_EnemyAI1.BP_EnemyAI1 as actor: BP_EnemyAI1_C /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_EnemyAI1_C_UAID_D0460C8619811A9702_2101720530
+[2025.10.10-14.23.38:440][636]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_28
+[2025.10.10-14.23.50:547][517]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.10-14.23.50:552][517]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.10.10-14.23.50:553][517]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2025.10.10-14.23.50:554][517]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 1.120 ms (total: 2.090 ms)
+[2025.10.10-14.23.50:570][517]LogPlayLevel: [PlayLevel] Compiling BP_EnemyAI1 before play...
+[2025.10.10-14.23.50:572][517]LogPlayLevel: [PlayLevel]   Compiling BP_ThirdPersonCharacter as a dependent...
+[2025.10.10-14.23.50:581][517]LogBlueprint: Error: [AssetLog] C:\Users\N00230651\Documents\game-development\test3\Content\ThirdPerson\Blueprints\BP_ThirdPersonCharacter.uasset: [Compiler] The type of  Object  is undetermined.  Connect something to  Cast To BP_EnemyAI1  to imply a specific type.
+[2025.10.10-14.23.50:582][517]LogBlueprint: Error: [AssetLog] C:\Users\N00230651\Documents\game-development\test3\Content\ThirdPerson\Blueprints\BP_ThirdPersonCharacter.uasset: [Compiler] The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2025.10.10-14.23.50:748][517]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.10.10-14.23.50:752][517]LogPlayLevel: PlayLevel: Blueprint regeneration took 184 ms (2 blueprints)
+[2025.10.10-14.23.50:752][517]BlueprintLog: Warning: Blueprint failed to compile:  BP_ThirdPersonCharacter
+[2025.10.10-14.24.01:489][517]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2025.10.10-14.24.07:862][973]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2025.10.10-14.24.07:877][973]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/1C/DEHMX5K3ROMM675A8ING6B_Auto5
+[2025.10.10-14.24.07:877][973]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/DEHMX5K3ROMM675A8ING6B_Auto519ABDF2941991B7E4AB4D59E8E7B00C0.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/1C/DEHMX5K3ROMM675A8ING6B_Auto5.uasset'
+[2025.10.10-14.24.07:885][973]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/41/LMLZXQJSFRL2MX9CXQY2QG_Auto5
+[2025.10.10-14.24.07:885][973]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/LMLZXQJSFRL2MX9CXQY2QG_Auto5DD7E5DF44E3EA06FD3FF808BB9698852.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/41/LMLZXQJSFRL2MX9CXQY2QG_Auto5.uasset'
+[2025.10.10-14.24.07:892][973]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/QJ/C6E7ZR1FZL0MS83IPEXIFJ_Auto5
+[2025.10.10-14.24.07:892][973]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/C6E7ZR1FZL0MS83IPEXIFJ_Auto5FB5794944AC331B806D7E38BB05A084B.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/QJ/C6E7ZR1FZL0MS83IPEXIFJ_Auto5.uasset'
+[2025.10.10-14.24.07:898][973]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/XQ/R7SPK05RVP09ZPKICMB94W_Auto5
+[2025.10.10-14.24.07:898][973]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/R7SPK05RVP09ZPKICMB94W_Auto5479615D34FC7DE313E585296A13AC381.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/XQ/R7SPK05RVP09ZPKICMB94W_Auto5.uasset'
+[2025.10.10-14.24.07:899][973]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Lvl_ThirdPerson' took 0.068
+[2025.10.10-14.24.07:900][973]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.068
+[2025.10.10-14.24.07:900][973]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2025.10.10-14.24.07:906][973]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2025.10.10-14.24.07:906][973]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2025.10.10-14.24.07:927][973]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto5
+[2025.10.10-14.24.07:927][973]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/BP_ThirdPersonCharacter_Auto521FAF51C4D10AA95B6133590FB525797.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto5.uasset'
+[2025.10.10-14.24.07:928][973]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AI/EnemySpawn/BP_EnemyAI1] ([2] browsable assets)...
+[2025.10.10-14.24.07:932][973]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AI/EnemySpawn/BP_EnemyAI1.BP_EnemyAI1]
+[2025.10.10-14.24.07:933][973]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/EnemySpawn/BP_EnemyAI1]
+[2025.10.10-14.24.07:942][973]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/AI/EnemySpawn/BP_EnemyAI1_Auto5
+[2025.10.10-14.24.07:942][973]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/BP_EnemyAI1_Auto512480218438AADEC066281BA834C3D42.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Saved/Autosaves/Game/AI/EnemySpawn/BP_EnemyAI1_Auto5.uasset'
+[2025.10.10-14.24.07:943][973]LogFileHelpers: Auto-saving content packages took 0.043
+[2025.10.10-14.24.18:845][830]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.10-14.24.18:908][830]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2025.10.10-14.24.18:913][830]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2025.10.10-14.24.18:913][830]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2025.10.10-14.24.18:934][830]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2025.10.10-14.24.18:934][830]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/BP_ThirdPersonCharacterD58B93EC4133BE365877D796439761EE.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2025.10.10-14.24.18:944][830]LogFileHelpers: InternalPromptForCheckoutAndSave took 99.040 ms (total: 1.75 sec)
+[2025.10.10-14.24.18:987][830]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.10-14.24.18:987][830]LogContentValidation: Enabled validators:
+[2025.10.10-14.24.18:987][830]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.10-14.24.18:987][830]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.10-14.24.18:987][830]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.10-14.24.18:987][830]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.10-14.24.18:987][830]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.10-14.24.18:987][830]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.10-14.24.18:987][830]AssetCheck: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter Validating asset
+[2025.10.10-14.24.20:451][937]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2025.10.10-14.24.23:100][133]LogSlate: Window 'Message Log' being destroyed
+[2025.10.10-14.24.23:110][133]LogSlate: Window 'Message Log' being destroyed
+[2025.10.10-14.24.25:458][328]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.10-14.24.25:462][328]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.10.10-14.24.25:462][328]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2025.10.10-14.24.25:463][328]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 931 us (total: 3.022 ms)
+[2025.10.10-14.24.25:468][328]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.10-14.24.25:489][328]LogPlayLevel: Display: Creating online subsystem for client :Context_21
+[2025.10.10-14.24.25:491][328]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2025.10.10-14.24.25:518][329]LogPlayLevel: Creating play world package: /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.10.10-14.24.25:525][329]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.10.10-14.24.25:526][329]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.272 ms (total: 2.427 ms)
+[2025.10.10-14.24.25:526][329]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007500s)
+[2025.10.10-14.24.25:526][329]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.007540s)
+[2025.10.10-14.24.25:557][329]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.10.10-14.24.25:562][329]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2025.10.10-14.24.25:564][329]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.10-14.24.25:564][329]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.10-14.24.25:564][329]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.10-14.24.25:564][329]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.10-14.24.25:565][329]LogWorldPartition: Display: WorldPartition initialize took 1.466 ms (total: 52.038 ms)
+[2025.10.10-14.24.25:565][329]LogPlayLevel: PIE: World Init took: (0.003092s)
+[2025.10.10-14.24.25:566][329]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2025.10.10-14.24.25:566][329]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.10-14.24.25:566][329]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.10-14.24.25:566][329]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.10-14.24.25:566][329]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.10-14.24.25:566][329]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.10-14.24.25:566][329]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.10-14.24.25:566][329]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.10-14.24.25:566][329]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.10-14.24.25:566][329]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.10-14.24.25:566][329]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.10-14.24.25:566][329]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.10-14.24.25:569][329]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.10-14.24.25:594][329]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.10-14.24.25:594][329]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.10-14.24.25:594][329]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.10-14.24.25:594][329]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.10-14.24.25:595][329]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2025.10.10-14.24.25:595][329]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2025.10.10-14.24.25:597][329]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2025.10.10-14.24.25:597][329]LogInit: FAudioDevice initialized with ID 3.
+[2025.10.10-14.24.25:597][329]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2025.10.10-14.24.25:597][329]LogAudio: Display: Audio Device (ID: 3) registered with world 'Lvl_ThirdPerson'.
+[2025.10.10-14.24.25:597][329]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2025.10.10-14.24.25:602][329]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.10.10-14.24.25:605][329]LogWorld: Bringing World /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 0) at 2025.10.10-15.24.25
+[2025.10.10-14.24.25:606][329]LogWorld: Bringing up level for play took: 0.003564
+[2025.10.10-14.24.25:610][329]PIE: Server logged in
+[2025.10.10-14.24.25:612][329]PIE: Play in editor total start time 0.15 seconds.
+[2025.10.10-14.24.36:524][288]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-14.24.36:524][288]LogWorld: BeginTearingDown for /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.10.10-14.24.36:524][288]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.10-14.24.36:525][288]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.10.10-14.24.36:525][288]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-14.24.36:526][288]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.10.10-14.24.36:530][288]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.10-14.24.36:533][288]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-14.24.36:562][288]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.10-14.24.36:562][288]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2025.10.10-14.24.36:562][288]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=4
+[2025.10.10-14.24.36:564][288]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=2
+[2025.10.10-14.24.36:569][288]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-14.24.36:572][288]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2025.10.10-14.24.36:688][289]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2025.10.10-14.25.28:391][ 94]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3899.846436
+[2025.10.10-14.25.28:524][103]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.10-14.25.28:524][103]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3899.964600, Update Interval: 304.363525
+[2025.10.10-14.26.31:650][430]LogBlueprint: Warning: [AssetLog] C:\Users\N00230651\Documents\game-development\test3\Content\uiHealth\Health.uasset: [Compiler] 'BP Third Person Character' does not inherit from 'Player Controller' ( Cast To BP_ThirdPersonCharacter  would always fail).
+[2025.10.10-14.26.31:650][430]LogBlueprint: Warning: [AssetLog] C:\Users\N00230651\Documents\game-development\test3\Content\uiHealth\Health.uasset: [Compiler] 'BP Third Person Character' does not inherit from 'Player Controller' ( Cast To BP_ThirdPersonCharacter  would always fail).
+[2025.10.10-14.26.31:715][430]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2025.10.10-14.26.32:392][474]LogBlueprint: Warning: [AssetLog] C:\Users\N00230651\Documents\game-development\test3\Content\uiHealth\Health.uasset: [Compiler] 'BP Third Person Character' does not inherit from 'Player Controller' ( Cast To BP_ThirdPersonCharacter  would always fail).
+[2025.10.10-14.26.32:392][474]LogBlueprint: Warning: [AssetLog] C:\Users\N00230651\Documents\game-development\test3\Content\uiHealth\Health.uasset: [Compiler] 'BP Third Person Character' does not inherit from 'Player Controller' ( Cast To BP_ThirdPersonCharacter  would always fail).
+[2025.10.10-14.26.32:432][474]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.10.10-14.26.32:572][480]LogBlueprint: Warning: [AssetLog] C:\Users\N00230651\Documents\game-development\test3\Content\uiHealth\Health.uasset: [Compiler] 'BP Third Person Character' does not inherit from 'Player Controller' ( Cast To BP_ThirdPersonCharacter  would always fail).
+[2025.10.10-14.26.32:572][480]LogBlueprint: Warning: [AssetLog] C:\Users\N00230651\Documents\game-development\test3\Content\uiHealth\Health.uasset: [Compiler] 'BP Third Person Character' does not inherit from 'Player Controller' ( Cast To BP_ThirdPersonCharacter  would always fail).
+[2025.10.10-14.26.32:606][480]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2025.10.10-14.26.35:126][646]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.10-14.26.35:130][646]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.10.10-14.26.35:130][646]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2025.10.10-14.26.35:131][646]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 965 us (total: 3.988 ms)
+[2025.10.10-14.26.35:137][646]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.10-14.26.35:158][646]LogPlayLevel: Display: Creating online subsystem for client :Context_22
+[2025.10.10-14.26.35:160][646]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2025.10.10-14.26.35:190][647]LogPlayLevel: Creating play world package: /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.10.10-14.26.35:197][647]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.10.10-14.26.35:198][647]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.180 ms (total: 3.607 ms)
+[2025.10.10-14.26.35:198][647]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008747s)
+[2025.10.10-14.26.35:198][647]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.008790s)
+[2025.10.10-14.26.35:228][647]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2025.10.10-14.26.35:232][647]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2025.10.10-14.26.35:233][647]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.10-14.26.35:233][647]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.10-14.26.35:233][647]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.10-14.26.35:233][647]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.10-14.26.35:235][647]LogWorldPartition: Display: WorldPartition initialize took 1.483 ms (total: 53.522 ms)
+[2025.10.10-14.26.35:235][647]LogPlayLevel: PIE: World Init took: (0.003068s)
+[2025.10.10-14.26.35:235][647]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2025.10.10-14.26.35:235][647]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.10-14.26.35:235][647]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.10-14.26.35:235][647]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.10-14.26.35:235][647]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.10-14.26.35:235][647]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.10-14.26.35:235][647]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.10-14.26.35:235][647]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.10-14.26.35:235][647]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.10-14.26.35:235][647]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.10-14.26.35:235][647]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.10-14.26.35:235][647]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.10-14.26.35:237][647]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.10-14.26.35:263][647]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.10-14.26.35:263][647]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.10-14.26.35:263][647]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.10-14.26.35:263][647]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.10-14.26.35:264][647]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2025.10.10-14.26.35:264][647]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2025.10.10-14.26.35:265][647]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2025.10.10-14.26.35:266][647]LogInit: FAudioDevice initialized with ID 4.
+[2025.10.10-14.26.35:266][647]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2025.10.10-14.26.35:266][647]LogAudio: Display: Audio Device (ID: 4) registered with world 'Lvl_ThirdPerson'.
+[2025.10.10-14.26.35:266][647]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2025.10.10-14.26.35:271][647]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.10.10-14.26.35:274][647]LogWorld: Bringing World /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 0) at 2025.10.10-15.26.35
+[2025.10.10-14.26.35:275][647]LogWorld: Bringing up level for play took: 0.003661
+[2025.10.10-14.26.35:279][647]PIE: Server logged in
+[2025.10.10-14.26.35:281][647]PIE: Play in editor total start time 0.151 seconds.
+[2025.10.10-14.26.44:764][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-14.26.44:764][537]LogWorld: BeginTearingDown for /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.10.10-14.26.44:764][537]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.10-14.26.44:764][537]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.10.10-14.26.44:765][537]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-14.26.44:765][537]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.10.10-14.26.44:769][537]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.10-14.26.44:772][537]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-14.26.44:810][537]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.10-14.26.44:810][537]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2025.10.10-14.26.44:810][537]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=4
+[2025.10.10-14.26.44:812][537]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=2
+[2025.10.10-14.26.44:818][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-14.26.44:821][537]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.10.10-14.26.44:935][538]LogPlayLevel: Display: Destroying online subsystem :Context_22

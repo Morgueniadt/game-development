@@ -9,7 +9,16 @@
 				"C:/Users/N00230651/Documents/game-development/test3/Content/AI/BP_EnemyAI.uasset",
 				"C:/Users/N00230651/Documents/game-development/test3/Content/AI/BT_AI.uasset",
 				"C:/Users/N00230651/Documents/game-development/test3/Content/AI/BBD_AI.uasset",
-				"C:/Users/N00230651/Documents/game-development/test3/Content/AI/tasks/BTTask_RoamAround.uasset"
+				"C:/Users/N00230651/Documents/game-development/test3/Content/AI/tasks/BTTask_RoamAround.uasset",
+				"C:/Users/N00230651/Documents/game-development/test3/Content/AI/Npc.uasset",
+				"C:/Users/N00230651/Documents/game-development/test3/Content/AI/AI_Controller.uasset",
+				"C:/Users/N00230651/Documents/game-development/test3/Content/AI/Navmesh/Npc.uasset",
+				"C:/Users/N00230651/Documents/game-development/test3/Content/AI/Navmesh/AI_Controller.uasset",
+				"C:/Users/N00230651/Documents/game-development/test3/Content/AI/Navmesh/BT_AI.uasset",
+				"C:/Users/N00230651/Documents/game-development/test3/Content/AI/Navmesh/BBD_AI.uasset",
+				"C:/Users/N00230651/Documents/game-development/test3/Content/AI/EnemySpawn/BP_EnemyAI1.uasset",
+				"C:/Users/N00230651/Documents/game-development/test3/Content/uiHealth/Health.uasset",
+				"C:/Users/N00230651/Documents/game-development/test3/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset"
 			]
 		}
 	]
