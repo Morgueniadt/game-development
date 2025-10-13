@@ -1,0 +1,31 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/N00230651/Documents/game-dev/lab2/Content/Blueprint/spinningObstacle.uasset",
+				"C:/Users/N00230651/Documents/game-dev/lab2/Content/Blueprint/collectible.uasset",
+				"C:/Users/N00230651/Documents/game-dev/lab2/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"C:/Users/N00230651/Documents/game-dev/lab2/Content/Blueprint/floorTrap.uasset",
+				"C:/Users/N00230651/Documents/game-dev/lab2/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/VX/HLZRVCRGA5QI6LVGORGHJJ.uasset",
+				"C:/Users/N00230651/Documents/game-dev/lab2/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/FZ/XLD3T6Q6936F1TRUK3ISDR.uasset",
+				"C:/Users/N00230651/Documents/game-dev/lab2/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/81/FO4J30NN1ZZ549UKHRM2I0.uasset",
+				"C:/Users/N00230651/Documents/game-dev/lab2/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/GO/LV62ERCD0WRH1TBRMS5TTB.uasset",
+				"C:/Users/N00230651/Documents/game-dev/lab2/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/IE/BYQJI6MUXAJPGMABIPCBHY.uasset",
+				"C:/Users/N00230651/Documents/game-dev/lab2/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/BI/W27VU1MK58VT77P2MK9VJX.uasset",
+				"C:/Users/N00230651/Documents/game-dev/lab2/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/1G/UTI91DZJP95D20EPTIXSAW.uasset",
+				"C:/Users/N00230651/Documents/game-dev/lab2/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/97/N2MAXGJSGAF9134O3VCOX3.uasset",
+				"C:/Users/N00230651/Documents/game-dev/lab2/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/08/798YREKDJSVSIOBYAUWM1N.uasset",
+				"C:/Users/N00230651/Documents/game-dev/lab2/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/J1/M9RS37YH0CKIH0DDTRCCHU.uasset",
+				"C:/Users/N00230651/Documents/game-dev/lab2/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/0R/U2QWF6YRE78QIK8WDHDKC3.uasset",
+				"C:/Users/N00230651/Documents/game-dev/lab2/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/QU/NZMJZWWEXV6RU1AOBG2DXE.uasset",
+				"C:/Users/N00230651/Documents/game-dev/lab2/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/T6/APTBZJ80UXGIRM77JTPZ17.uasset",
+				"C:/Users/N00230651/Documents/game dev/lab2/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"C:/Users/N00230651/Documents/game dev/lab2/Content/Blueprint/obstacle.uasset",
+				"C:/Users/N00230651/Documents/game dev/lab2/Content/Blueprint/spinningObstacle.uasset"
+			]
+		}
+	]
+}

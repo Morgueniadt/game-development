@@ -1,0 +1,30 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/N00230651/Documents/game-development/test3/Content/Blueprint/BT_AI.uasset",
+				"C:/Users/N00230651/Documents/game-development/test3/Content/AI/BP_EnemyAI.uasset",
+				"C:/Users/N00230651/Documents/game-development/test3/Content/AI/BT_AI.uasset",
+				"C:/Users/N00230651/Documents/game-development/test3/Content/AI/BBD_AI.uasset",
+				"C:/Users/N00230651/Documents/game-development/test3/Content/AI/tasks/BTTask_RoamAround.uasset",
+				"C:/Users/N00230651/Documents/game-development/test3/Content/AI/Npc.uasset",
+				"C:/Users/N00230651/Documents/game-development/test3/Content/AI/AI_Controller.uasset",
+				"C:/Users/N00230651/Documents/game-development/test3/Content/AI/Navmesh/Npc.uasset",
+				"C:/Users/N00230651/Documents/game-development/test3/Content/AI/Navmesh/AI_Controller.uasset",
+				"C:/Users/N00230651/Documents/game-development/test3/Content/AI/Navmesh/BT_AI.uasset",
+				"C:/Users/N00230651/Documents/game-development/test3/Content/AI/Navmesh/BBD_AI.uasset",
+				"C:/Users/N00230651/Documents/game-development/test3/Content/AI/EnemySpawn/BP_EnemyAI1.uasset",
+				"C:/Users/N00230651/Documents/game-development/test3/Content/uiHealth/Health.uasset",
+				"C:/Users/N00230651/Documents/game-development/test3/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/N00230651/Documents/game-development/test3/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
+				"C:/Users/N00230651/Documents/game-development/test3/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/1C/DEHMX5K3ROMM675A8ING6B.uasset",
+				"C:/Users/N00230651/Documents/game-development/test3/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/41/LMLZXQJSFRL2MX9CXQY2QG.uasset",
+				"C:/Users/N00230651/Documents/game-development/test3/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/QJ/C6E7ZR1FZL0MS83IPEXIFJ.uasset",
+				"C:/Users/N00230651/Documents/game-development/test3/Content/AI/EnemySpawn/enemySpawner.uasset"
+			]
+		}
+	]
+}
