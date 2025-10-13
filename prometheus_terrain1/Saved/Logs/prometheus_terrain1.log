@@ -1442,3 +1442,364 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.10.13-10.42.51:258][865]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
 [2025.10.13-10.42.51:258][865]Cmd: MAP CHECKDEP NOCLEARLOG
 [2025.10.13-10.42.51:258][865]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.105ms to complete.
+[2025.10.13-10.43.20:609][215]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2025.10.13-10.43.20:685][216]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2025.10.13-10.43.28:260][ 68]Cmd: TRANSACTION UNDO
+[2025.10.13-10.43.28:260][ 68]LogEditorTransaction: Undo Move Elements
+[2025.10.13-10.43.33:180][592]Cmd: TRANSACTION UNDO
+[2025.10.13-10.43.33:180][592]LogEditorTransaction: Undo Clicking on Elements
+[2025.10.13-10.43.36:768][956]Cmd: TRANSACTION REDO
+[2025.10.13-10.43.36:768][956]LogEditorTransaction: Redo Clicking on Elements
+[2025.10.13-10.43.37:157][962]Cmd: TRANSACTION REDO
+[2025.10.13-10.43.37:157][962]LogEditorTransaction: Redo Move Elements
+[2025.10.13-10.43.39:031][171]Cmd: TRANSACTION UNDO
+[2025.10.13-10.43.39:031][171]LogEditorTransaction: Undo Move Elements
+[2025.10.13-10.43.49:207][287]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.10.13-10.43.49:595][331]Cmd: TRANSACTION UNDO
+[2025.10.13-10.43.49:595][331]LogEditorTransaction: Undo Move Elements
+[2025.10.13-10.43.56:128][ 34]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.10.13-10.44.06:325][ 63]LogStreaming: Display: FlushAsyncLoading(413): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.13-10.44.16:703][198]Cmd: TRANSACTION UNDO
+[2025.10.13-10.44.16:703][198]LogEditorTransaction: Undo Edit Y
+[2025.10.13-10.44.26:822][292]LogSlate: Took 0.006598 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.10.13-10.44.29:020][524]LogStreaming: Display: FlushAsyncLoading(422): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.13-10.44.30:959][725]LogDerivedDataCache: C:/Users/N00230651/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.10.13-10.46.28:127][ 62]LogSlate: Window 'Message' being destroyed
+[2025.10.13-10.46.28:139][ 62]Message dialog closed, result: Ok, title: Message, text: This layer has no layer info assigned yet. You must create or assign a layer info before you can paint this layer.
+[2025.10.13-10.46.51:806][322]LogSlate: Window 'Pick Landscape Edit Layer Class' being destroyed
+[2025.10.13-10.46.53:488][504]Cmd: TRANSACTION UNDO
+[2025.10.13-10.46.53:488][504]LogEditorTransaction: Undo Create Layer
+[2025.10.13-10.47.11:426][334]LogSlate: Window 'Pick Landscape Edit Layer Class' being destroyed
+[2025.10.13-10.47.17:649][559]LogSlate: Window 'Message' being destroyed
+[2025.10.13-10.47.17:658][559]Message dialog closed, result: Ok, title: Message, text: This layer has no layer info assigned yet. You must create or assign a layer info before you can paint this layer.
+[2025.10.13-10.47.26:209][644]LogSlate: Window 'Message' being destroyed
+[2025.10.13-10.47.26:217][644]Message dialog closed, result: Cancel, title: Message, text: This layer has no layer info assigned yet. You must create or assign a layer info before you can paint this layer.
+[2025.10.13-10.47.27:127][752]Cmd: TRANSACTION UNDO
+[2025.10.13-10.47.27:127][752]LogEditorTransaction: Undo Create Layer
+[2025.10.13-10.47.40:983][172]LogSlate: Window 'Message' being destroyed
+[2025.10.13-10.47.40:997][172]Message dialog closed, result: Ok, title: Message, text: This layer has no layer info assigned yet. You must create or assign a layer info before you can paint this layer.
+[2025.10.13-10.47.41:007][173]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 307.608704
+[2025.10.13-10.47.41:151][189]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.13-10.47.41:151][190]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 307.744568, Update Interval: 318.312927
+[2025.10.13-10.47.49:096][757]LogSlate: Window 'Message' being destroyed
+[2025.10.13-10.47.49:109][757]Message dialog closed, result: Yes, title: Message, text: Are you sure you want to delete this layer?
+[2025.10.13-10.48.00:405][816]LogSlate: Window 'Message' being destroyed
+[2025.10.13-10.48.00:418][816]Message dialog closed, result: Cancel, title: Message, text: This layer has no layer info assigned yet. You must create or assign a layer info before you can paint this layer.
+[2025.10.13-10.48.11:783][741]LogSlate: Window 'Pick Landscape Edit Layer Class' being destroyed
+[2025.10.13-10.48.26:290][340]LogStreaming: Display: FlushAsyncLoading(424): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.13-10.48.26:295][340]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/lighting.lighting_C
+[2025.10.13-10.48.26:295][340]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/lighting.lighting_C
+[2025.10.13-10.48.26:298][340]LogActorFactory: Actor Factory spawned Blueprint /Game/lighting.lighting as actor: lighting_C /Temp/Untitled_1.Untitled_1:PersistentLevel.lighting_C_0
+[2025.10.13-10.48.26:299][340]LogActorFactory: Actor Factory spawned Blueprint /Game/lighting.lighting as actor: lighting_C /Temp/Untitled_1.Untitled_1:PersistentLevel.lighting_C_0
+[2025.10.13-10.48.26:305][340]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2025.10.13-10.48.27:557][482]Cmd: TRANSACTION UNDO
+[2025.10.13-10.48.27:557][482]LogEditorTransaction: Undo Place Object
+[2025.10.13-10.48.32:984][830]LogSlate: Window 'Message' being destroyed
+[2025.10.13-10.48.32:998][830]Message dialog closed, result: Cancel, title: Message, text: This layer has no layer info assigned yet. You must create or assign a layer info before you can paint this layer.
+[2025.10.13-10.49.04:827][908]LogSlate: Window 'Message' being destroyed
+[2025.10.13-10.49.04:837][908]Message dialog closed, result: Ok, title: Message, text: This layer has no layer info assigned yet. You must create or assign a layer info before you can paint this layer.
+[2025.10.13-10.50.37:272][372]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2025.10.13-10.51.02:262][372]LogSlate: Window 'Message' being destroyed
+[2025.10.13-10.51.02:274][372]Message dialog closed, result: Ok, title: Message, text: Input '/Game/Fab/Megascans/Surfaces/' ends with a '/', which is invalid for LongPackageNames.
+[2025.10.13-10.51.04:740][372]LogSlate: Window 'Message' being destroyed
+[2025.10.13-10.51.04:749][372]Message dialog closed, result: Ok, title: Message, text: Input '/Game/Fab/Megascans/Surfaces/' ends with a '/', which is invalid for LongPackageNames.
+[2025.10.13-10.51.28:460][372]LogSlate: Window 'Message' being destroyed
+[2025.10.13-10.51.28:471][372]Message dialog closed, result: Ok, title: Message, text: Name may not contain the following characters: ( )
+[2025.10.13-10.51.34:120][372]LogSlate: Window 'Create New Landscape Layer Info Object' being destroyed
+[2025.10.13-10.51.46:630][494]LogSlate: Window 'Message' being destroyed
+[2025.10.13-10.51.46:644][494]Message dialog closed, result: Ok, title: Message, text: This layer has no layer info assigned yet. You must create or assign a layer info before you can paint this layer.
+[2025.10.13-10.52.04:632][569]LogSlate: Window 'Message' being destroyed
+[2025.10.13-10.52.04:644][569]Message dialog closed, result: Cancel, title: Message, text: This layer has no layer info assigned yet. You must create or assign a layer info before you can paint this layer.
+[2025.10.13-10.52.07:045][850]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2025.10.13-10.52.25:066][850]LogSlate: Window 'Message' being destroyed
+[2025.10.13-10.52.25:072][850]Message dialog closed, result: Ok, title: Message, text: Input '/Game/Fab/Megascans/Surfaces/' ends with a '/', which is invalid for LongPackageNames.
+[2025.10.13-10.52.32:381][850]LogSlate: Window 'Create New Landscape Layer Info Object' being destroyed
+[2025.10.13-10.52.38:643][561]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2025.10.13-10.53.07:043][561]LogSlate: Window 'Message' being destroyed
+[2025.10.13-10.53.07:055][561]Message dialog closed, result: Ok, title: Message, text: Path does not start with a valid root. Path must begin with one of: /BaseCharacterFXEditor/, /ObjectMixer/, /LightMixer/, /MetaHumanSDK/, /Interchange/, /InterchangeAssets/, /NiagaraSimCaching/, /Cascade/, /Niagara/, /DatasmithContent/, /GLTFExporter/, /NamingTokens/, /RigLogic/, /AnimationSharing/, /TweeningUtils/, /GameplayCameras/, /SkeletalMeshModelingTools/, /IKRig/, /ControlRigSpline/, /DeformerGraph/, /ControlRig/, /ControlRigModules/, /ACLPlugin/, /Paper2D/, /Takes/, /CameraCalibrationCore/, /StateTree/, /WaveTable/, /Synthesis/, /RigVM/, /ResonanceAudio/, /PropertyBindingUtils/, /Metasound/, /MeshModelingToolset/, /HairStrands/, /GeometryProcessing/, /GameplayStateTree/, /AudioWidgets/, /AudioSynesthesia/, /NNEDenoiser/, /SequencerScripting/, /MediaPlate/, /MediaCompositing/, /ToolPresets/, /PythonScriptPlugin/, /MeshModelingToolsetExp/, /GeometryDataflow/, /GeometryCollectionPlugin/, /GeometryFlow/, /FullBodyIK/, /EditorDataStorageFeatures/, /EditorDataStorage/, /Dataflow/, /ChaosNiagara/, /ChaosSolverPlugin/, /ChaosCaching/, /UVEditor/, /UMGWidgetPreview/, /SpeedTreeImporter/, /ModelingToolsEditorMode/, /MeshLODToolset/, /GeometryMode/, /BlueprintHeaderView/, /TraceUtilities/, /Fab/, /ChaosVD/, /Bridge/, /Engine/, /Engine/, /Game/, /Engine/, /Engine/, /Game/
+[2025.10.13-10.53.11:559][561]LogSlate: Window 'Message' being destroyed
+[2025.10.13-10.53.11:569][561]Message dialog closed, result: Ok, title: Message, text: Path does not start with a valid root. Path must begin with one of: /BaseCharacterFXEditor/, /ObjectMixer/, /LightMixer/, /MetaHumanSDK/, /Interchange/, /InterchangeAssets/, /NiagaraSimCaching/, /Cascade/, /Niagara/, /DatasmithContent/, /GLTFExporter/, /NamingTokens/, /RigLogic/, /AnimationSharing/, /TweeningUtils/, /GameplayCameras/, /SkeletalMeshModelingTools/, /IKRig/, /ControlRigSpline/, /DeformerGraph/, /ControlRig/, /ControlRigModules/, /ACLPlugin/, /Paper2D/, /Takes/, /CameraCalibrationCore/, /StateTree/, /WaveTable/, /Synthesis/, /RigVM/, /ResonanceAudio/, /PropertyBindingUtils/, /Metasound/, /MeshModelingToolset/, /HairStrands/, /GeometryProcessing/, /GameplayStateTree/, /AudioWidgets/, /AudioSynesthesia/, /NNEDenoiser/, /SequencerScripting/, /MediaPlate/, /MediaCompositing/, /ToolPresets/, /PythonScriptPlugin/, /MeshModelingToolsetExp/, /GeometryDataflow/, /GeometryCollectionPlugin/, /GeometryFlow/, /FullBodyIK/, /EditorDataStorageFeatures/, /EditorDataStorage/, /Dataflow/, /ChaosNiagara/, /ChaosSolverPlugin/, /ChaosCaching/, /UVEditor/, /UMGWidgetPreview/, /SpeedTreeImporter/, /ModelingToolsEditorMode/, /MeshLODToolset/, /GeometryMode/, /BlueprintHeaderView/, /TraceUtilities/, /Fab/, /ChaosVD/, /Bridge/, /Engine/, /Engine/, /Game/, /Engine/, /Engine/, /Game/
+[2025.10.13-10.53.13:332][561]LogSlate: Window 'Create New Landscape Layer Info Object' being destroyed
+[2025.10.13-10.53.16:122][868]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 642.725464
+[2025.10.13-10.53.16:274][877]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.13-10.53.16:274][877]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 642.860596, Update Interval: 318.221375
+[2025.10.13-10.53.16:518][892]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.10.13-10.53.16:528][892]LogTexture: Display: Building textures: /Temp/Untitled_1.Untitled_1:PersistentLevel.Landscape_0.Heightmap_1 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 9.999992 MB), EncodeSpeed: Fast
+[2025.10.13-10.53.16:575][892]LogSavePackage: Moving output files for package: /Temp/Autosaves/Temp/Untitled_1_Auto1
+[2025.10.13-10.53.16:575][892]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Saved/Untitled_1_Auto1D4AB9F8F47DFCE05A538F4B894DCD649.tmp' to '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2025.10.13-10.53.16:576][892]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_1' took 0.083
+[2025.10.13-10.53.16:576][892]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.083
+[2025.10.13-10.53.16:576][892]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Megascans/Surfaces/rock_outer_mountains] ([1] browsable assets)...
+[2025.10.13-10.53.16:576][892]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Megascans/Surfaces/rock_outer_mountains]
+[2025.10.13-10.53.16:581][892]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Megascans/Surfaces/rock_outer_mountains_Auto1
+[2025.10.13-10.53.16:581][892]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Saved/rock_outer_mountains_Auto1E31E75EE4221A38977D27F8FE96822EF.tmp' to '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Saved/Autosaves/Game/Fab/Megascans/Surfaces/rock_outer_mountains_Auto1.uasset'
+[2025.10.13-10.53.16:582][892]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Megascans/Surfaces/iron_mainlabs] ([1] browsable assets)...
+[2025.10.13-10.53.16:582][892]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Megascans/Surfaces/iron_mainlabs]
+[2025.10.13-10.53.16:586][892]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Megascans/Surfaces/iron_mainlabs_Auto1
+[2025.10.13-10.53.16:586][892]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Saved/iron_mainlabs_Auto165FAD4C448DB88C6F51BD2930B5E57DB.tmp' to '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Saved/Autosaves/Game/Fab/Megascans/Surfaces/iron_mainlabs_Auto1.uasset'
+[2025.10.13-10.53.16:586][892]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Megascans/Surfaces/metallic_layer] ([1] browsable assets)...
+[2025.10.13-10.53.16:586][892]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Megascans/Surfaces/metallic_layer]
+[2025.10.13-10.53.16:591][892]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Megascans/Surfaces/metallic_layer_Auto1
+[2025.10.13-10.53.16:591][892]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Saved/metallic_layer_Auto17BF572ED436105EBA72A77B83BD98EB3.tmp' to '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Saved/Autosaves/Game/Fab/Megascans/Surfaces/metallic_layer_Auto1.uasset'
+[2025.10.13-10.53.16:591][892]LogFileHelpers: Auto-saving content packages took 0.016
+[2025.10.13-10.53.19:982][221]LogTexture: Display: Building textures: /Temp/Untitled_1.Untitled_1:PersistentLevel.Landscape_0.Weightmap_0 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.140617 MB), EncodeSpeed: Fast
+[2025.10.13-10.54.36:215][905]LogShaderCompilers: Display: ================================================
+[2025.10.13-10.54.36:216][905]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.13-10.54.36:216][905]LogShaderCompilers: Display: Total job queries 686, among them cache hits 110 (16.03%), DDC hits 462 (67.35%), Duplicates 112 (16.33%)
+[2025.10.13-10.54.36:216][905]LogShaderCompilers: Display: Tracking 464 distinct input hashes that result in 292 distinct outputs (62.93%)
+[2025.10.13-10.54.36:216][905]LogShaderCompilers: Display: RAM used: 3.90 MiB of 3.20 GiB budget. Usage: 0.12%
+[2025.10.13-10.54.36:216][905]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.13-10.54.36:216][905]LogShaderCompilers: Display: Shaders Compiled: 2
+[2025.10.13-10.54.36:216][905]LogShaderCompilers: Display: Jobs assigned 2, completed 2 (100%)
+[2025.10.13-10.54.36:216][905]LogShaderCompilers: Display: Time job spent in pending queue: average 0.01 s, longest 0.01 s
+[2025.10.13-10.54.36:216][905]LogShaderCompilers: Display: Job execution time: average 0.57 s, max 0.62 s
+[2025.10.13-10.54.36:216][905]LogShaderCompilers: Display: Job life time (pending + execution): average 0.58 s, max 0.63
+[2025.10.13-10.54.36:216][905]LogShaderCompilers: Display: Shader code size: total 17.863 KiB, numShaders 2, average 8.932 KiB, min 8.707 KiB, max 9.156 KiB
+[2025.10.13-10.54.36:216][905]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.63 s
+[2025.10.13-10.54.36:216][905]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.03%
+[2025.10.13-10.54.36:216][905]LogShaderCompilers: Display: Jobs were issued in 2 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.10.13-10.54.36:216][905]LogShaderCompilers: Display: Average processing rate: 3.16 jobs/sec
+[2025.10.13-10.54.36:216][905]LogShaderCompilers: Display: Total thread time: 0.464 s
+[2025.10.13-10.54.36:216][905]LogShaderCompilers: Display: Total thread preprocess time: 9.68 s
+[2025.10.13-10.54.36:216][905]LogShaderCompilers: Display: Percentage time preprocessing: 2084.63%
+[2025.10.13-10.54.36:216][905]LogShaderCompilers: Display: Effective parallelization: 0.73 (times faster than compiling all shaders on one thread). Compare with number of workers: 16 - 0.045801
+[2025.10.13-10.54.36:216][905]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.13-10.54.36:216][905]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.28 sec, max 0.28 sec, min 0.28 sec)
+[2025.10.13-10.54.36:216][905]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.18 sec, max 0.18 sec, min 0.18 sec)
+[2025.10.13-10.54.36:216][905]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.13-10.54.36:216][905]LogShaderCompilers: Display:                                             FDebugViewModeVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.13-10.54.36:216][905]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.13-10.54.36:216][905]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.13-10.54.36:216][905]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 60.74% of total time (compiled    1 times, average 0.28 sec, max 0.28 sec, min 0.28 sec)
+[2025.10.13-10.54.36:216][905]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 39.26% of total time (compiled    1 times, average 0.18 sec, max 0.18 sec, min 0.18 sec)
+[2025.10.13-10.54.36:216][905]LogShaderCompilers: Display:                                             FDebugViewModeVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.13-10.54.36:216][905]LogShaderCompilers: Display:                                             FDebugViewModePS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.13-10.54.36:216][905]LogShaderCompilers: Display:                                                 FLumenCardPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.13-10.54.36:216][905]LogShaderCompilers: Display: === Material stats ===
+[2025.10.13-10.54.36:216][905]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.13-10.54.36:216][905]LogShaderCompilers: Display: Materials Translated:    166
+[2025.10.13-10.54.36:216][905]LogShaderCompilers: Display: Material Total Translate Time: 0.10 s
+[2025.10.13-10.54.36:216][905]LogShaderCompilers: Display: Material Translation Only: 0.04 s (36%)
+[2025.10.13-10.54.36:216][905]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (3%)
+[2025.10.13-10.54.36:216][905]LogShaderCompilers: Display: Material Cache Hits: 42 (25%)
+[2025.10.13-10.54.36:216][905]LogShaderCompilers: Display: ================================================
+[2025.10.13-10.58.38:825][ 84]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 965.432861
+[2025.10.13-10.58.39:826][ 87]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.13-10.58.39:826][ 87]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 966.099426, Update Interval: 331.540894
+[2025.10.13-11.03.16:982][469]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2025.10.13-11.03.16:993][469]LogTexture: Display: Building textures: /Temp/Untitled_1.Untitled_1:PersistentLevel.Landscape_0.Weightmap_0 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.140617 MB), EncodeSpeed: Fast
+[2025.10.13-11.03.16:994][469]LogTexture: Display: Building textures: /Temp/Untitled_1.Untitled_1:PersistentLevel.Landscape_0.Weightmap_2 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.140617 MB), EncodeSpeed: Fast
+[2025.10.13-11.03.17:036][469]LogSavePackage: Moving output files for package: /Temp/Autosaves/Temp/Untitled_1_Auto2
+[2025.10.13-11.03.17:036][469]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Saved/Untitled_1_Auto2C8CF69F94A6780678CE25284EF9D18C0.tmp' to '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Saved/Autosaves/Temp/Untitled_1_Auto2.umap'
+[2025.10.13-11.03.17:037][469]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_1' took 0.070
+[2025.10.13-11.03.17:037][469]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.070
+[2025.10.13-11.04.23:144][693]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1309.749390
+[2025.10.13-11.04.24:143][696]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.13-11.04.24:143][696]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1310.413818, Update Interval: 329.490051
+[2025.10.13-11.10.21:205][767]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1667.808960
+[2025.10.13-11.10.22:205][770]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.13-11.10.22:205][770]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1668.476807, Update Interval: 331.465790
+[2025.10.13-11.16.32:598][881]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2039.205933
+[2025.10.13-11.16.33:597][884]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.13-11.16.33:598][884]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2039.872803, Update Interval: 332.775055
+[2025.10.13-11.22.50:649][ 15]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2417.260498
+[2025.10.13-11.22.51:651][ 18]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.13-11.22.51:651][ 18]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2417.928467, Update Interval: 312.858063
+[2025.10.13-11.28.48:022][ 87]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2774.629150
+[2025.10.13-11.28.49:023][ 90]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.13-11.28.49:023][ 91]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2775.295410, Update Interval: 356.568512
+[2025.10.13-11.35.28:412][288]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3175.014648
+[2025.10.13-11.35.29:411][291]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.13-11.35.29:411][291]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3175.682373, Update Interval: 311.876587
+[2025.10.13-11.41.23:134][352]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3529.732910
+[2025.10.13-11.41.24:133][355]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.13-11.41.24:133][355]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3530.400391, Update Interval: 303.986328
+[2025.10.13-11.44.26:250][481]LogSlate: Window 'Color Picker' being destroyed
+[2025.10.13-11.44.30:959][863]LogDerivedDataCache: C:/Users/N00230651/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.10.13-11.44.43:066][901]LogSlate: Window 'Color Picker' being destroyed
+[2025.10.13-11.45.10:395][  9]LogSlate: Window 'Color Picker' being destroyed
+[2025.10.13-11.45.17:498][623]LogSlate: Window 'Color Picker' being destroyed
+[2025.10.13-11.45.51:486][489]LogSlate: Window 'Color Picker' being destroyed
+[2025.10.13-11.46.00:804][345]LogSlate: Window 'Color Picker' being destroyed
+[2025.10.13-11.46.27:861][139]LogSlate: Window 'Save Level As' being destroyed
+[2025.10.13-11.46.27:942][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Promrtheus" FILE="../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Content/Promrtheus.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.13-11.46.27:965][139]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2025.10.13-11.46.28:024][139]LogSavePackage: Moving output files for package: /Game/Promrtheus
+[2025.10.13-11.46.28:024][139]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Saved/Promrtheus3AEC4EC2496B0ED8B05FD29731C6E961.tmp' to '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Content/Promrtheus.umap'
+[2025.10.13-11.46.28:036][139]LogFileHelpers: Saving map 'Promrtheus' took 0.162
+[2025.10.13-11.46.28:036][139]Cmd: MAP LOAD FILE="../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Content/Promrtheus.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.10.13-11.46.28:085][139]LogWorld: UWorld::CleanupWorld for Promrtheus, bSessionEnded=true, bCleanupResources=true
+[2025.10.13-11.46.28:085][139]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.13-11.46.28:101][139]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.13-11.46.28:103][139]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2025.10.13-11.46.28:104][139]LogStreaming: Display: FlushAsyncLoading(425): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.13-11.46.28:113][139]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Weightmap_1 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.13-11.46.28:113][139]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Weightmap_3 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.13-11.46.28:114][139]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Heightmap_0 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 10.333324 MB), EncodeSpeed: Fast
+[2025.10.13-11.46.28:114][139]LogAudio: Display: Audio Device (ID: 1) registered with world 'Promrtheus'.
+[2025.10.13-11.46.28:114][139]LogChaosDD: Creating Chaos Debug Draw Scene for world Promrtheus
+[2025.10.13-11.46.28:130][139]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.10.13-11.46.28:143][139]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2025.10.13-11.46.28:147][139]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.10.13-11.46.28:147][139]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.038ms to complete.
+[2025.10.13-11.46.28:208][139]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.13-11.46.28:208][139]LogContentValidation: Enabled validators:
+[2025.10.13-11.46.28:208][139]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.13-11.46.28:208][139]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.13-11.46.28:208][139]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.13-11.46.28:208][139]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.13-11.46.28:208][139]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.13-11.46.28:208][139]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.13-11.46.28:208][139]AssetCheck: /Game/Promrtheus Validating asset
+[2025.10.13-11.46.28:231][139]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.13-11.47.14:885][367]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3881.501465
+[2025.10.13-11.47.15:156][372]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.13-11.47.15:156][372]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3881.760010, Update Interval: 336.017944
+[2025.10.13-11.47.22:251][161]Cmd: TRANSACTION UNDO
+[2025.10.13-11.47.22:251][161]LogEditorTransaction: Undo Landscape Editing: Paint
+[2025.10.13-11.47.22:260][161]MapCheck: Warning: Landscape Fixed up shared weightmap texture for layer rock base in landscape component (shares with 'LandscapeComponent_19') 
+[2025.10.13-11.47.22:260][161]MapCheck: Warning: Landscape Fixed up shared weightmap texture for layer rock base in landscape component (shares with 'LandscapeComponent_32') 
+[2025.10.13-11.47.22:260][161]MapCheck: Warning: Landscape Fixed up shared weightmap texture for layer rock base in landscape component (shares with 'LandscapeComponent_44') 
+[2025.10.13-11.47.22:377][161]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Weightmap_14 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.140617 MB), EncodeSpeed: Fast
+[2025.10.13-11.47.22:378][161]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Weightmap_27 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.140617 MB), EncodeSpeed: Fast
+[2025.10.13-11.47.26:923][557]Cmd: TRANSACTION UNDO
+[2025.10.13-11.47.26:923][557]LogEditorTransaction: Undo Landscape Editing: Paint
+[2025.10.13-11.47.27:276][557]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Weightmap_17 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.140617 MB), EncodeSpeed: Fast
+[2025.10.13-11.47.27:277][557]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Weightmap_19 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.140617 MB), EncodeSpeed: Fast
+[2025.10.13-11.47.27:277][557]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Weightmap_21 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.140617 MB), EncodeSpeed: Fast
+[2025.10.13-11.47.27:279][557]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Weightmap_12 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.140617 MB), EncodeSpeed: Fast
+[2025.10.13-11.47.27:279][557]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Weightmap_4 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.140617 MB), EncodeSpeed: Fast
+[2025.10.13-11.47.27:289][557]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Weightmap_14 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.140617 MB), EncodeSpeed: Fast
+[2025.10.13-11.47.27:290][557]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Weightmap_23 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.140617 MB), EncodeSpeed: Fast
+[2025.10.13-11.47.27:290][557]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Weightmap_0 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.140617 MB), EncodeSpeed: Fast
+[2025.10.13-11.47.27:291][557]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Weightmap_2 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.140617 MB), EncodeSpeed: Fast
+[2025.10.13-11.47.27:291][557]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Weightmap_11 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.140617 MB), EncodeSpeed: Fast
+[2025.10.13-11.47.27:292][557]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Weightmap_6 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.140617 MB), EncodeSpeed: Fast
+[2025.10.13-11.47.27:292][557]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Weightmap_8 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.140617 MB), EncodeSpeed: Fast
+[2025.10.13-11.47.30:110][819]Cmd: TRANSACTION REDO
+[2025.10.13-11.47.30:110][819]LogEditorTransaction: Redo Landscape Editing: Paint
+[2025.10.13-11.47.30:473][819]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Weightmap_6 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.140617 MB), EncodeSpeed: Fast
+[2025.10.13-11.47.30:473][819]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Weightmap_11 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.140617 MB), EncodeSpeed: Fast
+[2025.10.13-11.47.30:485][819]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Weightmap_12 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.140617 MB), EncodeSpeed: Fast
+[2025.10.13-11.47.30:485][819]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Weightmap_21 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.140617 MB), EncodeSpeed: Fast
+[2025.10.13-11.47.30:486][819]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Weightmap_31 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.140617 MB), EncodeSpeed: Fast
+[2025.10.13-11.47.30:487][819]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Weightmap_17 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.140617 MB), EncodeSpeed: Fast
+[2025.10.13-11.48.08:537][723]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.13-11.48.08:541][723]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.13-11.48.08:545][723]LogOnline: OSS: Created online subsystem instance for: NULL
+[2025.10.13-11.48.08:545][723]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2025.10.13-11.48.08:545][723]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Promrtheus
+[2025.10.13-11.48.08:553][723]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007686s)
+[2025.10.13-11.48.08:553][723]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Promrtheus.Promrtheus to /Game/UEDPIE_0_Promrtheus.Promrtheus (0.007728s)
+[2025.10.13-11.48.08:580][723]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2025.10.13-11.48.08:581][723]LogChaosDD: Creating Chaos Debug Draw Scene for world Promrtheus
+[2025.10.13-11.48.08:582][723]LogPlayLevel: PIE: World Init took: (0.001375s)
+[2025.10.13-11.48.08:583][723]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2025.10.13-11.48.08:583][723]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.13-11.48.08:583][723]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.13-11.48.08:583][723]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.13-11.48.08:583][723]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.13-11.48.08:583][723]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.13-11.48.08:583][723]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.13-11.48.08:583][723]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.13-11.48.08:583][723]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.13-11.48.08:583][723]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.13-11.48.08:583][723]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.13-11.48.08:583][723]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.13-11.48.08:585][723]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.13-11.48.08:607][723]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.13-11.48.08:608][723]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.13-11.48.08:608][723]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.13-11.48.08:608][723]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.13-11.48.08:608][723]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2025.10.13-11.48.08:608][723]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2025.10.13-11.48.08:611][723]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2025.10.13-11.48.08:611][723]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2025.10.13-11.48.08:611][723]LogInit: FAudioDevice initialized with ID 2.
+[2025.10.13-11.48.08:611][723]LogAudio: Display: Audio Device (ID: 2) registered with world 'Promrtheus'.
+[2025.10.13-11.48.08:611][723]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2025.10.13-11.48.08:615][723]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.10.13-11.48.08:617][723]LogWorld: Bringing World /Game/UEDPIE_0_Promrtheus.Promrtheus up for play (max tick rate 0) at 2025.10.13-12.48.08
+[2025.10.13-11.48.08:618][723]LogWorld: Bringing up level for play took: 0.001989
+[2025.10.13-11.48.08:619][723]LogOnline: OSS: Created online subsystem instance for: :Context_4
+[2025.10.13-11.48.08:626][723]PIE: Server logged in
+[2025.10.13-11.48.08:629][723]PIE: Play in editor total start time 0.087 seconds.
+[2025.10.13-11.48.20:043][ 66]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.13-11.48.20:043][ 66]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Promrtheus
+[2025.10.13-11.48.20:043][ 66]LogWorld: UWorld::CleanupWorld for Promrtheus, bSessionEnded=true, bCleanupResources=true
+[2025.10.13-11.48.20:044][ 66]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.13-11.48.20:045][ 66]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.13-11.48.20:046][ 66]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.13-11.48.20:061][ 66]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.13-11.48.20:061][ 66]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2025.10.13-11.48.20:061][ 66]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=4
+[2025.10.13-11.48.20:063][ 66]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=2
+[2025.10.13-11.48.20:067][ 66]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.13-11.48.20:068][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2025.10.13-11.48.20:153][ 68]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display: ================================================
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display: Total job queries 728, among them cache hits 134 (18.41%), DDC hits 478 (65.66%), Duplicates 112 (15.38%)
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display: Tracking 482 distinct input hashes that result in 309 distinct outputs (64.11%)
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display: RAM used: 4.02 MiB of 3.20 GiB budget. Usage: 0.12%
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display: Shaders Compiled: 4
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display: Jobs assigned 4, completed 4 (100%)
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display: Average time worker was idle: 3233.87 s
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.08 s
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display: Job execution time: average 0.47 s, max 0.62 s
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display: Job life time (pending + execution): average 0.51 s, max 0.63
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display: Shader code size: total 36.234 KiB, numShaders 4, average 9.059 KiB, min 8.707 KiB, max 9.664 KiB
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.13 s
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.03%
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display: Average processing rate: 3.54 jobs/sec
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display: Total thread time: 0.928 s
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display: Total thread preprocess time: 10.202 s
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display: Percentage time preprocessing: 1099.46%
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display: Effective parallelization: 0.82 (times faster than compiling all shaders on one thread). Compare with number of workers: 16 - 0.051391
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 0.28 sec, max 0.28 sec, min 0.28 sec)
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 0.18 sec, max 0.18 sec, min 0.18 sec)
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display:                                             FDebugViewModeVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 60.59% of total time (compiled    2 times, average 0.28 sec, max 0.28 sec, min 0.28 sec)
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 39.41% of total time (compiled    2 times, average 0.18 sec, max 0.18 sec, min 0.18 sec)
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display:                                             FDebugViewModeVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display:                                             FDebugViewModePS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display:                                 FLandscapePhysicalMaterialVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display: === Material stats ===
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display: Materials Translated:    169
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display: Material Total Translate Time: 0.11 s
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display: Material Translation Only: 0.04 s (36%)
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (3%)
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display: Material Cache Hits: 42 (25%)
+[2025.10.13-11.48.37:148][766]LogShaderCompilers: Display: ================================================
+[2025.10.13-11.48.48:960][963]LogStreaming: Display: FlushAsyncLoading(426): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.13-11.48.49:576][ 21]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2025.10.13-11.48.51:018][153]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2025.10.13-11.48.51:018][153]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2025.10.13-11.48.51:039][153]LogStreaming: Display: FlushAsyncLoading(427): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.13-11.48.53:234][153]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.10.13-11.48.53:514][159]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2025.10.13-11.49.15:924][789]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.13-11.49.15:979][789]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Weightmap_1 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.13-11.49.15:979][789]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Weightmap_3 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.13-11.49.15:979][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Promrtheus" FILE="../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Content/Promrtheus.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.13-11.49.16:057][789]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2025.10.13-11.49.16:155][789]LogSavePackage: Moving output files for package: /Game/Promrtheus
+[2025.10.13-11.49.16:156][789]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Saved/PromrtheusB02DE1894461BA294F13DEBCEEEFBFDF.tmp' to '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Content/Promrtheus.umap'
+[2025.10.13-11.49.16:161][789]LogFileHelpers: Saving map 'Promrtheus' took 0.182
+[2025.10.13-11.49.16:169][789]LogFileHelpers: InternalPromptForCheckoutAndSave took 245.413 ms
+[2025.10.13-11.49.16:223][789]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.13-11.49.16:223][789]LogContentValidation: Enabled validators:
+[2025.10.13-11.49.16:223][789]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.13-11.49.16:223][789]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.13-11.49.16:223][789]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.13-11.49.16:223][789]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.13-11.49.16:223][789]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.13-11.49.16:223][789]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.13-11.49.16:223][789]AssetCheck: /Game/Promrtheus Validating asset
