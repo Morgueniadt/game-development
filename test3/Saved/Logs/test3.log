@@ -2599,3 +2599,13 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.10.10-15.02.33:639][385]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6125.078125
 [2025.10.10-15.02.34:639][388]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.10.10-15.02.34:640][389]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6125.745117, Update Interval: 333.401276
+[2025.10.10-15.03.34:081][566]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2025.10.10-15.03.34:096][566]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/7U/N6OF96W017R8PFYSK53019_Auto8
+[2025.10.10-15.03.34:096][566]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/N6OF96W017R8PFYSK53019_Auto8039C721849E7C17A75F635BB132B4790.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/7U/N6OF96W017R8PFYSK53019_Auto8.uasset'
+[2025.10.10-15.03.34:097][566]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Lvl_ThirdPerson' took 0.067
+[2025.10.10-15.03.34:097][566]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.067
+[2025.10.10-15.03.34:097][566]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/EnemySpawn/enemySpawner] ([2] browsable assets)...
+[2025.10.10-15.03.34:097][566]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/EnemySpawn/enemySpawner]
+[2025.10.10-15.03.34:109][566]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/AI/EnemySpawn/enemySpawner_Auto8
+[2025.10.10-15.03.34:109][566]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/test3/Saved/enemySpawner_Auto860E3EC8147757B4B6546CA86EDA2175B.tmp' to '../../../../../Users/N00230651/Documents/game-development/test3/Saved/Autosaves/Game/AI/EnemySpawn/enemySpawner_Auto8.uasset'
+[2025.10.10-15.03.34:110][566]LogFileHelpers: Auto-saving content packages took 0.012
