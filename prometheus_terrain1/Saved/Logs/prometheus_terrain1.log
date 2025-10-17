@@ -1543,3 +1543,27 @@ Sampler Limit: 32
 [2025.10.17-15.14.28:655][396]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.10.17-15.14.28:655][396]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.10.17-15.14.28:655][396]AssetCheck: /Game/Promrtheus Validating asset
+[2025.10.17-15.16.19:829][521]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 324.611877
+[2025.10.17-15.16.20:142][526]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.17-15.16.20:142][526]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 324.863556, Update Interval: 345.158844
+[2025.10.17-15.16.20:762][537]Cmd: TRANSACTION UNDO
+[2025.10.17-15.16.20:762][537]LogEditorTransaction: Undo Foliage Editing
+[2025.10.17-15.16.21:099][537]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.17-15.16.21:939][566]Cmd: TRANSACTION UNDO
+[2025.10.17-15.16.21:939][566]LogEditorTransaction: Undo Foliage Editing
+[2025.10.17-15.16.22:271][566]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.17-15.16.22:897][576]Cmd: TRANSACTION UNDO
+[2025.10.17-15.16.22:897][576]LogEditorTransaction: Undo Foliage Editing
+[2025.10.17-15.16.23:211][576]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.17-15.16.23:877][589]Cmd: TRANSACTION UNDO
+[2025.10.17-15.16.23:877][589]LogEditorTransaction: Undo Foliage Editing
+[2025.10.17-15.16.24:161][589]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.17-15.16.41:632][955]Cmd: TRANSACTION UNDO
+[2025.10.17-15.16.41:632][955]LogEditorTransaction: Undo Foliage Editing
+[2025.10.17-15.16.41:835][955]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.17-15.16.42:711][999]Cmd: TRANSACTION UNDO
+[2025.10.17-15.16.42:711][999]LogEditorTransaction: Undo Foliage Editing
+[2025.10.17-15.16.42:991][999]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.17-15.16.43:839][ 18]Cmd: TRANSACTION UNDO
+[2025.10.17-15.16.43:839][ 18]LogEditorTransaction: Undo Foliage Editing
+[2025.10.17-15.16.44:039][ 18]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
