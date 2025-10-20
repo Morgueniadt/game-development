@@ -2542,3 +2542,119 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.10.20-15.43.43:409][585]LogEOSSDK: LogEOSAuth: Refresh authentication session. AuthState: 1 AccessExpires: 100 RefreshExpires: 1.554e+07
 [2025.10.20-15.43.47:592][ 59]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: 4f4...07d Access[Expires: 2025.10.20-17.43.47 Remaining: 7200.50] Refresh[Expires: 2026-04-18T11:40:13.071Z Remaining: 15537386.07] State: Valid
 [2025.10.20-15.44.37:584][340]Cmd: POLY SELECT ALL
+[2025.10.20-15.45.12:650][769]Cmd: DUPLICATE
+[2025.10.20-15.45.12:650][769]Cmd: ACTOR DUPLICATE
+[2025.10.20-15.45.34:493][502]Cmd: DUPLICATE
+[2025.10.20-15.45.34:493][502]Cmd: ACTOR DUPLICATE
+[2025.10.20-15.45.58:339][264]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.20-15.45.58:457][264]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Promrtheus" FILE="../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Content/Promrtheus.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.20-15.45.58:488][264]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.10.20-15.45.58:706][264]LogSavePackage: Moving output files for package: /Game/Promrtheus
+[2025.10.20-15.45.58:706][264]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Saved/PromrtheusC6764E504BC143124A68A7A78187C4C3.tmp' to '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Content/Promrtheus.umap'
+[2025.10.20-15.45.58:715][264]LogFileHelpers: Saving map 'Promrtheus' took 0.259
+[2025.10.20-15.45.58:743][264]LogFileHelpers: InternalPromptForCheckoutAndSave took 404.382 ms (total: 2.10 sec)
+[2025.10.20-15.45.58:784][264]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.20-15.45.58:784][264]LogContentValidation: Enabled validators:
+[2025.10.20-15.45.58:784][264]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.20-15.45.58:784][264]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.20-15.45.58:784][264]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.20-15.45.58:784][264]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.20-15.45.58:784][264]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.20-15.45.58:784][264]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.20-15.45.58:785][264]AssetCheck: /Game/Promrtheus Validating asset
+[2025.10.20-15.47.16:385][954]LogDerivedDataCache: C:/Users/N00230651/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.10.20-15.48.07:038][820]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.20-15.48.07:091][820]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Promrtheus" FILE="../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Content/Promrtheus.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.20-15.48.07:124][820]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2025.10.20-15.48.07:347][820]LogSavePackage: Moving output files for package: /Game/Promrtheus
+[2025.10.20-15.48.07:347][820]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Saved/Promrtheus7F67A593497F59AEB38F7984FBE3F060.tmp' to '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Content/Promrtheus.umap'
+[2025.10.20-15.48.07:355][820]LogFileHelpers: Saving map 'Promrtheus' took 0.264
+[2025.10.20-15.48.07:362][820]LogFileHelpers: InternalPromptForCheckoutAndSave took 324.765 ms (total: 2.42 sec)
+[2025.10.20-15.48.07:427][820]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.20-15.48.07:427][820]LogContentValidation: Enabled validators:
+[2025.10.20-15.48.07:427][820]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.20-15.48.07:427][820]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.20-15.48.07:427][820]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.20-15.48.07:427][820]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.20-15.48.07:427][820]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.20-15.48.07:427][820]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.20-15.48.07:427][820]AssetCheck: /Game/Promrtheus Validating asset
+[2025.10.20-15.49.03:048][663]LogStreaming: Display: FlushAsyncLoading(1277): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.20-15.49.14:708][ 61]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2025.10.20-15.49.16:641][127]Cmd: DUPLICATE
+[2025.10.20-15.49.16:641][127]Cmd: ACTOR DUPLICATE
+[2025.10.20-15.49.17:436][155]Cmd: TRANSACTION UNDO
+[2025.10.20-15.49.17:436][155]LogEditorTransaction: Undo Duplicate Elements
+[2025.10.20-15.49.17:718][157]Cmd: TRANSACTION UNDO
+[2025.10.20-15.49.17:718][157]LogEditorTransaction: Undo Place Objects
+[2025.10.20-15.49.19:857][229]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7440.989746
+[2025.10.20-15.49.20:025][235]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.20-15.49.20:025][235]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7441.129395, Update Interval: 340.927155
+[2025.10.20-15.49.20:165][241]Cmd: TRANSACTION UNDO
+[2025.10.20-15.49.20:165][241]LogEditorTransaction: Undo Replace component used material
+[2025.10.20-15.49.31:174][617]Cmd: TRANSACTION UNDO
+[2025.10.20-15.49.31:174][617]LogEditorTransaction: Undo Place Objects
+[2025.10.20-15.49.36:245][763]Cmd: TRANSACTION UNDO
+[2025.10.20-15.49.36:245][763]LogEditorTransaction: Undo Place Objects
+[2025.10.20-15.49.41:920][950]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_23
+[2025.10.20-15.49.53:022][333]LogStreaming: Display: FlushAsyncLoading(1278): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.20-15.50.04:238][711]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_24
+[2025.10.20-15.50.04:360][714]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_25
+[2025.10.20-15.50.08:228][842]LogStreaming: Display: FlushAsyncLoading(1279): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.20-15.50.18:098][169]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.20-15.50.18:222][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Promrtheus" FILE="../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Content/Promrtheus.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.20-15.50.18:259][169]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.10.20-15.50.18:494][169]LogSavePackage: Moving output files for package: /Game/Promrtheus
+[2025.10.20-15.50.18:495][169]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Saved/Promrtheus61002347403F7CFEFFBC1C8FDAEEF432.tmp' to '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Content/Promrtheus.umap'
+[2025.10.20-15.50.18:504][169]LogFileHelpers: Saving map 'Promrtheus' took 0.283
+[2025.10.20-15.50.18:511][169]LogFileHelpers: InternalPromptForCheckoutAndSave took 412.527 ms (total: 2.84 sec)
+[2025.10.20-15.50.18:568][169]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.20-15.50.18:568][169]LogContentValidation: Enabled validators:
+[2025.10.20-15.50.18:568][169]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.20-15.50.18:568][169]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.20-15.50.18:568][169]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.20-15.50.18:568][169]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.20-15.50.18:568][169]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.20-15.50.18:568][169]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.20-15.50.18:568][169]AssetCheck: /Game/Promrtheus Validating asset
+[2025.10.20-15.51.23:894][499]LogShaderCompilers: Display: ================================================
+[2025.10.20-15.51.23:894][499]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.20-15.51.23:894][499]LogShaderCompilers: Display: Total job queries 1,119, among them cache hits 121 (10.81%), DDC hits 802 (71.67%), Duplicates 188 (16.80%)
+[2025.10.20-15.51.23:894][499]LogShaderCompilers: Display: Tracking 810 distinct input hashes that result in 557 distinct outputs (68.77%)
+[2025.10.20-15.51.23:894][499]LogShaderCompilers: Display: RAM used: 6.03 MiB of 3.20 GiB budget. Usage: 0.18%
+[2025.10.20-15.51.23:894][499]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.20-15.51.23:894][499]LogShaderCompilers: Display: Shaders Compiled: 8
+[2025.10.20-15.51.23:894][499]LogShaderCompilers: Display: Jobs assigned 8, completed 8 (100%)
+[2025.10.20-15.51.23:896][499]LogShaderCompilers: Display: Average time worker was idle: 30.87 s
+[2025.10.20-15.51.23:896][499]LogShaderCompilers: Display: Time job spent in pending queue: average 0.03 s, longest 0.06 s
+[2025.10.20-15.51.23:896][499]LogShaderCompilers: Display: Job execution time: average 0.73 s, max 0.94 s
+[2025.10.20-15.51.23:896][499]LogShaderCompilers: Display: Job life time (pending + execution): average 0.76 s, max 0.99
+[2025.10.20-15.51.23:896][499]LogShaderCompilers: Display: Shader code size: total 78.726 KiB, numShaders 8, average 9.84 KiB, min 5.102 KiB, max 13.144 KiB
+[2025.10.20-15.51.23:896][499]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.95 s
+[2025.10.20-15.51.23:896][499]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.10.20-15.51.23:896][499]LogShaderCompilers: Display: Jobs were issued in 8 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.10.20-15.51.23:896][499]LogShaderCompilers: Display: Average processing rate: 4.11 jobs/sec
+[2025.10.20-15.51.23:896][499]LogShaderCompilers: Display: Total thread time: 4.032 s
+[2025.10.20-15.51.23:896][499]LogShaderCompilers: Display: Total thread preprocess time: 14.547 s
+[2025.10.20-15.51.23:896][499]LogShaderCompilers: Display: Percentage time preprocessing: 360.81%
+[2025.10.20-15.51.23:896][499]LogShaderCompilers: Display: Effective parallelization: 2.07 (times faster than compiling all shaders on one thread). Compare with number of workers: 16 - 0.129386
+[2025.10.20-15.51.23:896][499]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.20-15.51.23:896][499]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    1 times, average 0.79 sec, max 0.79 sec, min 0.79 sec)
+[2025.10.20-15.51.23:896][499]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    1 times, average 0.65 sec, max 0.65 sec, min 0.65 sec)
+[2025.10.20-15.51.23:896][499]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    2 times, average 0.63 sec, max 0.71 sec, min 0.56 sec)
+[2025.10.20-15.51.23:896][499]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 0.38 sec, max 0.38 sec, min 0.38 sec)
+[2025.10.20-15.51.23:896][499]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 0.34 sec, max 0.38 sec, min 0.31 sec)
+[2025.10.20-15.51.23:896][499]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.20-15.51.23:896][499]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 31.41% of total time (compiled    2 times, average 0.63 sec, max 0.71 sec, min 0.56 sec)
+[2025.10.20-15.51.23:896][499]LogShaderCompilers: Display:                                             FDebugViewModePS - 19.69% of total time (compiled    1 times, average 0.79 sec, max 0.79 sec, min 0.79 sec)
+[2025.10.20-15.51.23:896][499]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 17.03% of total time (compiled    2 times, average 0.34 sec, max 0.38 sec, min 0.31 sec)
+[2025.10.20-15.51.23:896][499]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 16.01% of total time (compiled    1 times, average 0.65 sec, max 0.65 sec, min 0.65 sec)
+[2025.10.20-15.51.23:896][499]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 9.48% of total time (compiled    1 times, average 0.38 sec, max 0.38 sec, min 0.38 sec)
+[2025.10.20-15.51.23:896][499]LogShaderCompilers: Display: === Material stats ===
+[2025.10.20-15.51.23:896][499]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.20-15.51.23:896][499]LogShaderCompilers: Display: Materials Translated:    189
+[2025.10.20-15.51.23:896][499]LogShaderCompilers: Display: Material Total Translate Time: 0.15 s
+[2025.10.20-15.51.23:896][499]LogShaderCompilers: Display: Material Translation Only: 0.05 s (30%)
+[2025.10.20-15.51.23:896][499]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.10.20-15.51.23:896][499]LogShaderCompilers: Display: Material Cache Hits: 56 (30%)
+[2025.10.20-15.51.23:896][499]LogShaderCompilers: Display: ================================================
