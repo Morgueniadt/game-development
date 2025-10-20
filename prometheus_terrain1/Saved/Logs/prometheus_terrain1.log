@@ -2442,3 +2442,103 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.10.20-15.36.33:160][985]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6674.290527
 [2025.10.20-15.36.38:159][999]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.10.20-15.36.38:161][  0]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6678.956543, Update Interval: 333.752869
+[2025.10.20-15.38.48:247][567]Cmd: DUPLICATE
+[2025.10.20-15.38.48:247][567]Cmd: ACTOR DUPLICATE
+[2025.10.20-15.38.54:531][778]Cmd: DUPLICATE
+[2025.10.20-15.38.54:531][778]Cmd: ACTOR DUPLICATE
+[2025.10.20-15.40.02:154][548]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.20-15.40.02:251][548]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Promrtheus" FILE="../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Content/Promrtheus.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.20-15.40.02:291][548]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.10.20-15.40.02:553][548]LogSavePackage: Moving output files for package: /Game/Promrtheus
+[2025.10.20-15.40.02:553][548]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Saved/Promrtheus4EE030A84E1832813FAB08A780EC265C.tmp' to '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Content/Promrtheus.umap'
+[2025.10.20-15.40.02:562][548]LogFileHelpers: Saving map 'Promrtheus' took 0.311
+[2025.10.20-15.40.02:588][548]LogFileHelpers: InternalPromptForCheckoutAndSave took 433.227 ms (total: 1.25 sec)
+[2025.10.20-15.40.02:645][548]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.20-15.40.02:645][548]LogContentValidation: Enabled validators:
+[2025.10.20-15.40.02:645][548]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.20-15.40.02:645][548]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.20-15.40.02:645][548]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.20-15.40.02:645][548]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.20-15.40.02:645][548]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.20-15.40.02:645][548]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.20-15.40.02:646][548]AssetCheck: /Game/Promrtheus Validating asset
+[2025.10.20-15.40.30:326][578]LogStreaming: Display: FlushAsyncLoading(1265): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.20-15.40.33:294][650]LogStreaming: Display: FlushAsyncLoading(1276): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.20-15.40.33:512][651]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_22
+[2025.10.20-15.40.58:623][419]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/facility/StylizedRocksLite_JC/Models/SM_Rocks_04.SM_Rocks_04
+[2025.10.20-15.40.58:623][419]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/facility/StylizedRocksLite_JC/Models/SM_Rocks_04.SM_Rocks_04
+[2025.10.20-15.40.58:624][419]LogActorFactory: Actor Factory spawned StaticMesh /Game/facility/StylizedRocksLite_JC/Models/SM_Rocks_04.SM_Rocks_04 as actor: StaticMeshActor /Game/Promrtheus.Promrtheus:PersistentLevel.StaticMeshActor_21
+[2025.10.20-15.40.59:437][445]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.10.20-15.40.59:440][445]LogEditorActor: Deleted 0 Actors (0.041 secs)
+[2025.10.20-15.40.59:464][445]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/facility/StylizedRocksLite_JC/Models/SM_Rocks_04.SM_Rocks_04
+[2025.10.20-15.40.59:464][445]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/facility/StylizedRocksLite_JC/Models/SM_Rocks_04.SM_Rocks_04
+[2025.10.20-15.40.59:465][445]LogActorFactory: Actor Factory spawned StaticMesh /Game/facility/StylizedRocksLite_JC/Models/SM_Rocks_04.SM_Rocks_04 as actor: StaticMeshActor /Game/Promrtheus.Promrtheus:PersistentLevel.StaticMeshActor_24
+[2025.10.20-15.41.06:311][672]Cmd: TRANSACTION UNDO
+[2025.10.20-15.41.06:311][672]LogEditorTransaction: Undo Clicking on Elements
+[2025.10.20-15.41.07:378][700]Cmd: TRANSACTION UNDO
+[2025.10.20-15.41.07:378][700]LogEditorTransaction: Undo Place Objects
+[2025.10.20-15.41.10:557][793]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/facility/StylizedRocksLite_JC/Models/SM_Rocks_01.SM_Rocks_01
+[2025.10.20-15.41.10:557][793]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/facility/StylizedRocksLite_JC/Models/SM_Rocks_01.SM_Rocks_01
+[2025.10.20-15.41.10:557][793]LogActorFactory: Actor Factory spawned StaticMesh /Game/facility/StylizedRocksLite_JC/Models/SM_Rocks_01.SM_Rocks_01 as actor: StaticMeshActor /Game/Promrtheus.Promrtheus:PersistentLevel.StaticMeshActor_26
+[2025.10.20-15.41.10:558][793]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/facility/StylizedRocksLite_JC/Models/SM_Rocks_02.SM_Rocks_02
+[2025.10.20-15.41.10:558][793]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/facility/StylizedRocksLite_JC/Models/SM_Rocks_02.SM_Rocks_02
+[2025.10.20-15.41.10:558][793]LogActorFactory: Actor Factory spawned StaticMesh /Game/facility/StylizedRocksLite_JC/Models/SM_Rocks_02.SM_Rocks_02 as actor: StaticMeshActor /Game/Promrtheus.Promrtheus:PersistentLevel.StaticMeshActor_27
+[2025.10.20-15.41.10:558][793]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/facility/StylizedRocksLite_JC/Models/SM_Rocks_03.SM_Rocks_03
+[2025.10.20-15.41.10:558][793]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/facility/StylizedRocksLite_JC/Models/SM_Rocks_03.SM_Rocks_03
+[2025.10.20-15.41.10:558][793]LogActorFactory: Actor Factory spawned StaticMesh /Game/facility/StylizedRocksLite_JC/Models/SM_Rocks_03.SM_Rocks_03 as actor: StaticMeshActor /Game/Promrtheus.Promrtheus:PersistentLevel.StaticMeshActor_28
+[2025.10.20-15.41.10:558][793]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/facility/StylizedRocksLite_JC/Models/SM_Rocks_04.SM_Rocks_04
+[2025.10.20-15.41.10:558][793]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/facility/StylizedRocksLite_JC/Models/SM_Rocks_04.SM_Rocks_04
+[2025.10.20-15.41.10:558][793]LogActorFactory: Actor Factory spawned StaticMesh /Game/facility/StylizedRocksLite_JC/Models/SM_Rocks_04.SM_Rocks_04 as actor: StaticMeshActor /Game/Promrtheus.Promrtheus:PersistentLevel.StaticMeshActor_29
+[2025.10.20-15.41.10:560][793]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/facility/StylizedRocksLite_JC/Models/SM_Rocks_05.SM_Rocks_05
+[2025.10.20-15.41.10:560][793]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/facility/StylizedRocksLite_JC/Models/SM_Rocks_05.SM_Rocks_05
+[2025.10.20-15.41.10:560][793]LogActorFactory: Actor Factory spawned StaticMesh /Game/facility/StylizedRocksLite_JC/Models/SM_Rocks_05.SM_Rocks_05 as actor: StaticMeshActor /Game/Promrtheus.Promrtheus:PersistentLevel.StaticMeshActor_30
+[2025.10.20-15.41.11:407][820]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.10.20-15.41.11:409][820]LogEditorActor: Deleted 0 Actors (0.024 secs)
+[2025.10.20-15.41.11:432][820]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.10.20-15.41.11:433][820]LogEditorActor: Deleted 0 Actors (0.024 secs)
+[2025.10.20-15.41.11:453][820]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2025.10.20-15.41.11:454][820]LogEditorActor: Deleted 0 Actors (0.021 secs)
+[2025.10.20-15.41.11:477][820]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.10.20-15.41.11:478][820]LogEditorActor: Deleted 0 Actors (0.023 secs)
+[2025.10.20-15.41.11:501][820]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2025.10.20-15.41.11:501][820]LogEditorActor: Deleted 0 Actors (0.023 secs)
+[2025.10.20-15.41.11:526][820]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/facility/StylizedRocksLite_JC/Models/SM_Rocks_01.SM_Rocks_01
+[2025.10.20-15.41.11:526][820]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/facility/StylizedRocksLite_JC/Models/SM_Rocks_01.SM_Rocks_01
+[2025.10.20-15.41.11:527][820]LogActorFactory: Actor Factory spawned StaticMesh /Game/facility/StylizedRocksLite_JC/Models/SM_Rocks_01.SM_Rocks_01 as actor: StaticMeshActor /Game/Promrtheus.Promrtheus:PersistentLevel.StaticMeshActor_31
+[2025.10.20-15.41.11:528][820]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/facility/StylizedRocksLite_JC/Models/SM_Rocks_02.SM_Rocks_02
+[2025.10.20-15.41.11:528][820]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/facility/StylizedRocksLite_JC/Models/SM_Rocks_02.SM_Rocks_02
+[2025.10.20-15.41.11:529][820]LogActorFactory: Actor Factory spawned StaticMesh /Game/facility/StylizedRocksLite_JC/Models/SM_Rocks_02.SM_Rocks_02 as actor: StaticMeshActor /Game/Promrtheus.Promrtheus:PersistentLevel.StaticMeshActor_32
+[2025.10.20-15.41.11:529][820]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/facility/StylizedRocksLite_JC/Models/SM_Rocks_03.SM_Rocks_03
+[2025.10.20-15.41.11:529][820]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/facility/StylizedRocksLite_JC/Models/SM_Rocks_03.SM_Rocks_03
+[2025.10.20-15.41.11:530][820]LogActorFactory: Actor Factory spawned StaticMesh /Game/facility/StylizedRocksLite_JC/Models/SM_Rocks_03.SM_Rocks_03 as actor: StaticMeshActor /Game/Promrtheus.Promrtheus:PersistentLevel.StaticMeshActor_33
+[2025.10.20-15.41.11:531][820]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/facility/StylizedRocksLite_JC/Models/SM_Rocks_04.SM_Rocks_04
+[2025.10.20-15.41.11:531][820]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/facility/StylizedRocksLite_JC/Models/SM_Rocks_04.SM_Rocks_04
+[2025.10.20-15.41.11:531][820]LogActorFactory: Actor Factory spawned StaticMesh /Game/facility/StylizedRocksLite_JC/Models/SM_Rocks_04.SM_Rocks_04 as actor: StaticMeshActor /Game/Promrtheus.Promrtheus:PersistentLevel.StaticMeshActor_34
+[2025.10.20-15.41.11:532][820]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/facility/StylizedRocksLite_JC/Models/SM_Rocks_05.SM_Rocks_05
+[2025.10.20-15.41.11:532][820]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/facility/StylizedRocksLite_JC/Models/SM_Rocks_05.SM_Rocks_05
+[2025.10.20-15.41.11:532][820]LogActorFactory: Actor Factory spawned StaticMesh /Game/facility/StylizedRocksLite_JC/Models/SM_Rocks_05.SM_Rocks_05 as actor: StaticMeshActor /Game/Promrtheus.Promrtheus:PersistentLevel.StaticMeshActor_35
+[2025.10.20-15.42.53:982][641]Cmd: DUPLICATE
+[2025.10.20-15.42.53:982][641]Cmd: ACTOR DUPLICATE
+[2025.10.20-15.42.54:420][653]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7055.549805
+[2025.10.20-15.42.54:603][659]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.20-15.42.54:603][659]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7055.702148, Update Interval: 333.586243
+[2025.10.20-15.43.27:334][722]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.20-15.43.27:445][722]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Promrtheus" FILE="../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Content/Promrtheus.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.20-15.43.27:483][722]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.10.20-15.43.27:740][722]LogSavePackage: Moving output files for package: /Game/Promrtheus
+[2025.10.20-15.43.27:740][722]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Saved/PromrtheusF24B643D447BAB53196A1E8E894D810F.tmp' to '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Content/Promrtheus.umap'
+[2025.10.20-15.43.27:750][722]LogFileHelpers: Saving map 'Promrtheus' took 0.305
+[2025.10.20-15.43.27:781][722]LogFileHelpers: InternalPromptForCheckoutAndSave took 446.449 ms (total: 1.69 sec)
+[2025.10.20-15.43.27:845][722]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.20-15.43.27:845][722]LogContentValidation: Enabled validators:
+[2025.10.20-15.43.27:845][722]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.20-15.43.27:845][722]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.20-15.43.27:845][722]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.20-15.43.27:845][722]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.20-15.43.27:845][722]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.20-15.43.27:845][722]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.20-15.43.27:845][722]AssetCheck: /Game/Promrtheus Validating asset
+[2025.10.20-15.43.43:409][585]LogEOSSDK: LogEOSAuth: Refreshing authentication session. AccessTokenExpired: No RefreshRequired: Yes VerifyRequired: No UserId: 4f4...07d
+[2025.10.20-15.43.43:409][585]LogEOSSDK: LogEOSAuth: Refresh authentication session. AuthState: 1 AccessExpires: 100 RefreshExpires: 1.554e+07
+[2025.10.20-15.43.47:592][ 59]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: 4f4...07d Access[Expires: 2025.10.20-17.43.47 Remaining: 7200.50] Refresh[Expires: 2026-04-18T11:40:13.071Z Remaining: 15537386.07] State: Valid
+[2025.10.20-15.44.37:584][340]Cmd: POLY SELECT ALL
