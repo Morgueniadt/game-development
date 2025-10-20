@@ -2890,3 +2890,725 @@ Sampler Limit: 32
 [2025.10.20-10.14.41:559][162]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.10.20-10.14.41:559][162]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.10.20-10.14.41:559][162]AssetCheck: /Game/Promrtheus Validating asset
+[2025.10.20-10.15.04:113][545]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2025.10.20-10.15.04:113][545]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2025.10.20-10.15.04:114][545]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Promrtheus.Promrtheus:PersistentLevel.StaticMeshActor_2
+[2025.10.20-10.15.04:115][545]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Promrtheus.Promrtheus:PersistentLevel.StaticMeshActor_2
+[2025.10.20-10.15.26:734][322]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2102.519043
+[2025.10.20-10.15.26:933][330]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.20-10.15.26:933][330]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2102.691895, Update Interval: 304.321411
+[2025.10.20-10.15.37:631][705]Cmd: TRANSACTION UNDO
+[2025.10.20-10.15.37:631][705]LogEditorTransaction: Undo Move Elements
+[2025.10.20-10.15.38:102][710]Cmd: TRANSACTION UNDO
+[2025.10.20-10.15.38:102][710]LogEditorTransaction: Undo Move Elements
+[2025.10.20-10.15.38:623][723]Cmd: TRANSACTION UNDO
+[2025.10.20-10.15.38:623][723]LogEditorTransaction: Undo Move Elements
+[2025.10.20-10.15.39:097][734]Cmd: TRANSACTION UNDO
+[2025.10.20-10.15.39:097][734]LogEditorTransaction: Undo Move Elements
+[2025.10.20-10.15.39:606][748]Cmd: TRANSACTION UNDO
+[2025.10.20-10.15.39:606][748]LogEditorTransaction: Undo Move Elements
+[2025.10.20-10.15.40:078][761]Cmd: TRANSACTION UNDO
+[2025.10.20-10.15.40:078][761]LogEditorTransaction: Undo Move Elements
+[2025.10.20-10.15.40:921][784]Cmd: TRANSACTION UNDO
+[2025.10.20-10.15.40:921][784]LogEditorTransaction: Undo Create Actor
+[2025.10.20-10.15.41:473][796]Cmd: TRANSACTION UNDO
+[2025.10.20-10.15.41:473][796]LogEditorTransaction: Undo Clicking on Elements
+[2025.10.20-10.15.54:890][389]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2025.10.20-10.16.04:702][704]Cmd: SELECT NONE
+[2025.10.20-10.16.08:398][803]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_collectible.BP_collectible_C
+[2025.10.20-10.16.08:398][803]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_collectible.BP_collectible_C
+[2025.10.20-10.16.08:400][803]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_collectible.BP_collectible as actor: BP_collectible_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_collectible_C_10
+[2025.10.20-10.16.08:401][803]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_collectible.BP_collectible as actor: BP_collectible_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_collectible_C_10
+[2025.10.20-10.16.10:454][861]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.10.20-10.16.10:457][861]LogEditorActor: Deleted 0 Actors (0.034 secs)
+[2025.10.20-10.16.10:485][861]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_collectible.BP_collectible_C
+[2025.10.20-10.16.10:485][861]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_collectible.BP_collectible_C
+[2025.10.20-10.16.10:486][861]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_collectible.BP_collectible as actor: BP_collectible_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_collectible_C_11
+[2025.10.20-10.16.10:488][861]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_collectible.BP_collectible as actor: BP_collectible_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_collectible_C_11
+[2025.10.20-10.16.19:550][427]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_collectible.BP_collectible_C
+[2025.10.20-10.16.19:550][427]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_collectible.BP_collectible_C
+[2025.10.20-10.16.19:552][427]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_collectible.BP_collectible as actor: BP_collectible_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_collectible_C_12
+[2025.10.20-10.16.19:553][427]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_collectible.BP_collectible as actor: BP_collectible_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_collectible_C_12
+[2025.10.20-10.16.20:413][492]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.10.20-10.16.20:417][492]LogEditorActor: Deleted 0 Actors (0.031 secs)
+[2025.10.20-10.16.20:426][492]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_collectible.BP_collectible_C
+[2025.10.20-10.16.20:426][492]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_collectible.BP_collectible_C
+[2025.10.20-10.16.20:428][492]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_collectible.BP_collectible as actor: BP_collectible_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_collectible_C_13
+[2025.10.20-10.16.20:430][492]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_collectible.BP_collectible as actor: BP_collectible_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_collectible_C_13
+[2025.10.20-10.16.27:571][858]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_collectible.BP_collectible_C
+[2025.10.20-10.16.27:571][858]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_collectible.BP_collectible_C
+[2025.10.20-10.16.27:574][858]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_collectible.BP_collectible as actor: BP_collectible_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_collectible_C_14
+[2025.10.20-10.16.27:575][858]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_collectible.BP_collectible as actor: BP_collectible_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_collectible_C_14
+[2025.10.20-10.16.28:317][912]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2025.10.20-10.16.28:322][912]LogEditorActor: Deleted 0 Actors (0.027 secs)
+[2025.10.20-10.16.28:330][912]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_collectible.BP_collectible_C
+[2025.10.20-10.16.28:330][912]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_collectible.BP_collectible_C
+[2025.10.20-10.16.28:332][912]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_collectible.BP_collectible as actor: BP_collectible_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_collectible_C_15
+[2025.10.20-10.16.28:333][912]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_collectible.BP_collectible as actor: BP_collectible_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_collectible_C_15
+[2025.10.20-10.17.49:205][ 89]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_collectible.BP_collectible_C
+[2025.10.20-10.17.49:206][ 89]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_collectible.BP_collectible_C
+[2025.10.20-10.17.49:207][ 89]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_collectible.BP_collectible as actor: BP_collectible_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_collectible_C_16
+[2025.10.20-10.17.49:208][ 89]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_collectible.BP_collectible as actor: BP_collectible_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_collectible_C_16
+[2025.10.20-10.17.50:334][162]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.10.20-10.17.50:338][162]LogEditorActor: Deleted 0 Actors (0.032 secs)
+[2025.10.20-10.17.50:353][162]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_collectible.BP_collectible_C
+[2025.10.20-10.17.50:353][162]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_collectible.BP_collectible_C
+[2025.10.20-10.17.50:355][162]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_collectible.BP_collectible as actor: BP_collectible_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_collectible_C_17
+[2025.10.20-10.17.50:357][162]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_collectible.BP_collectible as actor: BP_collectible_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_collectible_C_17
+[2025.10.20-10.20.32:871][163]LogStreaming: Display: FlushAsyncLoading(624): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.20-10.20.32:974][163]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_51
+[2025.10.20-10.20.33:454][176]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Collapsingfloor.BP_Collapsingfloor_C
+[2025.10.20-10.20.33:454][176]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Collapsingfloor.BP_Collapsingfloor_C
+[2025.10.20-10.20.33:456][176]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Collapsingfloor.BP_Collapsingfloor as actor: BP_Collapsingfloor_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Collapsingfloor_C_0
+[2025.10.20-10.20.33:458][176]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Collapsingfloor.BP_Collapsingfloor as actor: BP_Collapsingfloor_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Collapsingfloor_C_0
+[2025.10.20-10.20.36:339][274]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2025.10.20-10.20.36:352][274]LogEditorActor: Deleted 0 Actors (0.046 secs)
+[2025.10.20-10.20.36:373][274]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Collapsingfloor.BP_Collapsingfloor_C
+[2025.10.20-10.20.36:373][274]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Collapsingfloor.BP_Collapsingfloor_C
+[2025.10.20-10.20.36:375][274]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Collapsingfloor.BP_Collapsingfloor as actor: BP_Collapsingfloor_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Collapsingfloor_C_1
+[2025.10.20-10.20.36:377][274]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Collapsingfloor.BP_Collapsingfloor as actor: BP_Collapsingfloor_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Collapsingfloor_C_1
+[2025.10.20-10.20.46:185][203]Cmd: DUPLICATE
+[2025.10.20-10.20.46:185][203]Cmd: ACTOR DUPLICATE
+[2025.10.20-10.20.58:254][315]Cmd: DUPLICATE
+[2025.10.20-10.20.58:254][315]Cmd: ACTOR DUPLICATE
+[2025.10.20-10.21.04:009][871]Cmd: DUPLICATE
+[2025.10.20-10.21.04:009][871]Cmd: ACTOR DUPLICATE
+[2025.10.20-10.21.08:606][272]Cmd: DUPLICATE
+[2025.10.20-10.21.08:606][272]Cmd: ACTOR DUPLICATE
+[2025.10.20-10.21.11:517][537]Cmd: DUPLICATE
+[2025.10.20-10.21.11:517][537]Cmd: ACTOR DUPLICATE
+[2025.10.20-10.21.15:717][896]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2451.484131
+[2025.10.20-10.21.15:853][907]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.20-10.21.15:853][907]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2451.606934, Update Interval: 307.066254
+[2025.10.20-10.21.29:619][580]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.20-10.21.29:624][580]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.20-10.21.29:624][580]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Promrtheus
+[2025.10.20-10.21.29:665][580]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039694s)
+[2025.10.20-10.21.29:665][580]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Promrtheus.Promrtheus to /Game/UEDPIE_0_Promrtheus.Promrtheus (0.039727s)
+[2025.10.20-10.21.29:694][580]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.10.20-10.21.29:697][580]LogChaosDD: Creating Chaos Debug Draw Scene for world Promrtheus
+[2025.10.20-10.21.29:699][580]LogPlayLevel: PIE: World Init took: (0.001675s)
+[2025.10.20-10.21.29:699][580]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2025.10.20-10.21.29:699][580]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.20-10.21.29:699][580]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.20-10.21.29:699][580]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.20-10.21.29:699][580]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.20-10.21.29:699][580]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.20-10.21.29:699][580]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.20-10.21.29:699][580]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.20-10.21.29:699][580]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.20-10.21.29:699][580]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.20-10.21.29:699][580]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.20-10.21.29:699][580]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.20-10.21.29:701][580]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.20-10.21.29:721][580]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.20-10.21.29:723][580]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.20-10.21.29:723][580]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.20-10.21.29:723][580]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.20-10.21.29:723][580]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2025.10.20-10.21.29:723][580]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2025.10.20-10.21.29:725][580]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2025.10.20-10.21.29:725][580]LogInit: FAudioDevice initialized with ID 10.
+[2025.10.20-10.21.29:725][580]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2025.10.20-10.21.29:725][580]LogAudio: Display: Audio Device (ID: 10) registered with world 'Promrtheus'.
+[2025.10.20-10.21.29:725][580]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2025.10.20-10.21.29:728][580]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.10.20-10.21.29:738][580]LogWorld: Bringing World /Game/UEDPIE_0_Promrtheus.Promrtheus up for play (max tick rate 0) at 2025.10.20-11.21.29
+[2025.10.20-10.21.29:739][580]LogWorld: Bringing up level for play took: 0.010832
+[2025.10.20-10.21.29:741][580]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2025.10.20-10.21.29:746][580]PIE: Server logged in
+[2025.10.20-10.21.29:748][580]PIE: Play in editor total start time 0.124 seconds.
+[2025.10.20-10.21.34:084][750]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.20-10.21.34:084][750]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Promrtheus
+[2025.10.20-10.21.34:084][750]LogWorld: UWorld::CleanupWorld for Promrtheus, bSessionEnded=true, bCleanupResources=true
+[2025.10.20-10.21.34:085][750]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.20-10.21.34:111][750]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.20-10.21.34:114][750]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.20-10.21.34:143][750]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.20-10.21.34:143][750]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2025.10.20-10.21.34:143][750]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=4
+[2025.10.20-10.21.34:145][750]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=2
+[2025.10.20-10.21.34:149][750]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.20-10.21.34:151][750]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.10.20-10.21.34:210][751]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2025.10.20-10.22.01:702][968]Cmd: DUPLICATE
+[2025.10.20-10.22.01:702][968]Cmd: ACTOR DUPLICATE
+[2025.10.20-10.22.14:696][ 23]Cmd: DUPLICATE
+[2025.10.20-10.22.14:696][ 23]Cmd: ACTOR DUPLICATE
+[2025.10.20-10.22.31:597][390]Cmd: DUPLICATE
+[2025.10.20-10.22.31:597][390]Cmd: ACTOR DUPLICATE
+[2025.10.20-10.22.40:682][883]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.20-10.22.40:741][883]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Promrtheus" FILE="../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Content/Promrtheus.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.20-10.22.40:787][883]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2025.10.20-10.22.41:020][883]LogSavePackage: Moving output files for package: /Game/Promrtheus
+[2025.10.20-10.22.41:021][883]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Saved/Promrtheus7D29DB0B4CE866DA064EC3A5F719D01C.tmp' to '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Content/Promrtheus.umap'
+[2025.10.20-10.22.41:029][883]LogFileHelpers: Saving map 'Promrtheus' took 0.289
+[2025.10.20-10.22.41:036][883]LogFileHelpers: InternalPromptForCheckoutAndSave took 354.568 ms (total: 3.43 sec)
+[2025.10.20-10.22.41:091][883]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.20-10.22.41:091][883]LogContentValidation: Enabled validators:
+[2025.10.20-10.22.41:091][883]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.20-10.22.41:091][883]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.20-10.22.41:091][883]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.20-10.22.41:091][883]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.20-10.22.41:091][883]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.20-10.22.41:091][883]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.20-10.22.41:091][883]AssetCheck: /Game/Promrtheus Validating asset
+[2025.10.20-10.27.01:994][421]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2797.756104
+[2025.10.20-10.27.02:172][433]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.20-10.27.02:174][433]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2797.909424, Update Interval: 320.914948
+[2025.10.20-10.27.27:369][730]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2025.10.20-10.27.27:369][730]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2025.10.20-10.27.27:370][730]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Promrtheus.Promrtheus:PersistentLevel.StaticMeshActor_15
+[2025.10.20-10.27.27:370][730]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Promrtheus.Promrtheus:PersistentLevel.StaticMeshActor_15
+[2025.10.20-10.27.29:312][906]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.10.20-10.27.29:316][906]LogEditorActor: Deleted 0 Actors (0.045 secs)
+[2025.10.20-10.27.29:326][906]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2025.10.20-10.27.29:326][906]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2025.10.20-10.27.29:327][906]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Promrtheus.Promrtheus:PersistentLevel.StaticMeshActor_16
+[2025.10.20-10.27.29:329][906]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Promrtheus.Promrtheus:PersistentLevel.StaticMeshActor_16
+[2025.10.20-10.27.59:125][765]Cmd: DELETE
+[2025.10.20-10.27.59:125][765]Cmd: ACTOR DELETE
+[2025.10.20-10.27.59:140][765]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.20-10.27.59:175][765]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2025.10.20-10.27.59:179][765]LogEditorActor: Deleted 1 Actors (0.055 secs)
+[2025.10.20-10.28.45:429][252]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_52
+[2025.10.20-10.28.45:823][261]LogMaterial: Warning: [AssetLog] C:\Epic Games\UE_5.6\Engine\Content\Functions\Engine_MaterialFunctions02\Texturing\3dParticleOpacity.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Only transparent or postprocess materials can read from scene depth.
+
+[2025.10.20-10.28.45:823][261]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_53
+[2025.10.20-10.28.46:211][270]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_54
+[2025.10.20-10.28.52:537][414]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Fab/Skull/skull/StaticMeshes/skull.skull
+[2025.10.20-10.28.52:537][414]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Fab/Skull/skull/StaticMeshes/skull.skull
+[2025.10.20-10.28.52:537][414]LogActorFactory: Actor Factory spawned StaticMesh /Game/Fab/Skull/skull/StaticMeshes/skull.skull as actor: StaticMeshActor /Game/Promrtheus.Promrtheus:PersistentLevel.StaticMeshActor_17
+[2025.10.20-10.29.00:276][648]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.10.20-10.29.00:278][648]LogEditorActor: Deleted 0 Actors (0.026 secs)
+[2025.10.20-10.29.00:310][648]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Fab/Skull/skull/StaticMeshes/skull.skull
+[2025.10.20-10.29.00:310][648]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Fab/Skull/skull/StaticMeshes/skull.skull
+[2025.10.20-10.29.00:310][648]LogActorFactory: Actor Factory spawned StaticMesh /Game/Fab/Skull/skull/StaticMeshes/skull.skull as actor: StaticMeshActor /Game/Promrtheus.Promrtheus:PersistentLevel.StaticMeshActor_19
+[2025.10.20-10.29.02:530][717]Cmd: TRANSACTION UNDO
+[2025.10.20-10.29.02:530][717]LogEditorTransaction: Undo Place Objects
+[2025.10.20-10.30.13:908][352]LogStreaming: Display: FlushAsyncLoading(625): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.20-10.30.13:953][352]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_55
+[2025.10.20-10.30.14:281][373]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Movingwalls.BP_Movingwalls_C
+[2025.10.20-10.30.14:281][373]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Movingwalls.BP_Movingwalls_C
+[2025.10.20-10.30.14:283][373]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Movingwalls.BP_Movingwalls as actor: BP_Movingwalls_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Movingwalls_C_0
+[2025.10.20-10.30.14:285][373]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Movingwalls.BP_Movingwalls as actor: BP_Movingwalls_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Movingwalls_C_0
+[2025.10.20-10.30.15:525][476]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2025.10.20-10.30.15:550][476]LogEditorActor: Deleted 0 Actors (0.063 secs)
+[2025.10.20-10.30.15:560][476]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Movingwalls.BP_Movingwalls_C
+[2025.10.20-10.30.15:560][476]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Movingwalls.BP_Movingwalls_C
+[2025.10.20-10.30.15:562][476]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Movingwalls.BP_Movingwalls as actor: BP_Movingwalls_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Movingwalls_C_1
+[2025.10.20-10.30.15:563][476]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Movingwalls.BP_Movingwalls as actor: BP_Movingwalls_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Movingwalls_C_1
+[2025.10.20-10.31.30:190][705]Cmd: DUPLICATE
+[2025.10.20-10.31.30:190][705]Cmd: ACTOR DUPLICATE
+[2025.10.20-10.31.55:296][927]Cmd: DUPLICATE
+[2025.10.20-10.31.55:296][927]Cmd: ACTOR DUPLICATE
+[2025.10.20-10.32.33:437][ 82]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.20-10.32.33:443][ 82]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.20-10.32.33:443][ 82]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Promrtheus
+[2025.10.20-10.32.33:491][ 82]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048062s)
+[2025.10.20-10.32.33:491][ 82]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Promrtheus.Promrtheus to /Game/UEDPIE_0_Promrtheus.Promrtheus (0.048103s)
+[2025.10.20-10.32.33:528][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.10.20-10.32.33:530][ 82]LogChaosDD: Creating Chaos Debug Draw Scene for world Promrtheus
+[2025.10.20-10.32.33:532][ 82]LogPlayLevel: PIE: World Init took: (0.001563s)
+[2025.10.20-10.32.33:532][ 82]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2025.10.20-10.32.33:532][ 82]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.20-10.32.33:532][ 82]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.20-10.32.33:532][ 82]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.20-10.32.33:532][ 82]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.20-10.32.33:532][ 82]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.20-10.32.33:532][ 82]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.20-10.32.33:532][ 82]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.20-10.32.33:532][ 82]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.20-10.32.33:532][ 82]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.20-10.32.33:532][ 82]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.20-10.32.33:532][ 82]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.20-10.32.33:534][ 82]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.20-10.32.33:560][ 82]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.20-10.32.33:560][ 82]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.20-10.32.33:560][ 82]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.20-10.32.33:560][ 82]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.20-10.32.33:561][ 82]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2025.10.20-10.32.33:561][ 82]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2025.10.20-10.32.33:562][ 82]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2025.10.20-10.32.33:562][ 82]LogInit: FAudioDevice initialized with ID 11.
+[2025.10.20-10.32.33:562][ 82]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2025.10.20-10.32.33:562][ 82]LogAudio: Display: Audio Device (ID: 11) registered with world 'Promrtheus'.
+[2025.10.20-10.32.33:562][ 82]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2025.10.20-10.32.33:567][ 82]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.10.20-10.32.33:580][ 82]LogWorld: Bringing World /Game/UEDPIE_0_Promrtheus.Promrtheus up for play (max tick rate 0) at 2025.10.20-11.32.33
+[2025.10.20-10.32.33:581][ 82]LogWorld: Bringing up level for play took: 0.012733
+[2025.10.20-10.32.33:583][ 82]LogOnline: OSS: Created online subsystem instance for: :Context_43
+[2025.10.20-10.32.33:588][ 82]PIE: Server logged in
+[2025.10.20-10.32.33:590][ 82]PIE: Play in editor total start time 0.147 seconds.
+[2025.10.20-10.32.41:795][409]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.20-10.32.41:795][409]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Promrtheus
+[2025.10.20-10.32.41:796][409]LogWorld: UWorld::CleanupWorld for Promrtheus, bSessionEnded=true, bCleanupResources=true
+[2025.10.20-10.32.41:796][409]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.20-10.32.41:814][409]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.20-10.32.41:816][409]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.20-10.32.41:839][409]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.20-10.32.41:839][409]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2025.10.20-10.32.41:839][409]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11, StreamState=4
+[2025.10.20-10.32.41:841][409]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11, StreamState=2
+[2025.10.20-10.32.41:847][409]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.20-10.32.41:850][409]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.10.20-10.32.41:926][410]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2025.10.20-10.32.53:153][400]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.20-10.32.53:159][400]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.20-10.32.53:196][400]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Promrtheus
+[2025.10.20-10.32.53:238][400]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042816s)
+[2025.10.20-10.32.53:238][400]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Promrtheus.Promrtheus to /Game/UEDPIE_0_Promrtheus.Promrtheus (0.042861s)
+[2025.10.20-10.32.53:262][400]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.10.20-10.32.53:265][400]LogChaosDD: Creating Chaos Debug Draw Scene for world Promrtheus
+[2025.10.20-10.32.53:266][400]LogPlayLevel: PIE: World Init took: (0.001705s)
+[2025.10.20-10.32.53:267][400]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2025.10.20-10.32.53:267][400]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.20-10.32.53:267][400]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.20-10.32.53:267][400]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.20-10.32.53:267][400]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.20-10.32.53:267][400]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.20-10.32.53:267][400]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.20-10.32.53:267][400]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.20-10.32.53:267][400]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.20-10.32.53:267][400]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.20-10.32.53:267][400]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.20-10.32.53:267][400]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.20-10.32.53:269][400]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.20-10.32.53:292][400]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.20-10.32.53:292][400]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.20-10.32.53:292][400]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.20-10.32.53:292][400]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.20-10.32.53:292][400]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2025.10.20-10.32.53:292][400]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2025.10.20-10.32.53:295][400]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2025.10.20-10.32.53:295][400]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2025.10.20-10.32.53:295][400]LogInit: FAudioDevice initialized with ID 12.
+[2025.10.20-10.32.53:295][400]LogAudio: Display: Audio Device (ID: 12) registered with world 'Promrtheus'.
+[2025.10.20-10.32.53:295][400]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2025.10.20-10.32.53:299][400]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.10.20-10.32.53:311][400]LogWorld: Bringing World /Game/UEDPIE_0_Promrtheus.Promrtheus up for play (max tick rate 0) at 2025.10.20-11.32.53
+[2025.10.20-10.32.53:312][400]LogWorld: Bringing up level for play took: 0.012995
+[2025.10.20-10.32.53:314][400]LogOnline: OSS: Created online subsystem instance for: :Context_44
+[2025.10.20-10.32.53:319][400]PIE: Server logged in
+[2025.10.20-10.32.53:321][400]PIE: Play in editor total start time 0.162 seconds.
+[2025.10.20-10.32.57:047][546]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.20-10.32.57:047][546]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Promrtheus
+[2025.10.20-10.32.57:047][546]LogWorld: UWorld::CleanupWorld for Promrtheus, bSessionEnded=true, bCleanupResources=true
+[2025.10.20-10.32.57:047][546]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.20-10.32.57:066][546]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.20-10.32.57:068][546]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.20-10.32.57:100][546]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.20-10.32.57:100][546]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2025.10.20-10.32.57:100][546]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12, StreamState=4
+[2025.10.20-10.32.57:101][546]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12, StreamState=2
+[2025.10.20-10.32.57:105][546]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.20-10.32.57:108][546]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2025.10.20-10.32.57:167][547]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2025.10.20-10.33.00:025][666]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3155.800781
+[2025.10.20-10.33.00:192][673]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.20-10.33.00:192][673]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3155.943604, Update Interval: 356.412842
+[2025.10.20-10.33.00:626][690]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/facility/BP_Movingwalls.BP_Movingwalls
+[2025.10.20-10.33.00:627][690]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_56
+[2025.10.20-10.33.17:749][504]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.20-10.33.17:802][504]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/facility/BP_Movingwalls] ([2] browsable assets)...
+[2025.10.20-10.33.17:802][504]OBJ SavePackage: Finished generating thumbnails for package [/Game/facility/BP_Movingwalls]
+[2025.10.20-10.33.17:802][504]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/facility/BP_Movingwalls" FILE="../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Content/facility/BP_Movingwalls.uasset" SILENT=true
+[2025.10.20-10.33.17:815][504]LogSavePackage: Moving output files for package: /Game/facility/BP_Movingwalls
+[2025.10.20-10.33.17:815][504]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Saved/BP_MovingwallsCADAF0134AD054558D1A7F95CC6DA937.tmp' to '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Content/facility/BP_Movingwalls.uasset'
+[2025.10.20-10.33.17:823][504]LogFileHelpers: InternalPromptForCheckoutAndSave took 73.586 ms (total: 3.50 sec)
+[2025.10.20-10.33.17:886][504]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.20-10.33.17:886][504]LogContentValidation: Enabled validators:
+[2025.10.20-10.33.17:886][504]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.20-10.33.17:886][504]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.20-10.33.17:886][504]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.20-10.33.17:886][504]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.20-10.33.17:886][504]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.20-10.33.17:886][504]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.20-10.33.17:887][504]AssetCheck: /Game/facility/BP_Movingwalls Validating asset
+[2025.10.20-10.33.36:774][ 10]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.20-10.33.36:852][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Promrtheus" FILE="../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Content/Promrtheus.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.20-10.33.36:905][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.10.20-10.33.37:124][ 10]LogSavePackage: Moving output files for package: /Game/Promrtheus
+[2025.10.20-10.33.37:124][ 10]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Saved/Promrtheus8625803543F03E97DBABA9A0FCDE3EF7.tmp' to '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Content/Promrtheus.umap'
+[2025.10.20-10.33.37:133][ 10]LogFileHelpers: Saving map 'Promrtheus' took 0.281
+[2025.10.20-10.33.37:140][ 10]LogFileHelpers: InternalPromptForCheckoutAndSave took 365.578 ms (total: 3.87 sec)
+[2025.10.20-10.33.37:198][ 10]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.20-10.33.37:198][ 10]LogContentValidation: Enabled validators:
+[2025.10.20-10.33.37:198][ 10]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.20-10.33.37:198][ 10]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.20-10.33.37:198][ 10]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.20-10.33.37:199][ 10]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.20-10.33.37:199][ 10]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.20-10.33.37:199][ 10]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.20-10.33.37:199][ 10]AssetCheck: /Game/Promrtheus Validating asset
+[2025.10.20-10.33.37:829][ 71]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.20-10.33.37:836][ 71]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.20-10.33.37:866][ 71]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Promrtheus
+[2025.10.20-10.33.37:912][ 71]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046668s)
+[2025.10.20-10.33.37:912][ 71]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Promrtheus.Promrtheus to /Game/UEDPIE_0_Promrtheus.Promrtheus (0.046709s)
+[2025.10.20-10.33.37:938][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.10.20-10.33.37:940][ 71]LogChaosDD: Creating Chaos Debug Draw Scene for world Promrtheus
+[2025.10.20-10.33.37:941][ 71]LogPlayLevel: PIE: World Init took: (0.001440s)
+[2025.10.20-10.33.37:942][ 71]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2025.10.20-10.33.37:942][ 71]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.20-10.33.37:942][ 71]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.20-10.33.37:942][ 71]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.20-10.33.37:942][ 71]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.20-10.33.37:942][ 71]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.20-10.33.37:942][ 71]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.20-10.33.37:942][ 71]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.20-10.33.37:942][ 71]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.20-10.33.37:942][ 71]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.20-10.33.37:942][ 71]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.20-10.33.37:942][ 71]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.20-10.33.37:943][ 71]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.20-10.33.37:966][ 71]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.20-10.33.37:966][ 71]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.20-10.33.37:966][ 71]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.20-10.33.37:967][ 71]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.20-10.33.37:967][ 71]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2025.10.20-10.33.37:967][ 71]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2025.10.20-10.33.37:970][ 71]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2025.10.20-10.33.37:970][ 71]LogInit: FAudioDevice initialized with ID 13.
+[2025.10.20-10.33.37:970][ 71]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2025.10.20-10.33.37:970][ 71]LogAudio: Display: Audio Device (ID: 13) registered with world 'Promrtheus'.
+[2025.10.20-10.33.37:970][ 71]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2025.10.20-10.33.37:973][ 71]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.10.20-10.33.37:986][ 71]LogWorld: Bringing World /Game/UEDPIE_0_Promrtheus.Promrtheus up for play (max tick rate 0) at 2025.10.20-11.33.37
+[2025.10.20-10.33.37:986][ 71]LogWorld: Bringing up level for play took: 0.012557
+[2025.10.20-10.33.37:988][ 71]LogOnline: OSS: Created online subsystem instance for: :Context_46
+[2025.10.20-10.33.37:993][ 71]PIE: Server logged in
+[2025.10.20-10.33.37:996][ 71]PIE: Play in editor total start time 0.16 seconds.
+[2025.10.20-10.33.45:736][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.20-10.33.45:736][373]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Promrtheus
+[2025.10.20-10.33.45:736][373]LogWorld: UWorld::CleanupWorld for Promrtheus, bSessionEnded=true, bCleanupResources=true
+[2025.10.20-10.33.45:737][373]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.20-10.33.45:745][373]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.20-10.33.45:748][373]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.20-10.33.45:771][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.20-10.33.45:772][373]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2025.10.20-10.33.45:772][373]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13, StreamState=4
+[2025.10.20-10.33.45:773][373]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13, StreamState=2
+[2025.10.20-10.33.45:781][373]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.10.20-10.33.45:838][374]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2025.10.20-10.33.54:187][ 45]LogStreaming: Display: FlushAsyncLoading(626): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.20-10.33.54:219][ 45]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_57
+[2025.10.20-10.33.54:366][ 48]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_movingplatform.BP_movingplatform_C
+[2025.10.20-10.33.54:366][ 48]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_movingplatform.BP_movingplatform_C
+[2025.10.20-10.33.54:368][ 48]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_movingplatform.BP_movingplatform as actor: BP_movingplatform_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_movingplatform_C_0
+[2025.10.20-10.33.54:368][ 48]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_movingplatform.BP_movingplatform as actor: BP_movingplatform_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_movingplatform_C_0
+[2025.10.20-10.33.55:657][148]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.10.20-10.33.55:669][148]LogEditorActor: Deleted 0 Actors (0.045 secs)
+[2025.10.20-10.33.55:679][148]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_movingplatform.BP_movingplatform_C
+[2025.10.20-10.33.55:679][148]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_movingplatform.BP_movingplatform_C
+[2025.10.20-10.33.55:681][148]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_movingplatform.BP_movingplatform as actor: BP_movingplatform_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_movingplatform_C_1
+[2025.10.20-10.33.55:682][148]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_movingplatform.BP_movingplatform as actor: BP_movingplatform_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_movingplatform_C_1
+[2025.10.20-10.34.26:593][840]Cmd: TRANSACTION UNDO
+[2025.10.20-10.34.26:595][840]LogEditorTransaction: Undo Clicking on Elements
+[2025.10.20-10.34.27:606][895]Cmd: TRANSACTION UNDO
+[2025.10.20-10.34.27:606][895]LogEditorTransaction: Undo Clicking on Elements
+[2025.10.20-10.34.28:097][937]Cmd: TRANSACTION UNDO
+[2025.10.20-10.34.28:097][937]LogEditorTransaction: Undo Set Location
+[2025.10.20-10.34.37:020][770]Cmd: TRANSACTION UNDO
+[2025.10.20-10.34.37:020][770]LogEditorTransaction: Undo Clicking on Elements
+[2025.10.20-10.34.37:678][790]Cmd: TRANSACTION UNDO
+[2025.10.20-10.34.37:678][790]LogEditorTransaction: Undo Set Location
+[2025.10.20-10.35.11:211][756]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.20-10.35.11:217][756]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.20-10.35.11:217][756]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Promrtheus
+[2025.10.20-10.35.11:270][756]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052235s)
+[2025.10.20-10.35.11:270][756]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Promrtheus.Promrtheus to /Game/UEDPIE_0_Promrtheus.Promrtheus (0.052272s)
+[2025.10.20-10.35.11:301][756]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.10.20-10.35.11:305][756]LogChaosDD: Creating Chaos Debug Draw Scene for world Promrtheus
+[2025.10.20-10.35.11:307][756]LogPlayLevel: PIE: World Init took: (0.001639s)
+[2025.10.20-10.35.11:308][756]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2025.10.20-10.35.11:308][756]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.20-10.35.11:308][756]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.20-10.35.11:308][756]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.20-10.35.11:308][756]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.20-10.35.11:308][756]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.20-10.35.11:308][756]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.20-10.35.11:308][756]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.20-10.35.11:308][756]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.20-10.35.11:308][756]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.20-10.35.11:308][756]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.20-10.35.11:308][756]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.20-10.35.11:310][756]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.20-10.35.11:333][756]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.20-10.35.11:333][756]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.20-10.35.11:333][756]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.20-10.35.11:333][756]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.20-10.35.11:334][756]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2025.10.20-10.35.11:334][756]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2025.10.20-10.35.11:335][756]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2025.10.20-10.35.11:335][756]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2025.10.20-10.35.11:335][756]LogInit: FAudioDevice initialized with ID 14.
+[2025.10.20-10.35.11:335][756]LogAudio: Display: Audio Device (ID: 14) registered with world 'Promrtheus'.
+[2025.10.20-10.35.11:335][756]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2025.10.20-10.35.11:339][756]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.10.20-10.35.11:353][756]LogWorld: Bringing World /Game/UEDPIE_0_Promrtheus.Promrtheus up for play (max tick rate 0) at 2025.10.20-11.35.11
+[2025.10.20-10.35.11:353][756]LogWorld: Bringing up level for play took: 0.013382
+[2025.10.20-10.35.11:355][756]LogOnline: OSS: Created online subsystem instance for: :Context_48
+[2025.10.20-10.35.11:361][756]PIE: Server logged in
+[2025.10.20-10.35.11:363][756]PIE: Play in editor total start time 0.146 seconds.
+[2025.10.20-10.35.14:536][873]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.20-10.35.14:536][873]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Promrtheus
+[2025.10.20-10.35.14:537][873]LogWorld: UWorld::CleanupWorld for Promrtheus, bSessionEnded=true, bCleanupResources=true
+[2025.10.20-10.35.14:538][873]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.20-10.35.14:549][873]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.20-10.35.14:552][873]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.20-10.35.14:586][873]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.20-10.35.14:586][873]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2025.10.20-10.35.14:586][873]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14, StreamState=4
+[2025.10.20-10.35.14:588][873]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14, StreamState=2
+[2025.10.20-10.35.14:592][873]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.20-10.35.14:594][873]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2025.10.20-10.35.14:651][874]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2025.10.20-10.35.18:867][176]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.20-10.35.18:900][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Promrtheus" FILE="../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Content/Promrtheus.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.20-10.35.18:954][176]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2025.10.20-10.35.19:183][176]LogSavePackage: Moving output files for package: /Game/Promrtheus
+[2025.10.20-10.35.19:183][176]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Saved/PromrtheusABD577F44C9DDF8D54B47FAA90AE90F3.tmp' to '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Content/Promrtheus.umap'
+[2025.10.20-10.35.19:191][176]LogFileHelpers: Saving map 'Promrtheus' took 0.290
+[2025.10.20-10.35.19:198][176]LogFileHelpers: InternalPromptForCheckoutAndSave took 331.008 ms (total: 4.20 sec)
+[2025.10.20-10.35.19:233][176]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.20-10.35.19:233][176]LogContentValidation: Enabled validators:
+[2025.10.20-10.35.19:233][176]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.20-10.35.19:233][176]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.20-10.35.19:233][176]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.20-10.35.19:233][176]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.20-10.35.19:233][176]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.20-10.35.19:233][176]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.20-10.35.19:233][176]AssetCheck: /Game/Promrtheus Validating asset
+[2025.10.20-10.35.21:035][312]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/facility/BP_movingplatform.BP_movingplatform
+[2025.10.20-10.35.21:036][312]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_58
+[2025.10.20-10.36.16:473][552]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.20-10.36.16:543][552]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/facility/BP_movingplatform] ([2] browsable assets)...
+[2025.10.20-10.36.16:547][552]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/facility/BP_movingplatform.BP_movingplatform]
+[2025.10.20-10.36.16:547][552]OBJ SavePackage: Finished generating thumbnails for package [/Game/facility/BP_movingplatform]
+[2025.10.20-10.36.16:547][552]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/facility/BP_movingplatform" FILE="../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Content/facility/BP_movingplatform.uasset" SILENT=true
+[2025.10.20-10.36.16:557][552]LogSavePackage: Moving output files for package: /Game/facility/BP_movingplatform
+[2025.10.20-10.36.16:558][552]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Saved/BP_movingplatform58DB0E82482E541BDCF2F69CC5D2CB1C.tmp' to '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Content/facility/BP_movingplatform.uasset'
+[2025.10.20-10.36.16:565][552]LogFileHelpers: InternalPromptForCheckoutAndSave took 92.458 ms (total: 4.29 sec)
+[2025.10.20-10.36.16:635][552]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.20-10.36.16:635][552]LogContentValidation: Enabled validators:
+[2025.10.20-10.36.16:635][552]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.20-10.36.16:635][552]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.20-10.36.16:635][552]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.20-10.36.16:635][552]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.20-10.36.16:635][552]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.20-10.36.16:635][552]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.20-10.36.16:635][552]AssetCheck: /Game/facility/BP_movingplatform Validating asset
+[2025.10.20-10.36.17:193][604]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2025.10.20-10.36.24:074][193]LogStreaming: Display: FlushAsyncLoading(627): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.20-10.36.24:127][193]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_59
+[2025.10.20-10.36.24:309][200]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_rotatingTiles.BP_rotatingTiles_C
+[2025.10.20-10.36.24:309][200]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_rotatingTiles.BP_rotatingTiles_C
+[2025.10.20-10.36.24:311][200]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_rotatingTiles.BP_rotatingTiles as actor: BP_rotatingTiles_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_rotatingTiles_C_0
+[2025.10.20-10.36.24:312][200]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_rotatingTiles.BP_rotatingTiles as actor: BP_rotatingTiles_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_rotatingTiles_C_0
+[2025.10.20-10.36.25:799][309]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.10.20-10.36.25:811][309]LogEditorActor: Deleted 0 Actors (0.057 secs)
+[2025.10.20-10.36.25:822][309]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_rotatingTiles.BP_rotatingTiles_C
+[2025.10.20-10.36.25:822][309]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_rotatingTiles.BP_rotatingTiles_C
+[2025.10.20-10.36.25:824][309]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_rotatingTiles.BP_rotatingTiles as actor: BP_rotatingTiles_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_rotatingTiles_C_1
+[2025.10.20-10.36.25:825][309]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_rotatingTiles.BP_rotatingTiles as actor: BP_rotatingTiles_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_rotatingTiles_C_1
+[2025.10.20-10.36.52:400][527]Cmd: DELETE
+[2025.10.20-10.36.52:400][527]Cmd: ACTOR DELETE
+[2025.10.20-10.36.52:418][527]LogEditorActor: Deleted Actor: BP_movingplatform_C
+[2025.10.20-10.36.52:463][527]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.10.20-10.36.52:466][527]LogEditorActor: Deleted 1 Actors (0.066 secs)
+[2025.10.20-10.37.19:639][639]Cmd: DUPLICATE
+[2025.10.20-10.37.19:639][639]Cmd: ACTOR DUPLICATE
+[2025.10.20-10.37.22:288][866]Cmd: TRANSACTION UNDO
+[2025.10.20-10.37.22:288][866]LogEditorTransaction: Undo Move Elements
+[2025.10.20-10.37.29:116][394]Cmd: DUPLICATE
+[2025.10.20-10.37.29:116][394]Cmd: ACTOR DUPLICATE
+[2025.10.20-10.37.34:281][702]Cmd: TRANSACTION UNDO
+[2025.10.20-10.37.34:281][702]LogEditorTransaction: Undo Move Elements
+[2025.10.20-10.39.54:212][481]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3569.984375
+[2025.10.20-10.39.54:457][494]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.20-10.39.54:457][494]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3570.160156, Update Interval: 333.626526
+[2025.10.20-10.39.54:616][506]Cmd: DUPLICATE
+[2025.10.20-10.39.54:616][506]Cmd: ACTOR DUPLICATE
+[2025.10.20-10.40.13:319][713]Cmd: DUPLICATE
+[2025.10.20-10.40.13:319][713]Cmd: ACTOR DUPLICATE
+[2025.10.20-10.40.50:888][516]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.10.20-10.40.50:888][516]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.10.20-10.40.50:889][516]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Promrtheus.Promrtheus:PersistentLevel.StaticMeshActor_21
+[2025.10.20-10.40.50:889][516]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Promrtheus.Promrtheus:PersistentLevel.StaticMeshActor_21
+[2025.10.20-10.40.52:932][672]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2025.10.20-10.40.52:934][672]LogEditorActor: Deleted 0 Actors (0.060 secs)
+[2025.10.20-10.40.52:945][672]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.10.20-10.40.52:945][672]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.10.20-10.40.52:946][672]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Promrtheus.Promrtheus:PersistentLevel.StaticMeshActor_22
+[2025.10.20-10.40.52:946][672]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Promrtheus.Promrtheus:PersistentLevel.StaticMeshActor_22
+[2025.10.20-10.41.56:796][835]Cmd: DUPLICATE
+[2025.10.20-10.41.56:797][835]Cmd: ACTOR DUPLICATE
+[2025.10.20-10.42.10:244][540]LogDerivedDataCache: C:/Users/N00230651/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.10.20-10.42.44:957][423]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2025.10.20-10.42.44:957][423]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2025.10.20-10.42.44:957][423]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Promrtheus.Promrtheus:PersistentLevel.StaticMeshActor_24
+[2025.10.20-10.42.44:958][423]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Promrtheus.Promrtheus:PersistentLevel.StaticMeshActor_24
+[2025.10.20-10.42.46:855][503]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2025.10.20-10.42.46:858][503]LogEditorActor: Deleted 0 Actors (0.045 secs)
+[2025.10.20-10.42.46:877][503]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2025.10.20-10.42.46:877][503]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2025.10.20-10.42.46:878][503]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Promrtheus.Promrtheus:PersistentLevel.StaticMeshActor_25
+[2025.10.20-10.42.46:878][503]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Promrtheus.Promrtheus:PersistentLevel.StaticMeshActor_25
+[2025.10.20-10.44.07:189][758]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Turret_fire.BP_Turret_fire_C
+[2025.10.20-10.44.07:189][758]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Turret_fire.BP_Turret_fire_C
+[2025.10.20-10.44.07:190][758]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Turret_fire.BP_Turret_fire as actor: BP_Turret_fire_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Turret_fire_C_0
+[2025.10.20-10.44.07:192][758]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Turret_fire.BP_Turret_fire as actor: BP_Turret_fire_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Turret_fire_C_0
+[2025.10.20-10.44.09:767][938]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2025.10.20-10.44.09:772][938]LogEditorActor: Deleted 0 Actors (0.043 secs)
+[2025.10.20-10.44.09:784][938]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Turret_fire.BP_Turret_fire_C
+[2025.10.20-10.44.09:784][938]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Turret_fire.BP_Turret_fire_C
+[2025.10.20-10.44.09:786][938]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Turret_fire.BP_Turret_fire as actor: BP_Turret_fire_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Turret_fire_C_1
+[2025.10.20-10.44.09:788][938]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Turret_fire.BP_Turret_fire as actor: BP_Turret_fire_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Turret_fire_C_1
+[2025.10.20-10.44.25:556][ 49]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Turret_fire.BP_Turret_fire_C
+[2025.10.20-10.44.25:556][ 49]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Turret_fire.BP_Turret_fire_C
+[2025.10.20-10.44.25:557][ 49]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Turret_fire.BP_Turret_fire as actor: BP_Turret_fire_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Turret_fire_C_2
+[2025.10.20-10.44.25:558][ 49]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Turret_fire.BP_Turret_fire as actor: BP_Turret_fire_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Turret_fire_C_2
+[2025.10.20-10.44.28:148][250]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.10.20-10.44.28:151][250]LogEditorActor: Deleted 0 Actors (0.040 secs)
+[2025.10.20-10.44.28:165][250]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Turret_fire.BP_Turret_fire_C
+[2025.10.20-10.44.28:165][250]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Turret_fire.BP_Turret_fire_C
+[2025.10.20-10.44.28:167][250]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Turret_fire.BP_Turret_fire as actor: BP_Turret_fire_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Turret_fire_C_3
+[2025.10.20-10.44.28:168][250]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Turret_fire.BP_Turret_fire as actor: BP_Turret_fire_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Turret_fire_C_3
+[2025.10.20-10.44.34:805][684]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Turret_fire.BP_Turret_fire_C
+[2025.10.20-10.44.34:805][684]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Turret_fire.BP_Turret_fire_C
+[2025.10.20-10.44.34:807][684]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Turret_fire.BP_Turret_fire as actor: BP_Turret_fire_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Turret_fire_C_4
+[2025.10.20-10.44.34:808][684]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Turret_fire.BP_Turret_fire as actor: BP_Turret_fire_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Turret_fire_C_4
+[2025.10.20-10.44.36:098][776]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2025.10.20-10.44.36:101][776]LogEditorActor: Deleted 0 Actors (0.034 secs)
+[2025.10.20-10.44.36:114][776]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Turret_fire.BP_Turret_fire_C
+[2025.10.20-10.44.36:114][776]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Turret_fire.BP_Turret_fire_C
+[2025.10.20-10.44.36:115][776]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Turret_fire.BP_Turret_fire as actor: BP_Turret_fire_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Turret_fire_C_5
+[2025.10.20-10.44.36:117][776]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Turret_fire.BP_Turret_fire as actor: BP_Turret_fire_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Turret_fire_C_5
+[2025.10.20-10.44.39:777][ 57]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Turret_fire.BP_Turret_fire_C
+[2025.10.20-10.44.39:777][ 57]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Turret_fire.BP_Turret_fire_C
+[2025.10.20-10.44.39:779][ 57]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Turret_fire.BP_Turret_fire as actor: BP_Turret_fire_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Turret_fire_C_6
+[2025.10.20-10.44.39:781][ 57]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Turret_fire.BP_Turret_fire as actor: BP_Turret_fire_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Turret_fire_C_6
+[2025.10.20-10.44.41:145][146]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2025.10.20-10.44.41:149][146]LogEditorActor: Deleted 0 Actors (0.032 secs)
+[2025.10.20-10.44.41:161][146]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Turret_fire.BP_Turret_fire_C
+[2025.10.20-10.44.41:162][146]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Turret_fire.BP_Turret_fire_C
+[2025.10.20-10.44.41:164][146]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Turret_fire.BP_Turret_fire as actor: BP_Turret_fire_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Turret_fire_C_7
+[2025.10.20-10.44.41:165][146]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Turret_fire.BP_Turret_fire as actor: BP_Turret_fire_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Turret_fire_C_7
+[2025.10.20-10.44.43:984][364]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Turret_fire.BP_Turret_fire_C
+[2025.10.20-10.44.43:984][364]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Turret_fire.BP_Turret_fire_C
+[2025.10.20-10.44.43:986][364]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Turret_fire.BP_Turret_fire as actor: BP_Turret_fire_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Turret_fire_C_8
+[2025.10.20-10.44.43:987][364]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Turret_fire.BP_Turret_fire as actor: BP_Turret_fire_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Turret_fire_C_8
+[2025.10.20-10.44.45:243][454]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2025.10.20-10.44.45:247][454]LogEditorActor: Deleted 0 Actors (0.036 secs)
+[2025.10.20-10.44.45:259][454]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Turret_fire.BP_Turret_fire_C
+[2025.10.20-10.44.45:259][454]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Turret_fire.BP_Turret_fire_C
+[2025.10.20-10.44.45:262][454]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Turret_fire.BP_Turret_fire as actor: BP_Turret_fire_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Turret_fire_C_9
+[2025.10.20-10.44.45:263][454]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Turret_fire.BP_Turret_fire as actor: BP_Turret_fire_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Turret_fire_C_9
+[2025.10.20-10.44.51:024][915]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.20-10.44.51:090][915]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Promrtheus" FILE="../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Content/Promrtheus.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.20-10.44.51:130][915]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2025.10.20-10.44.51:362][915]LogSavePackage: Moving output files for package: /Game/Promrtheus
+[2025.10.20-10.44.51:362][915]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Saved/PromrtheusB7A5C20945824133844962B77837A366.tmp' to '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Content/Promrtheus.umap'
+[2025.10.20-10.44.51:370][915]LogFileHelpers: Saving map 'Promrtheus' took 0.281
+[2025.10.20-10.44.51:391][915]LogFileHelpers: InternalPromptForCheckoutAndSave took 366.670 ms (total: 4.66 sec)
+[2025.10.20-10.44.51:438][915]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.20-10.44.51:438][915]LogContentValidation: Enabled validators:
+[2025.10.20-10.44.51:438][915]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.20-10.44.51:438][915]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.20-10.44.51:438][915]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.20-10.44.51:438][915]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.20-10.44.51:438][915]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.20-10.44.51:438][915]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.20-10.44.51:438][915]AssetCheck: /Game/Promrtheus Validating asset
+[2025.10.20-10.44.53:469][ 54]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/facility/BP_Turret_fire.BP_Turret_fire
+[2025.10.20-10.44.53:469][ 54]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_60
+[2025.10.20-10.45.18:789][830]LogEditorTransaction: Undo Reset to Default
+[2025.10.20-10.45.27:224][741]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.20-10.45.27:269][741]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/facility/BP_Turret_fire] ([2] browsable assets)...
+[2025.10.20-10.45.27:274][741]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/facility/BP_Turret_fire.BP_Turret_fire]
+[2025.10.20-10.45.27:274][741]OBJ SavePackage: Finished generating thumbnails for package [/Game/facility/BP_Turret_fire]
+[2025.10.20-10.45.27:274][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/facility/BP_Turret_fire" FILE="../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset" SILENT=true
+[2025.10.20-10.45.27:287][741]LogSavePackage: Moving output files for package: /Game/facility/BP_Turret_fire
+[2025.10.20-10.45.27:287][741]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Saved/BP_Turret_fire32B0A5D34C37570B30ACB1A73A0647B0.tmp' to '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset'
+[2025.10.20-10.45.27:295][741]LogFileHelpers: InternalPromptForCheckoutAndSave took 70.531 ms (total: 4.73 sec)
+[2025.10.20-10.45.27:352][741]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.20-10.45.27:352][741]LogContentValidation: Enabled validators:
+[2025.10.20-10.45.27:352][741]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.20-10.45.27:352][741]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.20-10.45.27:352][741]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.20-10.45.27:352][741]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.20-10.45.27:352][741]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.20-10.45.27:352][741]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.20-10.45.27:352][741]AssetCheck: /Game/facility/BP_Turret_fire Validating asset
+[2025.10.20-10.45.29:194][929]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.10.20-10.45.46:917][549]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Turret_fire.BP_Turret_fire_C
+[2025.10.20-10.45.46:917][549]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Turret_fire.BP_Turret_fire_C
+[2025.10.20-10.45.46:918][549]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Turret_fire.BP_Turret_fire as actor: BP_Turret_fire_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Turret_fire_C_10
+[2025.10.20-10.45.46:920][549]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Turret_fire.BP_Turret_fire as actor: BP_Turret_fire_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Turret_fire_C_10
+[2025.10.20-10.45.47:787][606]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.10.20-10.45.47:790][606]LogEditorActor: Deleted 0 Actors (0.039 secs)
+[2025.10.20-10.45.47:802][606]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Turret_fire.BP_Turret_fire_C
+[2025.10.20-10.45.47:802][606]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Turret_fire.BP_Turret_fire_C
+[2025.10.20-10.45.47:804][606]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Turret_fire.BP_Turret_fire as actor: BP_Turret_fire_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Turret_fire_C_11
+[2025.10.20-10.45.47:806][606]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Turret_fire.BP_Turret_fire as actor: BP_Turret_fire_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Turret_fire_C_11
+[2025.10.20-10.45.52:766][ 13]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Turret_fire.BP_Turret_fire_C
+[2025.10.20-10.45.52:766][ 13]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Turret_fire.BP_Turret_fire_C
+[2025.10.20-10.45.52:767][ 13]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Turret_fire.BP_Turret_fire as actor: BP_Turret_fire_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Turret_fire_C_12
+[2025.10.20-10.45.52:769][ 13]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Turret_fire.BP_Turret_fire as actor: BP_Turret_fire_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Turret_fire_C_12
+[2025.10.20-10.45.54:100][117]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.10.20-10.45.54:104][117]LogEditorActor: Deleted 0 Actors (0.035 secs)
+[2025.10.20-10.45.54:114][117]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Turret_fire.BP_Turret_fire_C
+[2025.10.20-10.45.54:114][117]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Turret_fire.BP_Turret_fire_C
+[2025.10.20-10.45.54:116][117]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Turret_fire.BP_Turret_fire as actor: BP_Turret_fire_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Turret_fire_C_13
+[2025.10.20-10.45.54:117][117]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Turret_fire.BP_Turret_fire as actor: BP_Turret_fire_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Turret_fire_C_13
+[2025.10.20-10.46.09:229][408]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3944.995850
+[2025.10.20-10.46.09:378][421]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.20-10.46.09:378][421]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3945.134766, Update Interval: 305.806458
+[2025.10.20-10.46.45:435][912]LogStreaming: Display: FlushAsyncLoading(628): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.20-10.46.45:560][912]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_61
+[2025.10.20-10.46.45:666][913]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Turret__monitor.BP_Turret__monitor_C
+[2025.10.20-10.46.45:666][913]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Turret__monitor.BP_Turret__monitor_C
+[2025.10.20-10.46.45:668][913]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Turret__monitor.BP_Turret__monitor as actor: BP_Turret__monitor_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Turret__monitor_C_0
+[2025.10.20-10.46.45:669][913]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Turret__monitor.BP_Turret__monitor as actor: BP_Turret__monitor_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Turret__monitor_C_0
+[2025.10.20-10.46.48:410][996]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.10.20-10.46.48:421][996]LogEditorActor: Deleted 0 Actors (0.040 secs)
+[2025.10.20-10.46.48:450][996]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Turret__monitor.BP_Turret__monitor_C
+[2025.10.20-10.46.48:450][996]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Turret__monitor.BP_Turret__monitor_C
+[2025.10.20-10.46.48:452][996]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Turret__monitor.BP_Turret__monitor as actor: BP_Turret__monitor_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Turret__monitor_C_1
+[2025.10.20-10.46.48:453][996]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Turret__monitor.BP_Turret__monitor as actor: BP_Turret__monitor_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Turret__monitor_C_1
+[2025.10.20-10.47.00:728][687]Cmd: DUPLICATE
+[2025.10.20-10.47.00:728][687]Cmd: ACTOR DUPLICATE
+[2025.10.20-10.47.13:125][365]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Turret__monitor.BP_Turret__monitor_C
+[2025.10.20-10.47.13:125][365]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Turret__monitor.BP_Turret__monitor_C
+[2025.10.20-10.47.13:126][365]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Turret__monitor.BP_Turret__monitor as actor: BP_Turret__monitor_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Turret__monitor_C_3
+[2025.10.20-10.47.13:128][365]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Turret__monitor.BP_Turret__monitor as actor: BP_Turret__monitor_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Turret__monitor_C_3
+[2025.10.20-10.47.13:892][423]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2025.10.20-10.47.13:897][423]LogEditorActor: Deleted 0 Actors (0.039 secs)
+[2025.10.20-10.47.13:908][423]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Turret__monitor.BP_Turret__monitor_C
+[2025.10.20-10.47.13:908][423]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Turret__monitor.BP_Turret__monitor_C
+[2025.10.20-10.47.13:910][423]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Turret__monitor.BP_Turret__monitor as actor: BP_Turret__monitor_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Turret__monitor_C_4
+[2025.10.20-10.47.13:912][423]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Turret__monitor.BP_Turret__monitor as actor: BP_Turret__monitor_C /Game/Promrtheus.Promrtheus:PersistentLevel.BP_Turret__monitor_C_4
+[2025.10.20-10.47.29:953][614]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.20-10.47.30:038][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Promrtheus" FILE="../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Content/Promrtheus.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.20-10.47.30:083][614]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.10.20-10.47.30:317][614]LogSavePackage: Moving output files for package: /Game/Promrtheus
+[2025.10.20-10.47.30:317][614]LogSavePackage: Moving '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Saved/Promrtheus4B3D4D3546CD647C48E76AA8D015094D.tmp' to '../../../../../Users/N00230651/Documents/game-development/prometheus_terrain1/Content/Promrtheus.umap'
+[2025.10.20-10.47.30:326][614]LogFileHelpers: Saving map 'Promrtheus' took 0.289
+[2025.10.20-10.47.30:351][614]LogFileHelpers: InternalPromptForCheckoutAndSave took 397.749 ms (total: 5.13 sec)
+[2025.10.20-10.47.30:384][614]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.20-10.47.30:384][614]LogContentValidation: Enabled validators:
+[2025.10.20-10.47.30:384][614]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.20-10.47.30:384][614]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.20-10.47.30:384][614]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.20-10.47.30:384][614]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.20-10.47.30:384][614]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.20-10.47.30:384][614]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.20-10.47.30:384][614]AssetCheck: /Game/Promrtheus Validating asset
+[2025.10.20-10.52.05:148][453]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4300.904297
+[2025.10.20-10.52.05:330][460]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.20-10.52.05:330][460]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4301.061035, Update Interval: 310.294495
+[2025.10.20-10.58.10:805][727]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4666.561035
+[2025.10.20-10.58.10:980][734]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.20-10.58.10:980][734]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4666.710938, Update Interval: 316.851715
