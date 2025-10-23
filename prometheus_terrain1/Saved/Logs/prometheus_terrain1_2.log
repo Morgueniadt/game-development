@@ -2034,3 +2034,949 @@ Continue: Skip saving this asset only.
 		NumGeometrySegments changed: current: 0 - new: 512
 [2025.10.23-02.36.19:519][ 12]LogD3D12RHI: Waited for PSO creation for 100.000000ms
 [2025.10.23-02.36.19:619][ 12]LogD3D12RHI: Waited for PSO creation for 200.000000ms
+[2025.10.23-02.37.15:540][243]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.23-02.37.15:557][243]LogContentBundle: [testing_Objects(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.10.23-02.37.15:557][243]LogWorldPartition: Display: GenerateStreaming for 'testing_Objects' started...
+[2025.10.23-02.37.15:570][243]LogWorldPartition: Display: GenerateStreaming for 'testing_Objects' took 13.016 ms
+[2025.10.23-02.37.15:571][243]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.23-02.37.15:573][243]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_testing_Objects
+[2025.10.23-02.37.15:620][243]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.10.23-02.37.15:629][243]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 8.970 ms
+[2025.10.23-02.37.15:630][243]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055957s)
+[2025.10.23-02.37.15:630][243]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/testing_Objects.testing_Objects to /Game/UEDPIE_0_testing_Objects.testing_Objects (0.056106s)
+[2025.10.23-02.37.15:714][243]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2025.10.23-02.37.15:718][243]LogChaosDD: Creating Chaos Debug Draw Scene for world testing_Objects
+[2025.10.23-02.37.15:720][243]LogWorldPartition: ULevel::OnLevelLoaded(testing_Objects)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.23-02.37.15:720][243]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.23-02.37.15:721][243]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_testing_Objects.testing_Objects, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.23-02.37.15:721][243]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.23-02.37.15:735][243]LogWorldPartition: Display: WorldPartition initialize took 14.280 ms (total: 768.698 ms)
+[2025.10.23-02.37.15:735][243]LogPlayLevel: PIE: World Init took: (0.017414s)
+[2025.10.23-02.37.15:736][243]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2025.10.23-02.37.15:736][243]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.23-02.37.15:736][243]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.23-02.37.15:737][243]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.23-02.37.15:737][243]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.23-02.37.15:737][243]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.23-02.37.15:737][243]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.23-02.37.15:737][243]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.23-02.37.15:737][243]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.23-02.37.15:737][243]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.23-02.37.15:737][243]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.23-02.37.15:737][243]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.23-02.37.15:740][243]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.23-02.37.15:845][243]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- OW810)
+[2025.10.23-02.37.15:847][243]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.23-02.37.15:847][243]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.23-02.37.15:847][243]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.23-02.37.15:849][243]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2025.10.23-02.37.15:849][243]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2025.10.23-02.37.15:854][243]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2025.10.23-02.37.15:854][243]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2025.10.23-02.37.15:854][243]LogInit: FAudioDevice initialized with ID 5.
+[2025.10.23-02.37.15:854][243]LogAudio: Display: Audio Device (ID: 5) registered with world 'testing_Objects'.
+[2025.10.23-02.37.15:854][243]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2025.10.23-02.37.15:898][243]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.10.23-02.37.15:904][243]LogWorld: Bringing World /Game/UEDPIE_0_testing_Objects.testing_Objects up for play (max tick rate 60) at 2025.10.23-03.37.15
+[2025.10.23-02.37.15:905][243]LogWorld: Bringing up level for play took: 0.003835
+[2025.10.23-02.37.15:913][243]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2025.10.23-02.37.15:943][243]LogStreaming: Display: FlushAsyncLoading(810,809,808,807,806,805,804,803,802,801,800,799,798,797,796,795,794,793,792,791,790,789,788,787,786,785,784,783,782,781,780,779,769,770,771,772,773,774,775,776,777,778,763,764,765,766,767,768,762,761,760,759,754,755,756,757,758,753,752,743,744,745,746,747,748,749,750,751): 68 QueuedPackages, 0 AsyncPackages
+[2025.10.23-02.37.16:299][243]PIE: Server logged in
+[2025.10.23-02.37.16:303][243]PIE: Play in editor total start time 0.749 seconds.
+[2025.10.23-02.37.16:480][244]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.10.23-02.37.25:186][667]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-02.37.25:186][667]LogWorld: BeginTearingDown for /Game/UEDPIE_0_testing_Objects
+[2025.10.23-02.37.25:186][667]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.23-02.37.25:215][667]LogWorld: UWorld::CleanupWorld for testing_Objects, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-02.37.25:217][667]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-02.37.25:217][667]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_testing_Objects.testing_Objects
+[2025.10.23-02.37.25:229][667]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.23-02.37.25:243][667]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-02.37.25:301][667]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-02.37.25:302][667]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2025.10.23-02.37.25:302][667]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=4
+[2025.10.23-02.37.25:308][667]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=2
+[2025.10.23-02.37.25:339][667]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2025.10.23-02.37.25:397][668]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2025.10.23-02.37.56:624][360]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2025.10.23-02.37.58:020][433]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.23-02.37.58:162][433]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/facility/BP_Turret_fire] ([2] browsable assets)...
+[2025.10.23-02.37.58:248][433]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/facility/BP_Turret_fire.BP_Turret_fire]
+[2025.10.23-02.37.58:248][433]OBJ SavePackage: Finished generating thumbnails for package [/Game/facility/BP_Turret_fire]
+[2025.10.23-02.37.58:279][433]LogSavePackage: Moving output files for package: /Game/facility/BP_Turret_fire
+[2025.10.23-02.37.58:279][433]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire413A5D744745C2394E89058AF8640594.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.37.58:782][433]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire413A5D744745C2394E89058AF8640594.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.37.59:282][433]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire413A5D744745C2394E89058AF8640594.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.37.59:784][433]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire413A5D744745C2394E89058AF8640594.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.38.00:286][433]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire413A5D744745C2394E89058AF8640594.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.38.00:788][433]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire413A5D744745C2394E89058AF8640594.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.38.01:288][433]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire413A5D744745C2394E89058AF8640594.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.38.01:790][433]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire413A5D744745C2394E89058AF8640594.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.38.02:292][433]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire413A5D744745C2394E89058AF8640594.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.38.02:794][433]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire413A5D744745C2394E89058AF8640594.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.38.03:295][433]LogFileManager: Error: Error moving file '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire413A5D744745C2394E89058AF8640594.tmp'.
+[2025.10.23-02.38.03:295][433]LogSavePackage: Warning: Failed to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to temp directory
+[2025.10.23-02.38.03:295][433]LogSavePackage: Error: Error saving '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset'
+[2025.10.23-02.38.03:295][433]Warning: Error saving '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset'
+[2025.10.23-02.38.15:220][433]LogSlate: Window 'Message' being destroyed
+[2025.10.23-02.38.15:234][433]Message dialog closed, result: Continue, title: Message, text: The asset '/Game/facility/BP_Turret_fire' (BP_Turret_fire.uasset) failed to save.
+
+Cancel: Stop saving all assets and return to the editor.
+Retry: Attempt to save the asset again.
+Continue: Skip saving this asset only.
+[2025.10.23-02.38.16:301][433]LogSlate: Window 'Packages Failed To Save' being destroyed
+[2025.10.23-02.38.16:317][433]Message dialog closed, result: Ok, title: Packages Failed To Save, text: The following assets failed to save correctly:
+/Game/facility/BP_Turret_fire
+[2025.10.23-02.38.16:317][433]LogFileHelpers: InternalPromptForCheckoutAndSave took 18.2 sec (total: 2:34 min)
+[2025.10.23-02.38.16:982][473]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.23-02.38.17:094][473]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/facility/BP_Turret_fire] ([2] browsable assets)...
+[2025.10.23-02.38.17:094][473]OBJ SavePackage: Finished generating thumbnails for package [/Game/facility/BP_Turret_fire]
+[2025.10.23-02.38.17:123][473]LogSavePackage: Moving output files for package: /Game/facility/BP_Turret_fire
+[2025.10.23-02.38.17:123][473]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fireCFAD98CD484273A6F7043C9A2E59EE88.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.38.17:624][473]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fireCFAD98CD484273A6F7043C9A2E59EE88.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.38.18:125][473]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fireCFAD98CD484273A6F7043C9A2E59EE88.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.38.18:627][473]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fireCFAD98CD484273A6F7043C9A2E59EE88.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.38.19:129][473]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fireCFAD98CD484273A6F7043C9A2E59EE88.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.38.19:629][473]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fireCFAD98CD484273A6F7043C9A2E59EE88.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.38.20:132][473]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fireCFAD98CD484273A6F7043C9A2E59EE88.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.38.20:633][473]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fireCFAD98CD484273A6F7043C9A2E59EE88.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.38.21:135][473]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fireCFAD98CD484273A6F7043C9A2E59EE88.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.38.21:636][473]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fireCFAD98CD484273A6F7043C9A2E59EE88.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.38.22:138][473]LogFileManager: Error: Error moving file '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fireCFAD98CD484273A6F7043C9A2E59EE88.tmp'.
+[2025.10.23-02.38.22:138][473]LogSavePackage: Warning: Failed to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to temp directory
+[2025.10.23-02.38.22:138][473]LogSavePackage: Error: Error saving '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset'
+[2025.10.23-02.38.22:138][473]Warning: Error saving '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset'
+[2025.10.23-02.38.25:452][473]LogSlate: Window 'Message' being destroyed
+[2025.10.23-02.38.25:467][473]Message dialog closed, result: Cancel, title: Message, text: The asset '/Game/facility/BP_Turret_fire' (BP_Turret_fire.uasset) failed to save.
+
+Cancel: Stop saving all assets and return to the editor.
+Retry: Attempt to save the asset again.
+Continue: Skip saving this asset only.
+[2025.10.23-02.38.25:485][473]LogFileHelpers: InternalPromptForCheckoutAndSave took 8.50 sec (total: 2:43 min)
+[2025.10.23-02.38.25:775][484]LogHttp: Warning: 00000206A5DD9A00: request failed, libcurl error: 26 (Failed to open/read local data from file/application)
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 0 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 1 (upload completely sent off: 1296 bytes)
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 2 (TLSv1.3 (IN), TLS alert, close notify (256):)
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 3 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 4 (shutting down connection #4)
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 5 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 6 (necessary data rewind was not possible)
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 7 (rewind of client reader 'cr-in' failed: 65)
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA1549781-440E-1BE1-CD79-BBA62B1252C7%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=ed12ffe3494354c8335ce28468e0c79b%7C4f4f5fe8a2ec4537826b3a649ae5307d%7C82d43c34-3075-4ff6-9ef8-2adb41397b2c&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 9 (necessary data rewind was not possible)
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 10 (rewind of client reader 'cr-in' failed: 65)
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 11 (Host datarouter.ol.epicgames.com:443 was resolved.)
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 12 (IPv6: (none))
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 13 (IPv4: 52.0.247.222, 18.214.4.240, 100.26.120.91, 35.153.222.168, 100.26.39.147, 34.197.93.238, 18.215.50.184, 3.212.223.204)
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 14 (  Trying 52.0.247.222:443...)
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 15 (SSL reusing session)
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 16 (ALPN: curl offers http/1.1)
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 17 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 18 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 19 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 20 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 21 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 22 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 23 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 24 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 25 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256 / [blank] / UNDEF)
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 26 (ALPN: server accepted http/1.1)
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 27 (Server certificate:)
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 28 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 29 ( start date: Feb  2 00:00:00 2025 GMT)
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 30 ( expire date: Mar  3 23:59:59 2026 GMT)
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 31 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 32 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 33 ( SSL certificate verify ok.)
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 34 (  Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption)
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 35 (  Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption)
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 36 (  Certificate level 2: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption)
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 37 (Connected to datarouter.ol.epicgames.com (52.0.247.222) port 443)
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 38 (using HTTP/1.x)
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 39 (client read function EOF fail, only 0/1296 of needed bytes read)
+[2025.10.23-02.38.25:776][484]LogHttp: Warning: 00000206A5DD9A00: libcurl info message cache 40 (closing connection #5)
+[2025.10.23-02.38.25:777][484]LogHttp: Warning: 00000206A5DD9A00 POST https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA1549781-440E-1BE1-CD79-BBA62B1252C7%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=ed12ffe3494354c8335ce28468e0c79b%7C4f4f5fe8a2ec4537826b3a649ae5307d%7C82d43c34-3075-4ff6-9ef8-2adb41397b2c&AppEnvironment=datacollector-binary&UploadType=eteventstream completed with reason 'Other' after 0.28s
+[2025.10.23-02.38.27:922][600]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.23-02.38.27:934][600]LogContentBundle: [testing_Objects(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.10.23-02.38.27:935][600]LogWorldPartition: Display: GenerateStreaming for 'testing_Objects' started...
+[2025.10.23-02.38.27:939][600]LogWorldPartition: Display: GenerateStreaming for 'testing_Objects' took 4.040 ms (total: 17.057 ms)
+[2025.10.23-02.38.27:939][600]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.23-02.38.27:939][600]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_testing_Objects
+[2025.10.23-02.38.27:990][600]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.10.23-02.38.28:003][600]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 12.473 ms (total: 21.443 ms)
+[2025.10.23-02.38.28:003][600]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064272s)
+[2025.10.23-02.38.28:004][600]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/testing_Objects.testing_Objects to /Game/UEDPIE_0_testing_Objects.testing_Objects (0.064382s)
+[2025.10.23-02.38.28:052][600]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2025.10.23-02.38.28:057][600]LogChaosDD: Creating Chaos Debug Draw Scene for world testing_Objects
+[2025.10.23-02.38.28:060][600]LogWorldPartition: ULevel::OnLevelLoaded(testing_Objects)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.23-02.38.28:060][600]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.23-02.38.28:060][600]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_testing_Objects.testing_Objects, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.23-02.38.28:060][600]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.23-02.38.28:077][600]LogWorldPartition: Display: WorldPartition initialize took 16.852 ms (total: 785.550 ms)
+[2025.10.23-02.38.28:077][600]LogPlayLevel: PIE: World Init took: (0.020226s)
+[2025.10.23-02.38.28:079][600]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2025.10.23-02.38.28:079][600]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.23-02.38.28:079][600]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.23-02.38.28:079][600]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.23-02.38.28:079][600]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.23-02.38.28:079][600]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.23-02.38.28:079][600]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.23-02.38.28:079][600]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.23-02.38.28:079][600]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.23-02.38.28:079][600]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.23-02.38.28:079][600]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.23-02.38.28:079][600]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.23-02.38.28:083][600]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.23-02.38.28:183][600]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- OW810)
+[2025.10.23-02.38.28:183][600]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.23-02.38.28:183][600]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.23-02.38.28:183][600]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.23-02.38.28:184][600]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2025.10.23-02.38.28:184][600]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2025.10.23-02.38.28:188][600]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2025.10.23-02.38.28:188][600]LogInit: FAudioDevice initialized with ID 6.
+[2025.10.23-02.38.28:188][600]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2025.10.23-02.38.28:188][600]LogAudio: Display: Audio Device (ID: 6) registered with world 'testing_Objects'.
+[2025.10.23-02.38.28:188][600]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2025.10.23-02.38.28:193][600]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.10.23-02.38.28:196][600]LogWorld: Bringing World /Game/UEDPIE_0_testing_Objects.testing_Objects up for play (max tick rate 60) at 2025.10.23-03.38.28
+[2025.10.23-02.38.28:196][600]LogWorld: Bringing up level for play took: 0.002336
+[2025.10.23-02.38.28:200][600]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2025.10.23-02.38.28:213][600]LogStreaming: Display: FlushAsyncLoading(880,879,878,877,876,875,874,873,872,871,870,869,868,867,866,865,864,863,862,861,860,859,858,857,856,855,854,853,852,851,850,849,839,840,841,842,843,844,845,846,847,848,833,834,835,836,837,838,832,831,830,829,824,825,826,827,828,823,822,813,814,815,816,817,818,819,820,821): 68 QueuedPackages, 0 AsyncPackages
+[2025.10.23-02.38.28:568][600]PIE: Server logged in
+[2025.10.23-02.38.28:571][600]PIE: Play in editor total start time 0.637 seconds.
+[2025.10.23-02.38.28:765][601]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.10.23-02.38.49:356][340]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-02.38.49:357][340]LogWorld: BeginTearingDown for /Game/UEDPIE_0_testing_Objects
+[2025.10.23-02.38.49:357][340]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.23-02.38.49:427][340]LogWorld: UWorld::CleanupWorld for testing_Objects, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-02.38.49:429][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-02.38.49:430][340]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_testing_Objects.testing_Objects
+[2025.10.23-02.38.49:437][340]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.23-02.38.49:448][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-02.38.49:502][340]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.23-02.38.49:502][340]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2025.10.23-02.38.49:502][340]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=4
+[2025.10.23-02.38.49:508][340]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=2
+[2025.10.23-02.38.49:523][340]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-02.38.49:542][340]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2025.10.23-02.38.49:608][341]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2025.10.23-02.39.06:523][996]Cmd: DELETE
+[2025.10.23-02.39.06:524][996]Cmd: ACTOR DELETE
+[2025.10.23-02.39.06:578][996]LogEditorActor: Deleted Actor: BP_Startlocation_C
+[2025.10.23-02.39.06:632][996]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2025.10.23-02.39.06:636][996]LogEditorActor: Deleted 1 Actors (0.084 secs)
+[2025.10.23-02.39.08:538][ 86]LogSlate: Took 0.001248 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2025.10.23-02.40.28:879][700]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.23-02.40.29:014][700]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonGameMode] ([2] browsable assets)...
+[2025.10.23-02.40.29:014][700]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonGameMode]
+[2025.10.23-02.40.29:047][700]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonGameMode
+[2025.10.23-02.40.29:048][700]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonGameMode.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonGameMode655D07BE447E0AAD86618086C9B234BC.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.40.29:548][700]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonGameMode.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonGameMode655D07BE447E0AAD86618086C9B234BC.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.40.30:049][700]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonGameMode.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonGameMode655D07BE447E0AAD86618086C9B234BC.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.40.30:550][700]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonGameMode.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonGameMode655D07BE447E0AAD86618086C9B234BC.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.40.31:051][700]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonGameMode.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonGameMode655D07BE447E0AAD86618086C9B234BC.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.40.31:552][700]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonGameMode.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonGameMode655D07BE447E0AAD86618086C9B234BC.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.40.32:054][700]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonGameMode.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonGameMode655D07BE447E0AAD86618086C9B234BC.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.40.32:554][700]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonGameMode.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonGameMode655D07BE447E0AAD86618086C9B234BC.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.40.33:055][700]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonGameMode.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonGameMode655D07BE447E0AAD86618086C9B234BC.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.40.33:556][700]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonGameMode.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonGameMode655D07BE447E0AAD86618086C9B234BC.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.40.34:056][700]LogFileManager: Error: Error moving file '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonGameMode.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonGameMode655D07BE447E0AAD86618086C9B234BC.tmp'.
+[2025.10.23-02.40.34:057][700]LogSavePackage: Warning: Failed to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonGameMode.uasset' to temp directory
+[2025.10.23-02.40.34:057][700]LogSavePackage: Error: Error saving '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonGameMode.uasset'
+[2025.10.23-02.40.34:058][700]Warning: Error saving '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonGameMode.uasset'
+[2025.10.23-02.40.38:253][700]LogSlate: Window 'Message' being destroyed
+[2025.10.23-02.40.38:275][700]Message dialog closed, result: Cancel, title: Message, text: The asset '/Game/FirstPerson/Blueprints/BP_FirstPersonGameMode' (BP_FirstPersonGameMode.uasset) failed to save.
+
+Cancel: Stop saving all assets and return to the editor.
+Retry: Attempt to save the asset again.
+Continue: Skip saving this asset only.
+[2025.10.23-02.40.38:306][700]LogFileHelpers: InternalPromptForCheckoutAndSave took 9.42 sec (total: 2:52 min)
+[2025.10.23-02.40.39:260][747]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2025.10.23-02.40.52:711][482]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1714.941284
+[2025.10.23-02.40.52:862][491]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.23-02.40.52:862][491]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1715.075562, Update Interval: 305.967590
+[2025.10.23-02.41.22:975][657]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2025.10.23-02.41.25:978][781]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.23-02.41.25:993][781]LogContentBundle: [testing_Objects(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.10.23-02.41.25:993][781]LogWorldPartition: Display: GenerateStreaming for 'testing_Objects' started...
+[2025.10.23-02.41.25:997][781]LogWorldPartition: Display: GenerateStreaming for 'testing_Objects' took 4.286 ms (total: 21.344 ms)
+[2025.10.23-02.41.25:997][781]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.23-02.41.25:997][781]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_testing_Objects
+[2025.10.23-02.41.26:060][781]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.10.23-02.41.26:076][781]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 16.550 ms (total: 37.993 ms)
+[2025.10.23-02.41.26:077][781]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079391s)
+[2025.10.23-02.41.26:077][781]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/testing_Objects.testing_Objects to /Game/UEDPIE_0_testing_Objects.testing_Objects (0.079473s)
+[2025.10.23-02.41.26:131][781]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2025.10.23-02.41.26:138][781]LogChaosDD: Creating Chaos Debug Draw Scene for world testing_Objects
+[2025.10.23-02.41.26:141][781]LogWorldPartition: ULevel::OnLevelLoaded(testing_Objects)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.23-02.41.26:142][781]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.23-02.41.26:142][781]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_testing_Objects.testing_Objects, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.23-02.41.26:142][781]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.23-02.41.26:158][781]LogWorldPartition: Display: WorldPartition initialize took 16.843 ms (total: 802.394 ms)
+[2025.10.23-02.41.26:158][781]LogPlayLevel: PIE: World Init took: (0.020120s)
+[2025.10.23-02.41.26:160][781]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2025.10.23-02.41.26:160][781]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.23-02.41.26:160][781]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.23-02.41.26:160][781]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.23-02.41.26:160][781]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.23-02.41.26:160][781]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.23-02.41.26:160][781]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.23-02.41.26:160][781]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.23-02.41.26:160][781]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.23-02.41.26:160][781]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.23-02.41.26:160][781]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.23-02.41.26:160][781]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.23-02.41.26:165][781]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.23-02.41.26:272][781]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- OW810)
+[2025.10.23-02.41.26:273][781]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.23-02.41.26:275][781]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.23-02.41.26:275][781]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.23-02.41.26:278][781]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2025.10.23-02.41.26:278][781]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2025.10.23-02.41.26:288][781]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2025.10.23-02.41.26:289][781]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2025.10.23-02.41.26:289][781]LogInit: FAudioDevice initialized with ID 7.
+[2025.10.23-02.41.26:289][781]LogAudio: Display: Audio Device (ID: 7) registered with world 'testing_Objects'.
+[2025.10.23-02.41.26:289][781]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2025.10.23-02.41.26:305][781]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.10.23-02.41.26:310][781]LogWorld: Bringing World /Game/UEDPIE_0_testing_Objects.testing_Objects up for play (max tick rate 60) at 2025.10.23-03.41.26
+[2025.10.23-02.41.26:311][781]LogWorld: Bringing up level for play took: 0.004979
+[2025.10.23-02.41.26:318][781]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2025.10.23-02.41.26:336][781]LogStreaming: Display: FlushAsyncLoading(949,948,947,946,945,944,943,942,941,940,939,938,937,936,935,934,933,932,931,930,929,928,927,926,925,924,923,922,921,920,919,918,908,909,910,911,912,913,914,915,916,917,902,903,904,905,906,907,901,900,899,898,893,894,895,896,897,892,891,883,884,885,886,887,888,889,890): 67 QueuedPackages, 0 AsyncPackages
+[2025.10.23-02.41.26:751][781]PIE: Server logged in
+[2025.10.23-02.41.26:754][781]PIE: Play in editor total start time 0.762 seconds.
+[2025.10.23-02.41.26:959][782]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.10.23-02.41.30:554][811]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-02.41.30:554][811]LogWorld: BeginTearingDown for /Game/UEDPIE_0_testing_Objects
+[2025.10.23-02.41.30:554][811]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.23-02.41.30:587][811]LogWorld: UWorld::CleanupWorld for testing_Objects, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-02.41.30:588][811]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-02.41.30:588][811]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_testing_Objects.testing_Objects
+[2025.10.23-02.41.30:593][811]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.23-02.41.30:610][811]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-02.41.30:676][811]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.23-02.41.30:683][811]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2025.10.23-02.41.30:683][811]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=4
+[2025.10.23-02.41.30:688][811]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=2
+[2025.10.23-02.41.30:699][811]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-02.41.30:716][811]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2025.10.23-02.41.30:773][812]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2025.10.23-02.41.34:870][ 14]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.23-02.41.34:883][ 14]LogContentBundle: [testing_Objects(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.10.23-02.41.34:883][ 14]LogWorldPartition: Display: GenerateStreaming for 'testing_Objects' started...
+[2025.10.23-02.41.34:887][ 14]LogWorldPartition: Display: GenerateStreaming for 'testing_Objects' took 4.440 ms (total: 25.785 ms)
+[2025.10.23-02.41.34:888][ 14]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.23-02.41.34:888][ 14]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_testing_Objects
+[2025.10.23-02.41.34:955][ 14]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.10.23-02.41.34:967][ 14]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 13.047 ms (total: 51.040 ms)
+[2025.10.23-02.41.34:969][ 14]LogPlayLevel: PIE: StaticDuplicateObject took: (0.080417s)
+[2025.10.23-02.41.34:969][ 14]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/testing_Objects.testing_Objects to /Game/UEDPIE_0_testing_Objects.testing_Objects (0.080496s)
+[2025.10.23-02.41.35:022][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2025.10.23-02.41.35:024][ 14]LogChaosDD: Creating Chaos Debug Draw Scene for world testing_Objects
+[2025.10.23-02.41.35:028][ 14]LogWorldPartition: ULevel::OnLevelLoaded(testing_Objects)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.23-02.41.35:028][ 14]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.23-02.41.35:029][ 14]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_testing_Objects.testing_Objects, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.23-02.41.35:029][ 14]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.23-02.41.35:046][ 14]LogWorldPartition: Display: WorldPartition initialize took 17.986 ms (total: 820.381 ms)
+[2025.10.23-02.41.35:046][ 14]LogPlayLevel: PIE: World Init took: (0.021626s)
+[2025.10.23-02.41.35:048][ 14]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2025.10.23-02.41.35:048][ 14]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.23-02.41.35:048][ 14]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.23-02.41.35:048][ 14]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.23-02.41.35:048][ 14]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.23-02.41.35:048][ 14]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.23-02.41.35:048][ 14]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.23-02.41.35:048][ 14]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.23-02.41.35:048][ 14]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.23-02.41.35:048][ 14]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.23-02.41.35:048][ 14]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.23-02.41.35:048][ 14]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.23-02.41.35:053][ 14]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.23-02.41.35:153][ 14]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- OW810)
+[2025.10.23-02.41.35:155][ 14]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.23-02.41.35:155][ 14]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.23-02.41.35:155][ 14]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.23-02.41.35:156][ 14]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2025.10.23-02.41.35:156][ 14]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2025.10.23-02.41.35:158][ 14]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2025.10.23-02.41.35:158][ 14]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2025.10.23-02.41.35:159][ 14]LogInit: FAudioDevice initialized with ID 8.
+[2025.10.23-02.41.35:159][ 14]LogAudio: Display: Audio Device (ID: 8) registered with world 'testing_Objects'.
+[2025.10.23-02.41.35:159][ 14]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2025.10.23-02.41.35:164][ 14]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.10.23-02.41.35:168][ 14]LogWorld: Bringing World /Game/UEDPIE_0_testing_Objects.testing_Objects up for play (max tick rate 60) at 2025.10.23-03.41.35
+[2025.10.23-02.41.35:169][ 14]LogWorld: Bringing up level for play took: 0.003565
+[2025.10.23-02.41.35:175][ 14]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2025.10.23-02.41.35:191][ 14]LogStreaming: Display: FlushAsyncLoading(1016,1015,1014,1013,1012,1011,1010,1009,1008,1007,1006,1005,1004,1003,1002,1001,1000,999,998,997,996,995,994,993,992,991,990,989,988,987,986,985,975,976,977,978,979,980,981,982,983,984,969,970,971,972,973,974,968,967,966,965,960,961,962,963,964,959,958,950,951,952,953,954,955,956,957): 67 QueuedPackages, 0 AsyncPackages
+[2025.10.23-02.41.35:575][ 14]PIE: Server logged in
+[2025.10.23-02.41.35:580][ 14]PIE: Play in editor total start time 0.697 seconds.
+[2025.10.23-02.41.35:747][ 15]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.10.23-02.41.51:524][824]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-02.41.51:524][824]LogWorld: BeginTearingDown for /Game/UEDPIE_0_testing_Objects
+[2025.10.23-02.41.51:524][824]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.23-02.41.51:550][824]LogWorld: UWorld::CleanupWorld for testing_Objects, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-02.41.51:551][824]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-02.41.51:552][824]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_testing_Objects.testing_Objects
+[2025.10.23-02.41.51:556][824]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.23-02.41.51:566][824]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-02.41.51:627][824]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-02.41.51:628][824]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2025.10.23-02.41.51:628][824]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=4
+[2025.10.23-02.41.51:632][824]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=2
+[2025.10.23-02.41.51:662][824]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2025.10.23-02.41.51:720][825]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2025.10.23-02.42.03:914][526]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.23-02.42.04:104][526]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/facility/BP_Turret_fire] ([2] browsable assets)...
+[2025.10.23-02.42.04:225][526]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/facility/BP_Turret_fire.BP_Turret_fire]
+[2025.10.23-02.42.04:225][526]OBJ SavePackage: Finished generating thumbnails for package [/Game/facility/BP_Turret_fire]
+[2025.10.23-02.42.04:269][526]LogSavePackage: Moving output files for package: /Game/facility/BP_Turret_fire
+[2025.10.23-02.42.04:270][526]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fireD1A3C33942B4465C40388599176A1580.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.42.04:772][526]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fireD1A3C33942B4465C40388599176A1580.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.42.05:273][526]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fireD1A3C33942B4465C40388599176A1580.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.42.05:773][526]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fireD1A3C33942B4465C40388599176A1580.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.42.06:276][526]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fireD1A3C33942B4465C40388599176A1580.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.42.06:777][526]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fireD1A3C33942B4465C40388599176A1580.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.42.07:278][526]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fireD1A3C33942B4465C40388599176A1580.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.42.07:779][526]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fireD1A3C33942B4465C40388599176A1580.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.42.08:280][526]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fireD1A3C33942B4465C40388599176A1580.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.42.08:781][526]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fireD1A3C33942B4465C40388599176A1580.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.42.09:282][526]LogFileManager: Error: Error moving file '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fireD1A3C33942B4465C40388599176A1580.tmp'.
+[2025.10.23-02.42.09:283][526]LogSavePackage: Warning: Failed to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to temp directory
+[2025.10.23-02.42.09:283][526]LogSavePackage: Error: Error saving '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset'
+[2025.10.23-02.42.09:283][526]Warning: Error saving '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset'
+[2025.10.23-02.42.23:114][526]LogSlate: Window 'Message' being destroyed
+[2025.10.23-02.42.23:133][526]Message dialog closed, result: Retry, title: Message, text: The asset '/Game/facility/BP_Turret_fire' (BP_Turret_fire.uasset) failed to save.
+
+Cancel: Stop saving all assets and return to the editor.
+Retry: Attempt to save the asset again.
+Continue: Skip saving this asset only.
+[2025.10.23-02.42.23:133][526]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/facility/BP_Turret_fire] ([2] browsable assets)...
+[2025.10.23-02.42.23:133][526]OBJ SavePackage: Finished generating thumbnails for package [/Game/facility/BP_Turret_fire]
+[2025.10.23-02.42.23:169][526]LogSavePackage: Moving output files for package: /Game/facility/BP_Turret_fire
+[2025.10.23-02.42.23:170][526]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire47D973E9466C8DA4E0580C807B21C0A3.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.42.23:672][526]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire47D973E9466C8DA4E0580C807B21C0A3.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.42.24:173][526]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire47D973E9466C8DA4E0580C807B21C0A3.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.42.24:674][526]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire47D973E9466C8DA4E0580C807B21C0A3.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.42.25:175][526]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire47D973E9466C8DA4E0580C807B21C0A3.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.42.25:676][526]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire47D973E9466C8DA4E0580C807B21C0A3.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.42.26:178][526]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire47D973E9466C8DA4E0580C807B21C0A3.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.42.26:679][526]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire47D973E9466C8DA4E0580C807B21C0A3.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.42.27:180][526]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire47D973E9466C8DA4E0580C807B21C0A3.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.42.27:681][526]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire47D973E9466C8DA4E0580C807B21C0A3.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.42.28:182][526]LogFileManager: Error: Error moving file '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire47D973E9466C8DA4E0580C807B21C0A3.tmp'.
+[2025.10.23-02.42.28:182][526]LogSavePackage: Warning: Failed to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to temp directory
+[2025.10.23-02.42.28:182][526]LogSavePackage: Error: Error saving '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset'
+[2025.10.23-02.42.28:182][526]Warning: Error saving '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset'
+[2025.10.23-02.42.29:347][526]LogSlate: Window 'Message' being destroyed
+[2025.10.23-02.42.29:364][526]Message dialog closed, result: Retry, title: Message, text: The asset '/Game/facility/BP_Turret_fire' (BP_Turret_fire.uasset) failed to save.
+
+Cancel: Stop saving all assets and return to the editor.
+Retry: Attempt to save the asset again.
+Continue: Skip saving this asset only.
+[2025.10.23-02.42.29:364][526]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/facility/BP_Turret_fire] ([2] browsable assets)...
+[2025.10.23-02.42.29:364][526]OBJ SavePackage: Finished generating thumbnails for package [/Game/facility/BP_Turret_fire]
+[2025.10.23-02.42.29:392][526]LogSavePackage: Moving output files for package: /Game/facility/BP_Turret_fire
+[2025.10.23-02.42.29:393][526]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire49FC621C4FF07B13EAAA13838997FDE1.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.42.29:895][526]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire49FC621C4FF07B13EAAA13838997FDE1.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.42.30:397][526]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire49FC621C4FF07B13EAAA13838997FDE1.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.42.30:897][526]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire49FC621C4FF07B13EAAA13838997FDE1.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.42.31:399][526]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire49FC621C4FF07B13EAAA13838997FDE1.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.42.31:899][526]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire49FC621C4FF07B13EAAA13838997FDE1.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.42.32:400][526]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire49FC621C4FF07B13EAAA13838997FDE1.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.42.32:902][526]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire49FC621C4FF07B13EAAA13838997FDE1.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.42.33:404][526]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire49FC621C4FF07B13EAAA13838997FDE1.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.42.33:906][526]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire49FC621C4FF07B13EAAA13838997FDE1.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.42.34:407][526]LogFileManager: Error: Error moving file '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire49FC621C4FF07B13EAAA13838997FDE1.tmp'.
+[2025.10.23-02.42.34:407][526]LogSavePackage: Warning: Failed to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to temp directory
+[2025.10.23-02.42.34:407][526]LogSavePackage: Error: Error saving '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset'
+[2025.10.23-02.42.34:407][526]Warning: Error saving '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset'
+[2025.10.23-02.42.36:373][526]LogSlate: Window 'Message' being destroyed
+[2025.10.23-02.42.36:391][526]Message dialog closed, result: Continue, title: Message, text: The asset '/Game/facility/BP_Turret_fire' (BP_Turret_fire.uasset) failed to save.
+
+Cancel: Stop saving all assets and return to the editor.
+Retry: Attempt to save the asset again.
+Continue: Skip saving this asset only.
+[2025.10.23-02.42.38:935][526]LogSlate: Window 'Packages Failed To Save' being destroyed
+[2025.10.23-02.42.38:955][526]Message dialog closed, result: Ok, title: Packages Failed To Save, text: The following assets failed to save correctly:
+/Game/facility/BP_Turret_fire
+[2025.10.23-02.42.38:955][526]LogFileHelpers: InternalPromptForCheckoutAndSave took 35.0 sec (total: 3:27 min)
+[2025.10.23-02.42.39:278][545]LogHttp: Warning: 0000020769FA5400: request failed, libcurl error: 26 (Failed to open/read local data from file/application)
+[2025.10.23-02.42.39:279][545]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 0 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2025.10.23-02.42.39:279][545]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 1 (upload completely sent off: 2707 bytes)
+[2025.10.23-02.42.39:279][545]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 2 (Recv failure: Connection was reset)
+[2025.10.23-02.42.39:279][545]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 3 (OpenSSL SSL_read: Connection was reset, errno 10054)
+[2025.10.23-02.42.39:279][545]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.10.23-02.42.39:279][545]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 5 (shutting down connection #6)
+[2025.10.23-02.42.39:279][545]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 6 (Recv failure: Connection was reset)
+[2025.10.23-02.42.39:279][545]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 7 (Send failure: Connection was reset)
+[2025.10.23-02.42.39:279][545]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 8 (Recv failure: Connection was reset)
+[2025.10.23-02.42.39:279][545]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 9 (necessary data rewind was not possible)
+[2025.10.23-02.42.39:279][545]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 10 (rewind of client reader 'cr-in' failed: 65)
+[2025.10.23-02.42.39:279][545]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 11 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA1549781-440E-1BE1-CD79-BBA62B1252C7%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=ed12ffe3494354c8335ce28468e0c79b%7C4f4f5fe8a2ec4537826b3a649ae5307d%7C82d43c34-3075-4ff6-9ef8-2adb41397b2c&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2025.10.23-02.42.39:279][545]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 12 (necessary data rewind was not possible)
+[2025.10.23-02.42.39:279][545]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 13 (rewind of client reader 'cr-in' failed: 65)
+[2025.10.23-02.42.39:279][545]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 14 (Host datarouter.ol.epicgames.com:443 was resolved.)
+[2025.10.23-02.42.39:279][546]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 15 (IPv6: (none))
+[2025.10.23-02.42.39:279][546]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 16 (IPv4: 34.237.167.136, 18.233.254.238, 3.222.204.221, 52.72.144.156, 52.86.121.193, 52.45.234.156, 34.234.125.18, 54.173.22.94)
+[2025.10.23-02.42.39:279][546]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 17 (  Trying 34.237.167.136:443...)
+[2025.10.23-02.42.39:279][546]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 18 (SSL reusing session)
+[2025.10.23-02.42.39:279][546]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 19 (ALPN: curl offers http/1.1)
+[2025.10.23-02.42.39:279][546]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 20 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.10.23-02.42.39:279][546]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 21 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.10.23-02.42.39:279][546]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 22 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.10.23-02.42.39:279][546]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 23 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.10.23-02.42.39:279][546]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 24 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2025.10.23-02.42.39:279][546]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 25 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2025.10.23-02.42.39:279][546]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 26 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2025.10.23-02.42.39:279][546]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 27 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2025.10.23-02.42.39:279][546]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 28 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256 / [blank] / UNDEF)
+[2025.10.23-02.42.39:279][546]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 29 (ALPN: server accepted http/1.1)
+[2025.10.23-02.42.39:279][546]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 30 (Server certificate:)
+[2025.10.23-02.42.39:279][546]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 31 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2025.10.23-02.42.39:279][546]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 32 ( start date: Feb  2 00:00:00 2025 GMT)
+[2025.10.23-02.42.39:279][546]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 33 ( expire date: Mar  3 23:59:59 2026 GMT)
+[2025.10.23-02.42.39:279][546]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 34 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2025.10.23-02.42.39:279][546]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 35 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2025.10.23-02.42.39:279][546]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 36 ( SSL certificate verify ok.)
+[2025.10.23-02.42.39:279][546]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 37 (  Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption)
+[2025.10.23-02.42.39:279][546]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 38 (  Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption)
+[2025.10.23-02.42.39:279][546]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 39 (  Certificate level 2: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption)
+[2025.10.23-02.42.39:279][546]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 40 (Connected to datarouter.ol.epicgames.com (34.237.167.136) port 443)
+[2025.10.23-02.42.39:279][546]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 41 (using HTTP/1.x)
+[2025.10.23-02.42.39:279][546]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 42 (client read function EOF fail, only 0/2707 of needed bytes read)
+[2025.10.23-02.42.39:279][546]LogHttp: Warning: 0000020769FA5400: libcurl info message cache 43 (closing connection #7)
+[2025.10.23-02.42.39:279][546]LogHttp: Warning: 0000020769FA5400 POST https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA1549781-440E-1BE1-CD79-BBA62B1252C7%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=ed12ffe3494354c8335ce28468e0c79b%7C4f4f5fe8a2ec4537826b3a649ae5307d%7C82d43c34-3075-4ff6-9ef8-2adb41397b2c&AppEnvironment=datacollector-binary&UploadType=eteventstream completed with reason 'Other' after 0.30s
+[2025.10.23-02.44.05:671][499]LogStreaming: Display: FlushAsyncLoading(1019): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.23-02.44.05:681][499]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_-1_END wave repair_100...
+[2025.10.23-02.44.05:694][499]LogAudioDerivedData: Display: repair_100 compressed to 21.48% (from 258KB to 55KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2025.10.23-02.44.05:697][499]LogAudio: Display: Chunk stats for (SoundWave /Game/facility/UI_SFX_Free_Pack/Wavs/Repair/repair_100.repair_100: Duration=1.50 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=56845 bytes, ChunkN=0)
+[2025.10.23-02.44.07:559][578]LogStreaming: Display: FlushAsyncLoading(1020): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.23-02.44.21:666][238]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.23-02.44.21:863][238]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2025.10.23-02.44.22:037][238]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter]
+[2025.10.23-02.44.22:037][238]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2025.10.23-02.44.22:093][238]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2025.10.23-02.44.22:093][238]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonCharacterFE130A3F4F6E26A5B5180FA7A1691A14.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.44.22:594][238]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonCharacterFE130A3F4F6E26A5B5180FA7A1691A14.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.44.23:096][238]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonCharacterFE130A3F4F6E26A5B5180FA7A1691A14.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.44.23:597][238]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonCharacterFE130A3F4F6E26A5B5180FA7A1691A14.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.44.24:097][238]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonCharacterFE130A3F4F6E26A5B5180FA7A1691A14.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.44.24:598][238]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonCharacterFE130A3F4F6E26A5B5180FA7A1691A14.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.44.25:098][238]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonCharacterFE130A3F4F6E26A5B5180FA7A1691A14.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.44.25:599][238]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonCharacterFE130A3F4F6E26A5B5180FA7A1691A14.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.44.26:100][238]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonCharacterFE130A3F4F6E26A5B5180FA7A1691A14.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.44.26:601][238]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonCharacterFE130A3F4F6E26A5B5180FA7A1691A14.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.44.27:102][238]LogFileManager: Error: Error moving file '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonCharacterFE130A3F4F6E26A5B5180FA7A1691A14.tmp'.
+[2025.10.23-02.44.27:102][238]LogSavePackage: Warning: Failed to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset' to temp directory
+[2025.10.23-02.44.27:102][238]LogSavePackage: Error: Error saving '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2025.10.23-02.44.27:102][238]Warning: Error saving '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2025.10.23-02.44.28:925][238]LogSlate: Window 'Message' being destroyed
+[2025.10.23-02.44.28:940][238]Message dialog closed, result: Cancel, title: Message, text: The asset '/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter' (BP_FirstPersonCharacter.uasset) failed to save.
+
+Cancel: Stop saving all assets and return to the editor.
+Retry: Attempt to save the asset again.
+Continue: Skip saving this asset only.
+[2025.10.23-02.44.28:956][238]LogFileHelpers: InternalPromptForCheckoutAndSave took 7.29 sec (total: 3:35 min)
+[2025.10.23-02.45.03:647][799]LogEditorTransaction: Undo Add Node
+[2025.10.23-02.46.10:118][617]LogPSOHitching: Encountered 450 PSO creation hitches so far (234 graphics, 216 compute). 0 of them were precached.
+[2025.10.23-02.46.32:175][636]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2054.409424
+[2025.10.23-02.46.32:381][644]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.23-02.46.32:381][644]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2054.600098, Update Interval: 304.411133
+[2025.10.23-02.48.08:784][ 11]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-02.48.08:784][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-02.48.09:038][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2025.10.23-02.48.18:289][401]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2025.10.23-02.48.18:295][401]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_21
+[2025.10.23-02.49.31:564][895]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2025.10.23-02.49.31:570][895]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/testing_Objects' took 0.133
+[2025.10.23-02.49.31:574][895]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2025.10.23-02.49.31:706][895]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter]
+[2025.10.23-02.49.31:706][895]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2025.10.23-02.49.31:794][895]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter_Auto2
+[2025.10.23-02.49.31:797][895]LogSavePackage: Moving '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonCharacter_Auto2C2F48F9444F26769C8896C900AC6FFC3.tmp' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter_Auto2.uasset'
+[2025.10.23-02.49.31:808][895]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonGameMode] ([2] browsable assets)...
+[2025.10.23-02.49.31:808][895]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonGameMode]
+[2025.10.23-02.49.31:835][895]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonGameMode_Auto2
+[2025.10.23-02.49.31:837][895]LogSavePackage: Moving '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonGameMode_Auto2833BA4594B6EE90AB912B3B5E56B88EB.tmp' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonGameMode_Auto2.uasset'
+[2025.10.23-02.49.31:841][895]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/facility/BP_Turret_fire] ([2] browsable assets)...
+[2025.10.23-02.49.31:841][895]OBJ SavePackage: Finished generating thumbnails for package [/Game/facility/BP_Turret_fire]
+[2025.10.23-02.49.31:886][895]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/facility/BP_Turret_fire_Auto2
+[2025.10.23-02.49.31:886][895]LogSavePackage: Moving '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire_Auto2F18865734CE70A3486FC759279B51CD8.tmp' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/Autosaves/Game/facility/BP_Turret_fire_Auto2.uasset'
+[2025.10.23-02.49.31:889][895]LogFileHelpers: Auto-saving content packages took 0.316
+[2025.10.23-02.49.54:571][635]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.23-02.49.54:684][635]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/facility/BP_Turret_fire] ([2] browsable assets)...
+[2025.10.23-02.49.54:685][635]OBJ SavePackage: Finished generating thumbnails for package [/Game/facility/BP_Turret_fire]
+[2025.10.23-02.49.54:717][635]LogSavePackage: Moving output files for package: /Game/facility/BP_Turret_fire
+[2025.10.23-02.49.54:717][635]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire305CC9DA418A3A185DFD7D83817C0043.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.49.55:218][635]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire305CC9DA418A3A185DFD7D83817C0043.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.49.55:720][635]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire305CC9DA418A3A185DFD7D83817C0043.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.49.56:220][635]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire305CC9DA418A3A185DFD7D83817C0043.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.49.56:723][635]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire305CC9DA418A3A185DFD7D83817C0043.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.49.57:223][635]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire305CC9DA418A3A185DFD7D83817C0043.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.49.57:724][635]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire305CC9DA418A3A185DFD7D83817C0043.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.49.58:226][635]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire305CC9DA418A3A185DFD7D83817C0043.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.49.58:727][635]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire305CC9DA418A3A185DFD7D83817C0043.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.49.59:228][635]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire305CC9DA418A3A185DFD7D83817C0043.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.49.59:729][635]LogFileManager: Error: Error moving file '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Turret_fire305CC9DA418A3A185DFD7D83817C0043.tmp'.
+[2025.10.23-02.49.59:730][635]LogSavePackage: Warning: Failed to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset' to temp directory
+[2025.10.23-02.49.59:730][635]LogSavePackage: Error: Error saving '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset'
+[2025.10.23-02.49.59:730][635]Warning: Error saving '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/facility/BP_Turret_fire.uasset'
+[2025.10.23-02.50.09:143][635]LogSlate: Window 'Message' being destroyed
+[2025.10.23-02.50.09:168][635]Message dialog closed, result: Cancel, title: Message, text: The asset '/Game/facility/BP_Turret_fire' (BP_Turret_fire.uasset) failed to save.
+
+Cancel: Stop saving all assets and return to the editor.
+Retry: Attempt to save the asset again.
+Continue: Skip saving this asset only.
+[2025.10.23-02.50.09:189][635]LogFileHelpers: InternalPromptForCheckoutAndSave took 14.6 sec (total: 3:49 min)
+[2025.10.23-02.50.46:439][500]LogEditorTransaction: Undo Promote To Variable
+[2025.10.23-02.51.21:376][213]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.23-02.51.21:388][213]LogContentBundle: [testing_Objects(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.10.23-02.51.21:388][213]LogWorldPartition: Display: GenerateStreaming for 'testing_Objects' started...
+[2025.10.23-02.51.21:393][213]LogWorldPartition: Display: GenerateStreaming for 'testing_Objects' took 4.163 ms (total: 29.948 ms)
+[2025.10.23-02.51.21:404][213]LogPlayLevel: [PlayLevel] Compiling BP_FirstPersonCharacter before play...
+[2025.10.23-02.51.21:413][213]LogPlayLevel: [PlayLevel]   Compiling BP_FirstPersonGameMode as a dependent...
+[2025.10.23-02.51.21:671][213]LogPlayLevel: [PlayLevel] Compiling BP_Turret_fire before play...
+[2025.10.23-02.51.21:798][213]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2025.10.23-02.51.21:805][213]LogPlayLevel: PlayLevel: Blueprint regeneration took 412 ms (3 blueprints)
+[2025.10.23-02.51.21:806][213]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_testing_Objects
+[2025.10.23-02.51.21:846][213]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.10.23-02.51.21:856][213]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 8.979 ms (total: 60.019 ms)
+[2025.10.23-02.51.21:869][213]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062583s)
+[2025.10.23-02.51.21:869][213]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/testing_Objects.testing_Objects to /Game/UEDPIE_0_testing_Objects.testing_Objects (0.062679s)
+[2025.10.23-02.51.21:910][213]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2025.10.23-02.51.21:912][213]LogChaosDD: Creating Chaos Debug Draw Scene for world testing_Objects
+[2025.10.23-02.51.21:915][213]LogWorldPartition: ULevel::OnLevelLoaded(testing_Objects)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.23-02.51.21:915][213]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.23-02.51.21:915][213]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_testing_Objects.testing_Objects, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.23-02.51.21:915][213]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.23-02.51.21:930][213]LogWorldPartition: Display: WorldPartition initialize took 14.961 ms (total: 835.342 ms)
+[2025.10.23-02.51.21:930][213]LogPlayLevel: PIE: World Init took: (0.018299s)
+[2025.10.23-02.51.21:931][213]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2025.10.23-02.51.21:931][213]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.23-02.51.21:931][213]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.23-02.51.21:931][213]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.23-02.51.21:931][213]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.23-02.51.21:931][213]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.23-02.51.21:931][213]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.23-02.51.21:931][213]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.23-02.51.21:931][213]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.23-02.51.21:931][213]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.23-02.51.21:931][213]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.23-02.51.21:931][213]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.23-02.51.21:935][213]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.23-02.51.22:024][213]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- OW810)
+[2025.10.23-02.51.22:025][213]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.23-02.51.22:025][213]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.23-02.51.22:025][213]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.23-02.51.22:025][213]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2025.10.23-02.51.22:025][213]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2025.10.23-02.51.22:029][213]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2025.10.23-02.51.22:029][213]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2025.10.23-02.51.22:029][213]LogInit: FAudioDevice initialized with ID 9.
+[2025.10.23-02.51.22:029][213]LogAudio: Display: Audio Device (ID: 9) registered with world 'testing_Objects'.
+[2025.10.23-02.51.22:029][213]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2025.10.23-02.51.22:035][213]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.10.23-02.51.22:038][213]LogWorld: Bringing World /Game/UEDPIE_0_testing_Objects.testing_Objects up for play (max tick rate 60) at 2025.10.23-03.51.22
+[2025.10.23-02.51.22:039][213]LogWorld: Bringing up level for play took: 0.002568
+[2025.10.23-02.51.22:043][213]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2025.10.23-02.51.22:056][213]LogStreaming: Display: FlushAsyncLoading(1087,1086,1085,1084,1083,1082,1081,1080,1079,1078,1077,1076,1075,1074,1073,1072,1071,1070,1069,1068,1067,1066,1065,1064,1063,1062,1061,1060,1059,1058,1057,1056,1046,1047,1048,1049,1050,1051,1052,1053,1054,1055,1040,1041,1042,1043,1044,1045,1039,1038,1037,1036,1031,1032,1033,1034,1035,1030,1029,1021,1022,1023,1024,1025,1026,1027,1028): 67 QueuedPackages, 0 AsyncPackages
+[2025.10.23-02.51.22:401][213]PIE: Server logged in
+[2025.10.23-02.51.22:405][213]PIE: Play in editor total start time 1.016 seconds.
+[2025.10.23-02.51.22:608][214]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.10.23-02.51.23:604][239]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-02.51.23:604][239]LogWorld: BeginTearingDown for /Game/UEDPIE_0_testing_Objects
+[2025.10.23-02.51.23:604][239]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.23-02.51.23:631][239]LogWorld: UWorld::CleanupWorld for testing_Objects, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-02.51.23:632][239]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-02.51.23:632][239]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_testing_Objects.testing_Objects
+[2025.10.23-02.51.23:637][239]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.23-02.51.23:648][239]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-02.51.23:710][239]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-02.51.23:711][239]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2025.10.23-02.51.23:711][239]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=4
+[2025.10.23-02.51.23:715][239]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=2
+[2025.10.23-02.51.23:753][239]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2025.10.23-02.51.23:800][240]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2025.10.23-02.51.48:929][441]Cmd: DELETE
+[2025.10.23-02.51.48:929][441]Cmd: ACTOR DELETE
+[2025.10.23-02.51.48:943][441]LogEditorActor: Deleted Actor: BP_Startlocation_C
+[2025.10.23-02.51.48:997][441]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2025.10.23-02.51.49:003][441]LogEditorActor: Deleted 1 Actors (0.073 secs)
+[2025.10.23-02.51.59:214][780]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Startlocation.BP_Startlocation_C
+[2025.10.23-02.51.59:214][780]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Startlocation.BP_Startlocation_C
+[2025.10.23-02.51.59:217][780]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Startlocation.BP_Startlocation as actor: BP_Startlocation_C /Game/testing_Objects.testing_Objects:PersistentLevel.BP_Startlocation_C_0
+[2025.10.23-02.51.59:218][780]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Startlocation.BP_Startlocation as actor: BP_Startlocation_C /Game/testing_Objects.testing_Objects:PersistentLevel.BP_Startlocation_C_0
+[2025.10.23-02.51.59:226][780]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2025.10.23-02.52.00:164][819]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2025.10.23-02.52.00:169][819]LogEditorActor: Deleted 0 Actors (0.066 secs)
+[2025.10.23-02.52.00:182][819]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Startlocation.BP_Startlocation_C
+[2025.10.23-02.52.00:183][819]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/facility/BP_Startlocation.BP_Startlocation_C
+[2025.10.23-02.52.00:213][819]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Startlocation.BP_Startlocation as actor: BP_Startlocation_C /Game/testing_Objects.testing_Objects:PersistentLevel.BP_Startlocation_C_UAID_D843AE3357AE0A9B02_1492575935
+[2025.10.23-02.52.00:216][819]LogActorFactory: Actor Factory spawned Blueprint /Game/facility/BP_Startlocation.BP_Startlocation as actor: BP_Startlocation_C /Game/testing_Objects.testing_Objects:PersistentLevel.BP_Startlocation_C_UAID_D843AE3357AE0A9B02_1492575935
+[2025.10.23-02.52.02:115][906]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.23-02.52.02:390][906]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2025.10.23-02.52.02:428][906]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.10.23-02.52.02:463][906]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.10.23-02.52.02:489][906]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/testing_Objects/D/57/NA9G1N6ICKJZUV6ONGXO7V
+[2025.10.23-02.52.02:489][906]LogSavePackage: Moving '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/NA9G1N6ICKJZUV6ONGXO7VF20A0C93413BB712028B77A82B985D9F.tmp' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/__ExternalActors__/testing_Objects/D/57/NA9G1N6ICKJZUV6ONGXO7V.uasset'
+[2025.10.23-02.52.02:526][906]LogFileHelpers: InternalPromptForCheckoutAndSave took 411.057 ms (total: 3:50 min)
+[2025.10.23-02.52.02:693][906]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.23-02.52.02:693][906]LogContentValidation: Enabled validators:
+[2025.10.23-02.52.02:694][906]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.23-02.52.02:694][906]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.23-02.52.02:694][906]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.23-02.52.02:694][906]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.23-02.52.02:694][906]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.23-02.52.02:694][906]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.23-02.52.02:697][906]AssetCheck: /Game/testing_Objects Validating asset
+[2025.10.23-02.52.02:828][906]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.23-02.52.06:676][ 94]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.23-02.52.06:687][ 94]LogContentBundle: [testing_Objects(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.10.23-02.52.06:687][ 94]LogWorldPartition: Display: GenerateStreaming for 'testing_Objects' started...
+[2025.10.23-02.52.06:692][ 94]LogWorldPartition: Display: GenerateStreaming for 'testing_Objects' took 4.867 ms (total: 34.816 ms)
+[2025.10.23-02.52.06:693][ 94]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.23-02.52.06:693][ 94]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_testing_Objects
+[2025.10.23-02.52.06:736][ 94]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.10.23-02.52.06:745][ 94]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 8.876 ms (total: 68.896 ms)
+[2025.10.23-02.52.06:745][ 94]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052219s)
+[2025.10.23-02.52.06:745][ 94]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/testing_Objects.testing_Objects to /Game/UEDPIE_0_testing_Objects.testing_Objects (0.052328s)
+[2025.10.23-02.52.06:787][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2025.10.23-02.52.06:790][ 94]LogChaosDD: Creating Chaos Debug Draw Scene for world testing_Objects
+[2025.10.23-02.52.06:793][ 94]LogWorldPartition: ULevel::OnLevelLoaded(testing_Objects)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.23-02.52.06:793][ 94]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.23-02.52.06:793][ 94]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_testing_Objects.testing_Objects, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.23-02.52.06:793][ 94]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.23-02.52.06:808][ 94]LogWorldPartition: Display: WorldPartition initialize took 15.687 ms (total: 851.030 ms)
+[2025.10.23-02.52.06:809][ 94]LogPlayLevel: PIE: World Init took: (0.019052s)
+[2025.10.23-02.52.06:810][ 94]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2025.10.23-02.52.06:810][ 94]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.23-02.52.06:810][ 94]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.23-02.52.06:810][ 94]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.23-02.52.06:810][ 94]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.23-02.52.06:810][ 94]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.23-02.52.06:810][ 94]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.23-02.52.06:810][ 94]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.23-02.52.06:810][ 94]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.23-02.52.06:810][ 94]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.23-02.52.06:810][ 94]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.23-02.52.06:810][ 94]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.23-02.52.06:814][ 94]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.23-02.52.06:913][ 94]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- OW810)
+[2025.10.23-02.52.06:913][ 94]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.23-02.52.06:913][ 94]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.23-02.52.06:913][ 94]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.23-02.52.06:914][ 94]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2025.10.23-02.52.06:914][ 94]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2025.10.23-02.52.06:918][ 94]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2025.10.23-02.52.06:918][ 94]LogInit: FAudioDevice initialized with ID 10.
+[2025.10.23-02.52.06:918][ 94]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2025.10.23-02.52.06:918][ 94]LogAudio: Display: Audio Device (ID: 10) registered with world 'testing_Objects'.
+[2025.10.23-02.52.06:918][ 94]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2025.10.23-02.52.06:924][ 94]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.10.23-02.52.06:926][ 94]LogWorld: Bringing World /Game/UEDPIE_0_testing_Objects.testing_Objects up for play (max tick rate 60) at 2025.10.23-03.52.06
+[2025.10.23-02.52.06:927][ 94]LogWorld: Bringing up level for play took: 0.002189
+[2025.10.23-02.52.06:931][ 94]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2025.10.23-02.52.06:947][ 94]LogStreaming: Display: FlushAsyncLoading(1154,1153,1152,1151,1150,1149,1148,1147,1146,1145,1144,1143,1142,1141,1140,1139,1138,1137,1136,1135,1134,1133,1132,1131,1130,1129,1128,1127,1126,1125,1124,1123,1113,1114,1115,1116,1117,1118,1119,1120,1121,1122,1107,1108,1109,1110,1111,1112,1106,1105,1104,1103,1098,1099,1100,1101,1102,1097,1096,1088,1089,1090,1091,1092,1093,1094,1095): 67 QueuedPackages, 0 AsyncPackages
+[2025.10.23-02.52.07:283][ 94]PIE: Server logged in
+[2025.10.23-02.52.07:285][ 94]PIE: Play in editor total start time 0.598 seconds.
+[2025.10.23-02.52.07:434][ 95]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.10.23-02.52.25:642][ 43]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2407.873535
+[2025.10.23-02.52.25:806][ 51]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.23-02.52.25:807][ 51]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2408.020264, Update Interval: 321.652893
+[2025.10.23-02.52.31:964][360]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-02.52.31:964][360]LogWorld: BeginTearingDown for /Game/UEDPIE_0_testing_Objects
+[2025.10.23-02.52.31:964][360]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.23-02.52.31:992][360]LogWorld: UWorld::CleanupWorld for testing_Objects, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-02.52.31:993][360]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-02.52.31:994][360]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_testing_Objects.testing_Objects
+[2025.10.23-02.52.32:001][360]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.23-02.52.32:014][360]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-02.52.32:078][360]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.23-02.52.32:081][360]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2025.10.23-02.52.32:081][360]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=4
+[2025.10.23-02.52.32:085][360]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=2
+[2025.10.23-02.52.32:099][360]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-02.52.32:117][360]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2025.10.23-02.52.32:197][361]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2025.10.23-02.53.00:580][945]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.23-02.53.00:790][945]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/UI/BP_Player_UI] ([2] browsable assets)...
+[2025.10.23-02.53.00:790][945]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/UI/BP_Player_UI]
+[2025.10.23-02.53.00:828][945]LogSavePackage: Moving output files for package: /Game/FirstPerson/UI/BP_Player_UI
+[2025.10.23-02.53.00:829][945]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/UI/BP_Player_UI.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Player_UIE7669EA4437097E9AE5B8AA62C7BFB08.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.53.01:331][945]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/UI/BP_Player_UI.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Player_UIE7669EA4437097E9AE5B8AA62C7BFB08.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.53.01:833][945]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/UI/BP_Player_UI.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Player_UIE7669EA4437097E9AE5B8AA62C7BFB08.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.53.02:333][945]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/UI/BP_Player_UI.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Player_UIE7669EA4437097E9AE5B8AA62C7BFB08.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.53.02:834][945]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/UI/BP_Player_UI.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Player_UIE7669EA4437097E9AE5B8AA62C7BFB08.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.53.03:335][945]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/UI/BP_Player_UI.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Player_UIE7669EA4437097E9AE5B8AA62C7BFB08.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.53.03:837][945]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/UI/BP_Player_UI.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Player_UIE7669EA4437097E9AE5B8AA62C7BFB08.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.53.04:338][945]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/UI/BP_Player_UI.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Player_UIE7669EA4437097E9AE5B8AA62C7BFB08.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.53.04:838][945]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/UI/BP_Player_UI.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Player_UIE7669EA4437097E9AE5B8AA62C7BFB08.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.53.05:340][945]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/UI/BP_Player_UI.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Player_UIE7669EA4437097E9AE5B8AA62C7BFB08.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.53.05:841][945]LogFileManager: Error: Error moving file '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/UI/BP_Player_UI.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Player_UIE7669EA4437097E9AE5B8AA62C7BFB08.tmp'.
+[2025.10.23-02.53.05:841][945]LogSavePackage: Warning: Failed to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/UI/BP_Player_UI.uasset' to temp directory
+[2025.10.23-02.53.05:842][945]LogSavePackage: Error: Error saving '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/UI/BP_Player_UI.uasset'
+[2025.10.23-02.53.05:842][945]Warning: Error saving '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/UI/BP_Player_UI.uasset'
+[2025.10.23-02.53.08:892][945]LogSlate: Window 'Message' being destroyed
+[2025.10.23-02.53.08:906][945]Message dialog closed, result: Cancel, title: Message, text: The asset '/Game/FirstPerson/UI/BP_Player_UI' (BP_Player_UI.uasset) failed to save.
+
+Cancel: Stop saving all assets and return to the editor.
+Retry: Attempt to save the asset again.
+Continue: Skip saving this asset only.
+[2025.10.23-02.53.08:929][945]LogFileHelpers: InternalPromptForCheckoutAndSave took 8.34 sec (total: 3:58 min)
+[2025.10.23-02.53.10:407][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2025.10.23-02.53.10:419][ 17]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.23-02.53.10:559][ 17]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2025.10.23-02.53.10:634][ 17]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter]
+[2025.10.23-02.53.10:634][ 17]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2025.10.23-02.53.10:716][ 17]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2025.10.23-02.53.10:718][ 17]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonCharacterA36825114C3641020B2D4596B5B0CC2F.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.53.11:220][ 17]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonCharacterA36825114C3641020B2D4596B5B0CC2F.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.53.11:722][ 17]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonCharacterA36825114C3641020B2D4596B5B0CC2F.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.53.12:223][ 17]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonCharacterA36825114C3641020B2D4596B5B0CC2F.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.53.12:723][ 17]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonCharacterA36825114C3641020B2D4596B5B0CC2F.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.53.13:225][ 17]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonCharacterA36825114C3641020B2D4596B5B0CC2F.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.53.13:726][ 17]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonCharacterA36825114C3641020B2D4596B5B0CC2F.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.53.14:228][ 17]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonCharacterA36825114C3641020B2D4596B5B0CC2F.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.53.14:729][ 17]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonCharacterA36825114C3641020B2D4596B5B0CC2F.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.53.15:230][ 17]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonCharacterA36825114C3641020B2D4596B5B0CC2F.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.53.15:732][ 17]LogFileManager: Error: Error moving file '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonCharacterA36825114C3641020B2D4596B5B0CC2F.tmp'.
+[2025.10.23-02.53.15:733][ 17]LogSavePackage: Warning: Failed to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset' to temp directory
+[2025.10.23-02.53.15:733][ 17]LogSavePackage: Error: Error saving '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2025.10.23-02.53.15:733][ 17]Warning: Error saving '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2025.10.23-02.53.18:513][ 17]LogSlate: Window 'Message' being destroyed
+[2025.10.23-02.53.18:528][ 17]Message dialog closed, result: Retry, title: Message, text: The asset '/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter' (BP_FirstPersonCharacter.uasset) failed to save.
+
+Cancel: Stop saving all assets and return to the editor.
+Retry: Attempt to save the asset again.
+Continue: Skip saving this asset only.
+[2025.10.23-02.53.18:529][ 17]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2025.10.23-02.53.18:529][ 17]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2025.10.23-02.53.18:581][ 17]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2025.10.23-02.53.18:582][ 17]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonCharacter0412303740D5C4AA6612AC91891C6AD8.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.53.19:083][ 17]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonCharacter0412303740D5C4AA6612AC91891C6AD8.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.53.19:583][ 17]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonCharacter0412303740D5C4AA6612AC91891C6AD8.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.53.20:085][ 17]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonCharacter0412303740D5C4AA6612AC91891C6AD8.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.53.20:586][ 17]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonCharacter0412303740D5C4AA6612AC91891C6AD8.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.53.21:087][ 17]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonCharacter0412303740D5C4AA6612AC91891C6AD8.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.53.21:589][ 17]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonCharacter0412303740D5C4AA6612AC91891C6AD8.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.53.22:090][ 17]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonCharacter0412303740D5C4AA6612AC91891C6AD8.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.53.22:593][ 17]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonCharacter0412303740D5C4AA6612AC91891C6AD8.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.53.23:093][ 17]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonCharacter0412303740D5C4AA6612AC91891C6AD8.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.53.23:594][ 17]LogFileManager: Error: Error moving file '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonCharacter0412303740D5C4AA6612AC91891C6AD8.tmp'.
+[2025.10.23-02.53.23:594][ 17]LogSavePackage: Warning: Failed to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset' to temp directory
+[2025.10.23-02.53.23:594][ 17]LogSavePackage: Error: Error saving '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2025.10.23-02.53.23:594][ 17]Warning: Error saving '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2025.10.23-02.53.32:327][ 17]LogSlate: Window 'Message' being destroyed
+[2025.10.23-02.53.32:343][ 17]Message dialog closed, result: Cancel, title: Message, text: The asset '/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter' (BP_FirstPersonCharacter.uasset) failed to save.
+
+Cancel: Stop saving all assets and return to the editor.
+Retry: Attempt to save the asset again.
+Continue: Skip saving this asset only.
+[2025.10.23-02.53.32:366][ 17]LogFileHelpers: InternalPromptForCheckoutAndSave took 21.9 sec (total: 4:20 min)
+[2025.10.23-02.53.55:824][230]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.23-02.53.55:836][230]LogContentBundle: [testing_Objects(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.10.23-02.53.55:836][230]LogWorldPartition: Display: GenerateStreaming for 'testing_Objects' started...
+[2025.10.23-02.53.55:840][230]LogWorldPartition: Display: GenerateStreaming for 'testing_Objects' took 4.196 ms (total: 39.012 ms)
+[2025.10.23-02.53.55:842][230]LogPlayLevel: [PlayLevel] Compiling BP_Turret_fire before play...
+[2025.10.23-02.53.55:991][230]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2025.10.23-02.53.55:995][230]LogPlayLevel: PlayLevel: Blueprint regeneration took 154 ms (1 blueprints)
+[2025.10.23-02.53.55:995][230]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_testing_Objects
+[2025.10.23-02.53.56:038][230]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.10.23-02.53.56:047][230]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 9.246 ms (total: 78.143 ms)
+[2025.10.23-02.53.56:048][230]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052513s)
+[2025.10.23-02.53.56:048][230]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/testing_Objects.testing_Objects to /Game/UEDPIE_0_testing_Objects.testing_Objects (0.052590s)
+[2025.10.23-02.53.56:090][230]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2025.10.23-02.53.56:093][230]LogChaosDD: Creating Chaos Debug Draw Scene for world testing_Objects
+[2025.10.23-02.53.56:097][230]LogWorldPartition: ULevel::OnLevelLoaded(testing_Objects)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.23-02.53.56:097][230]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.23-02.53.56:097][230]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_testing_Objects.testing_Objects, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.23-02.53.56:097][230]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.23-02.53.56:114][230]LogWorldPartition: Display: WorldPartition initialize took 17.569 ms (total: 868.599 ms)
+[2025.10.23-02.53.56:114][230]LogPlayLevel: PIE: World Init took: (0.021944s)
+[2025.10.23-02.53.56:115][230]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2025.10.23-02.53.56:115][230]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.23-02.53.56:115][230]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.23-02.53.56:115][230]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.23-02.53.56:115][230]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.23-02.53.56:115][230]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.23-02.53.56:116][230]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.23-02.53.56:116][230]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.23-02.53.56:116][230]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.23-02.53.56:116][230]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.23-02.53.56:116][230]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.23-02.53.56:116][230]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.23-02.53.56:122][230]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.23-02.53.56:220][230]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- OW810)
+[2025.10.23-02.53.56:221][230]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.23-02.53.56:221][230]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.23-02.53.56:221][230]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.23-02.53.56:222][230]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2025.10.23-02.53.56:222][230]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2025.10.23-02.53.56:226][230]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2025.10.23-02.53.56:227][230]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2025.10.23-02.53.56:227][230]LogInit: FAudioDevice initialized with ID 11.
+[2025.10.23-02.53.56:227][230]LogAudio: Display: Audio Device (ID: 11) registered with world 'testing_Objects'.
+[2025.10.23-02.53.56:227][230]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2025.10.23-02.53.56:233][230]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.10.23-02.53.56:235][230]LogWorld: Bringing World /Game/UEDPIE_0_testing_Objects.testing_Objects up for play (max tick rate 60) at 2025.10.23-03.53.56
+[2025.10.23-02.53.56:236][230]LogWorld: Bringing up level for play took: 0.002339
+[2025.10.23-02.53.56:240][230]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2025.10.23-02.53.56:255][230]LogStreaming: Display: FlushAsyncLoading(1223,1222,1221,1220,1219,1218,1217,1216,1215,1214,1213,1212,1211,1210,1209,1208,1207,1206,1205,1204,1203,1202,1201,1200,1199,1198,1197,1196,1195,1194,1193,1192,1182,1183,1184,1185,1186,1187,1188,1189,1190,1191,1176,1177,1178,1179,1180,1181,1175,1174,1173,1172,1167,1168,1169,1170,1171,1166,1165,1157,1158,1159,1160,1161,1162,1163,1164): 67 QueuedPackages, 0 AsyncPackages
+[2025.10.23-02.53.56:645][230]PIE: Server logged in
+[2025.10.23-02.53.56:648][230]PIE: Play in editor total start time 0.813 seconds.
+[2025.10.23-02.53.56:843][231]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.10.23-02.53.59:424][242]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-02.53.59:424][242]LogWorld: BeginTearingDown for /Game/UEDPIE_0_testing_Objects
+[2025.10.23-02.53.59:424][242]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.23-02.53.59:443][242]LogWorld: UWorld::CleanupWorld for testing_Objects, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-02.53.59:444][242]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-02.53.59:444][242]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_testing_Objects.testing_Objects
+[2025.10.23-02.53.59:448][242]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.23-02.53.59:468][242]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-02.53.59:545][242]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-02.53.59:545][242]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2025.10.23-02.53.59:545][242]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11, StreamState=4
+[2025.10.23-02.53.59:552][242]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11, StreamState=2
+[2025.10.23-02.53.59:582][242]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2025.10.23-02.53.59:677][243]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2025.10.23-02.54.11:827][904]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.23-02.54.11:968][904]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FirstPerson/UI/BP_Player_UI] ([2] browsable assets)...
+[2025.10.23-02.54.11:981][904]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/FirstPerson/UI/BP_Player_UI.BP_Player_UI]
+[2025.10.23-02.54.11:982][904]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/UI/BP_Player_UI]
+[2025.10.23-02.54.12:019][904]LogSavePackage: Moving output files for package: /Game/FirstPerson/UI/BP_Player_UI
+[2025.10.23-02.54.12:020][904]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/UI/BP_Player_UI.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Player_UI680785D14DFD14CEB922DBB44026E115.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.54.12:522][904]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/UI/BP_Player_UI.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Player_UI680785D14DFD14CEB922DBB44026E115.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.54.13:024][904]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/UI/BP_Player_UI.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Player_UI680785D14DFD14CEB922DBB44026E115.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.54.13:526][904]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/UI/BP_Player_UI.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Player_UI680785D14DFD14CEB922DBB44026E115.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.54.14:027][904]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/UI/BP_Player_UI.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Player_UI680785D14DFD14CEB922DBB44026E115.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.54.14:529][904]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/UI/BP_Player_UI.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Player_UI680785D14DFD14CEB922DBB44026E115.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.54.15:030][904]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/UI/BP_Player_UI.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Player_UI680785D14DFD14CEB922DBB44026E115.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.54.15:530][904]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/UI/BP_Player_UI.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Player_UI680785D14DFD14CEB922DBB44026E115.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.54.16:032][904]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/UI/BP_Player_UI.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Player_UI680785D14DFD14CEB922DBB44026E115.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.54.16:534][904]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/UI/BP_Player_UI.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Player_UI680785D14DFD14CEB922DBB44026E115.tmp' (Error Code 32), retrying in .5s...
+[2025.10.23-02.54.17:034][904]LogFileManager: Error: Error moving file '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/UI/BP_Player_UI.uasset' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_Player_UI680785D14DFD14CEB922DBB44026E115.tmp'.
+[2025.10.23-02.54.17:034][904]LogSavePackage: Warning: Failed to move '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/UI/BP_Player_UI.uasset' to temp directory
+[2025.10.23-02.54.17:034][904]LogSavePackage: Error: Error saving '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/UI/BP_Player_UI.uasset'
+[2025.10.23-02.54.17:036][904]Warning: Error saving '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/UI/BP_Player_UI.uasset'
+[2025.10.23-02.54.18:980][904]LogSlate: Window 'Message' being destroyed
+[2025.10.23-02.54.18:998][904]Message dialog closed, result: Cancel, title: Message, text: The asset '/Game/FirstPerson/UI/BP_Player_UI' (BP_Player_UI.uasset) failed to save.
+
+Cancel: Stop saving all assets and return to the editor.
+Retry: Attempt to save the asset again.
+Continue: Skip saving this asset only.
+[2025.10.23-02.54.19:017][904]LogFileHelpers: InternalPromptForCheckoutAndSave took 7.19 sec (total: 4:27 min)
