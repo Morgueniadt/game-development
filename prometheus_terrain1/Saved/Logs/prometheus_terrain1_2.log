@@ -1621,3 +1621,115 @@ Sampler Limit: 32
 [2025.10.23-02.19.35:363][961]LogPSOHitching: Encountered 350 PSO creation hitches so far (157 graphics, 193 compute). 0 of them were precached.
 [2025.10.23-02.19.35:405][961]LogD3D12RHI: Waited for PSO creation for 200.000000ms
 [2025.10.23-02.19.43:162][979]Cmd: SELECT NONE
+[2025.10.23-02.22.17:255][ 38]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.23-02.22.17:286][ 38]LogPlayLevel: [PlayLevel] Compiling BP_FirstPersonGameMode before play...
+[2025.10.23-02.22.17:518][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   4.32ms
+[2025.10.23-02.22.17:528][ 38]LogPlayLevel: PlayLevel: Blueprint regeneration took 248 ms (1 blueprints)
+[2025.10.23-02.22.17:532][ 38]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Promrtheus
+[2025.10.23-02.22.17:714][ 38]LogPlayLevel: PIE: StaticDuplicateObject took: (0.181454s)
+[2025.10.23-02.22.17:714][ 38]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Promrtheus.Promrtheus to /Game/UEDPIE_0_Promrtheus.Promrtheus (0.181763s)
+[2025.10.23-02.22.17:753][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2025.10.23-02.22.17:756][ 38]LogChaosDD: Creating Chaos Debug Draw Scene for world Promrtheus
+[2025.10.23-02.22.17:771][ 38]LogPlayLevel: PIE: World Init took: (0.016466s)
+[2025.10.23-02.22.17:775][ 38]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2025.10.23-02.22.17:777][ 38]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.23-02.22.17:777][ 38]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.23-02.22.17:777][ 38]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.23-02.22.17:777][ 38]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.23-02.22.17:777][ 38]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.23-02.22.17:777][ 38]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.23-02.22.17:777][ 38]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.23-02.22.17:777][ 38]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.23-02.22.17:779][ 38]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.23-02.22.17:779][ 38]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.23-02.22.17:779][ 38]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.23-02.22.17:785][ 38]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.23-02.22.17:928][ 38]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- OW810)
+[2025.10.23-02.22.17:941][ 38]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.23-02.22.17:941][ 38]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.23-02.22.17:942][ 38]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.23-02.22.17:947][ 38]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2025.10.23-02.22.17:947][ 38]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2025.10.23-02.22.17:953][ 38]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2025.10.23-02.22.17:953][ 38]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2025.10.23-02.22.17:953][ 38]LogInit: FAudioDevice initialized with ID 3.
+[2025.10.23-02.22.17:954][ 38]LogAudio: Display: Audio Device (ID: 3) registered with world 'Promrtheus'.
+[2025.10.23-02.22.17:955][ 38]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2025.10.23-02.22.18:080][ 38]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-02.22.18:084][ 38]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.10.23-02.22.18:157][ 38]LogWorld: Bringing World /Game/UEDPIE_0_Promrtheus.Promrtheus up for play (max tick rate 60) at 2025.10.23-03.22.18
+[2025.10.23-02.22.18:168][ 38]LogWorld: Bringing up level for play took: 0.083151
+[2025.10.23-02.22.18:185][ 38]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2025.10.23-02.22.18:255][ 38]PIE: Server logged in
+[2025.10.23-02.22.18:256][ 38]PIE: Play in editor total start time 0.983 seconds.
+[2025.10.23-02.22.18:481][ 39]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.10.23-02.22.25:262][259]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-02.22.25:262][259]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Promrtheus
+[2025.10.23-02.22.25:265][259]LogSlate: Window 'prometheus_terrain1 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.23-02.22.25:294][259]LogWorld: UWorld::CleanupWorld for Promrtheus, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-02.22.25:301][259]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-02.22.25:309][259]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.23-02.22.25:324][259]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-02.22.25:379][259]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2025.10.23-02.22.25:379][259]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=4
+[2025.10.23-02.22.25:384][259]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=2
+[2025.10.23-02.22.25:414][259]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2025.10.23-02.22.25:458][260]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2025.10.23-02.22.32:978][700]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.23-02.22.32:991][700]LogPlayLevel: [PlayLevel] Compiling BP_FirstPersonGameMode before play...
+[2025.10.23-02.22.33:106][700]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2025.10.23-02.22.33:108][700]LogPlayLevel: PlayLevel: Blueprint regeneration took 119 ms (1 blueprints)
+[2025.10.23-02.22.33:108][700]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Promrtheus
+[2025.10.23-02.22.33:224][700]LogPlayLevel: PIE: StaticDuplicateObject took: (0.114491s)
+[2025.10.23-02.22.33:224][700]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Promrtheus.Promrtheus to /Game/UEDPIE_0_Promrtheus.Promrtheus (0.115896s)
+[2025.10.23-02.22.33:262][700]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2025.10.23-02.22.33:263][700]LogChaosDD: Creating Chaos Debug Draw Scene for world Promrtheus
+[2025.10.23-02.22.33:267][700]LogPlayLevel: PIE: World Init took: (0.004360s)
+[2025.10.23-02.22.33:269][700]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2025.10.23-02.22.33:269][700]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.23-02.22.33:269][700]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.23-02.22.33:269][700]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.23-02.22.33:269][700]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.23-02.22.33:269][700]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.23-02.22.33:269][700]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.23-02.22.33:269][700]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.23-02.22.33:269][700]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.23-02.22.33:269][700]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.23-02.22.33:269][700]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.23-02.22.33:269][700]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.23-02.22.33:273][700]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.23-02.22.33:364][700]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- OW810)
+[2025.10.23-02.22.33:367][700]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.23-02.22.33:367][700]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.23-02.22.33:367][700]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.23-02.22.33:370][700]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2025.10.23-02.22.33:370][700]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2025.10.23-02.22.33:373][700]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2025.10.23-02.22.33:373][700]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2025.10.23-02.22.33:373][700]LogInit: FAudioDevice initialized with ID 4.
+[2025.10.23-02.22.33:373][700]LogAudio: Display: Audio Device (ID: 4) registered with world 'Promrtheus'.
+[2025.10.23-02.22.33:373][700]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2025.10.23-02.22.33:442][700]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-02.22.33:444][700]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.10.23-02.22.33:486][700]LogWorld: Bringing World /Game/UEDPIE_0_Promrtheus.Promrtheus up for play (max tick rate 60) at 2025.10.23-03.22.33
+[2025.10.23-02.22.33:487][700]LogWorld: Bringing up level for play took: 0.042681
+[2025.10.23-02.22.33:492][700]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2025.10.23-02.22.33:507][700]PIE: Server logged in
+[2025.10.23-02.22.33:507][700]PIE: Play in editor total start time 0.519 seconds.
+[2025.10.23-02.22.33:670][701]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.10.23-02.22.48:143][288]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-02.22.48:144][288]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Promrtheus
+[2025.10.23-02.22.48:145][288]LogSlate: Window 'prometheus_terrain1 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.23-02.22.48:188][288]LogWorld: UWorld::CleanupWorld for Promrtheus, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-02.22.48:192][288]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-02.22.48:194][288]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.23-02.22.48:202][288]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-02.22.48:247][288]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2025.10.23-02.22.48:248][288]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=4
+[2025.10.23-02.22.48:253][288]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=2
+[2025.10.23-02.22.48:285][288]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2025.10.23-02.22.48:327][289]LogPlayLevel: Display: Destroying online subsystem :Context_20
