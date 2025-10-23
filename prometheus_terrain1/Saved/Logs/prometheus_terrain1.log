@@ -2282,3 +2282,212 @@ Sampler Limit: 32
 [2025.10.23-01.13.55:999][103]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
 [2025.10.23-01.13.55:999][103]LogShaderCompilers: Display: Material Cache Hits: 5 (2%)
 [2025.10.23-01.13.55:999][103]LogShaderCompilers: Display: ================================================
+[2025.10.23-01.15.16:634][758]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1349.901611
+[2025.10.23-01.15.16:782][767]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.23-01.15.16:782][768]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1350.032104, Update Interval: 336.424438
+[2025.10.23-01.16.23:896][163]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2025.10.23-01.16.25:660][163]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Promrtheus_Auto2
+[2025.10.23-01.16.25:660][163]LogSavePackage: Moving '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/Promrtheus_Auto2DDE1FCBC4106E659DD594E989868CD0F.tmp' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/Autosaves/Game/Promrtheus_Auto2.umap'
+[2025.10.23-01.16.25:666][163]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Promrtheus' took 1.808
+[2025.10.23-01.16.25:666][163]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 1.808
+[2025.10.23-01.16.25:668][163]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonGameMode] ([2] browsable assets)...
+[2025.10.23-01.16.25:668][163]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonGameMode]
+[2025.10.23-01.16.25:707][163]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonGameMode_Auto2
+[2025.10.23-01.16.25:707][163]LogSavePackage: Moving '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonGameMode_Auto2F82B4670426228825D9BE28933E5C899.tmp' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonGameMode_Auto2.uasset'
+[2025.10.23-01.16.25:710][163]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/facility/AND_THEY_MINE_FOR_OUR_BODIES] ([1] browsable assets)...
+[2025.10.23-01.16.25:710][163]OBJ SavePackage: Finished generating thumbnails for package [/Game/facility/AND_THEY_MINE_FOR_OUR_BODIES]
+[2025.10.23-01.16.25:733][163]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/facility/AND_THEY_MINE_FOR_OUR_BODIES_Auto2
+[2025.10.23-01.16.25:733][163]LogSavePackage: Moving '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/AND_THEY_MINE_FOR_OUR_BODIES_Aut86D54264481E204F59A7D58979477D04.tmp' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/Autosaves/Game/facility/AND_THEY_MINE_FOR_OUR_BODIES_Auto2.uasset'
+[2025.10.23-01.16.25:738][163]LogFileHelpers: Auto-saving content packages took 0.072
+[2025.10.23-01.16.59:221][459]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2025.10.23-01.16.59:480][459]LogSlate: Last resort fallback font was requested. Font: '<unknown>', Character: '<unknown>'
+[2025.10.23-01.16.59:504][459]LogSlate: Took 0.022505 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2025.10.23-01.17.01:185][459]LogSlate: Window 'Delete Assets' being destroyed
+[2025.10.23-01.17.01:259][459]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2025.10.23-01.17.01:308][459]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2025.10.23-01.17.01:353][459]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.10.23-01.18.58:406][ 46]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 C:\Users\Elect\Downloads\AND_THEY_MINE_FOR_OUR_BODIES.wav)
+[2025.10.23-01.19.01:696][ 46]LogAsyncCompilation: Display: BEWARE: AssetCompile memory estimate is greater than available, but we're running it [AudioDerivedData] anyway! RequiredMemory = 0.000 MiB + 1295.672119 MiB, MemoryLimit = 1034.863281 MiB 
+[2025.10.23-01.19.01:698][ 46]LogAsyncCompilation: Display: BEWARE: AssetCompile memory estimate is greater than available, but we're running it [AudioDerivedData] anyway! RequiredMemory = 0.000 MiB + 1295.672119 MiB, MemoryLimit = 1034.960938 MiB 
+[2025.10.23-01.19.01:698][ 46]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_-1_END wave AND_THEY_MINE_FOR_OUR_BODIES...
+[2025.10.23-01.19.18:342][ 46]LogAudioDerivedData: Display: AND_THEY_MINE_FOR_OUR_BODIES compressed to 21.86% (from 442,256KB to 96,659KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2025.10.23-01.19.18:568][ 46]LogAudio: Display: Chunk stats for (SoundWave /Game/facility/AND_THEY_MINE_FOR_OUR_BODIES.AND_THEY_MINE_FOR_OUR_BODIES: Duration=2567.29 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=381, Chunk0=28 bytes, Chunk1=260909 bytes, ChunkN=261043)
+[2025.10.23-01.19.18:569][ 46]LogAudio: Display: Sound Wave SoundWave /Game/facility/AND_THEY_MINE_FOR_OUR_BODIES.AND_THEY_MINE_FOR_OUR_BODIES is very large, requiring 381 chunks.
+[2025.10.23-01.19.19:016][ 46]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_-1_END wave AND_THEY_MINE_FOR_OUR_BODIES...
+[2025.10.23-01.19.38:238][748]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.23-01.19.38:377][748]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonGameMode] ([2] browsable assets)...
+[2025.10.23-01.19.38:377][748]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonGameMode]
+[2025.10.23-01.19.38:406][748]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonGameMode
+[2025.10.23-01.19.38:410][748]LogSavePackage: Moving '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonGameMode109518A7441DBA8B48146AAB3FD9ABC2.tmp' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonGameMode.uasset'
+[2025.10.23-01.19.38:439][748]LogFileHelpers: InternalPromptForCheckoutAndSave took 201.180 ms
+[2025.10.23-01.19.38:604][748]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.23-01.19.38:604][748]LogContentValidation: Enabled validators:
+[2025.10.23-01.19.38:605][748]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.23-01.19.38:606][748]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.23-01.19.38:606][748]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.23-01.19.38:606][748]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.23-01.19.38:606][748]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.23-01.19.38:606][748]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.23-01.19.38:609][748]AssetCheck: /Game/FirstPerson/Blueprints/BP_FirstPersonGameMode Validating asset
+[2025.10.23-01.19.38:701][748]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.23-01.19.39:353][777]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2025.10.23-01.19.42:664][882]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.23-01.19.42:848][882]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Weightmap_102 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.23-01.19.42:849][882]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Weightmap_103 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.23-01.19.42:849][882]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Weightmap_106 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.23-01.19.42:852][882]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Weightmap_15 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.23-01.19.42:854][882]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Weightmap_20 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.23-01.19.42:855][882]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Weightmap_24 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.23-01.19.42:856][882]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Weightmap_3 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.23-01.19.42:857][882]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Weightmap_30 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.23-01.19.42:858][882]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Weightmap_32 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.23-01.19.42:859][882]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Weightmap_38 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.23-01.19.42:860][882]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Weightmap_39 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.23-01.19.42:862][882]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Weightmap_5 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.23-01.19.42:865][882]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Weightmap_62 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.23-01.19.42:866][882]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Weightmap_71 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.23-01.19.42:868][882]LogTexture: Display: Building textures: /Game/Promrtheus.Promrtheus:PersistentLevel.Landscape_0.Weightmap_78 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.23-01.19.42:963][882]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2025.10.23-01.19.43:599][882]LogAudioDerivedData: Display: AND_THEY_MINE_FOR_OUR_BODIES compressed to 21.86% (from 442,256KB to 96,659KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2025.10.23-01.19.43:608][882]LogSavePackage: Moving output files for package: /Game/Promrtheus
+[2025.10.23-01.19.43:611][882]LogSavePackage: Moving '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/PromrtheusE155099049811CF901DB2DABACB4872C.tmp' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/Promrtheus.umap'
+[2025.10.23-01.19.43:649][882]LogFileHelpers: Saving map 'Promrtheus' took 0.778
+[2025.10.23-01.19.43:685][882]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.02 sec (total: 1.22 sec)
+[2025.10.23-01.19.43:864][882]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.23-01.19.43:864][882]LogContentValidation: Enabled validators:
+[2025.10.23-01.19.43:864][882]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.23-01.19.43:864][882]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.23-01.19.43:864][882]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.23-01.19.43:864][882]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.23-01.19.43:864][882]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.23-01.19.43:864][882]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.23-01.19.43:864][882]AssetCheck: /Game/Promrtheus Validating asset
+[2025.10.23-01.19.43:937][882]LogAudio: Display: Chunk stats for (SoundWave /Game/facility/AND_THEY_MINE_FOR_OUR_BODIES.AND_THEY_MINE_FOR_OUR_BODIES: Duration=2567.29 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=381, Chunk0=28 bytes, Chunk1=260909 bytes, ChunkN=261043)
+[2025.10.23-01.19.43:937][882]LogAudio: Display: Sound Wave SoundWave /Game/facility/AND_THEY_MINE_FOR_OUR_BODIES.AND_THEY_MINE_FOR_OUR_BODIES is very large, requiring 381 chunks.
+[2025.10.23-01.19.43:985][882]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.23-01.19.44:096][888]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.23-01.19.44:131][888]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.23-01.19.44:237][888]LogOnline: OSS: Created online subsystem instance for: NULL
+[2025.10.23-01.19.44:239][888]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2025.10.23-01.19.44:241][888]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Promrtheus
+[2025.10.23-01.19.44:417][888]LogPlayLevel: PIE: StaticDuplicateObject took: (0.175421s)
+[2025.10.23-01.19.44:417][888]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Promrtheus.Promrtheus to /Game/UEDPIE_0_Promrtheus.Promrtheus (0.175820s)
+[2025.10.23-01.19.44:477][888]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2025.10.23-01.19.44:482][888]LogChaosDD: Creating Chaos Debug Draw Scene for world Promrtheus
+[2025.10.23-01.19.44:519][888]LogPlayLevel: PIE: World Init took: (0.037494s)
+[2025.10.23-01.19.44:523][888]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2025.10.23-01.19.44:525][888]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.23-01.19.44:525][888]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.23-01.19.44:525][888]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.23-01.19.44:525][888]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.23-01.19.44:525][888]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.23-01.19.44:525][888]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.23-01.19.44:525][888]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.23-01.19.44:525][888]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.23-01.19.44:528][888]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.23-01.19.44:528][888]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.23-01.19.44:528][888]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.23-01.19.44:535][888]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.23-01.19.44:646][888]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- OW810)
+[2025.10.23-01.19.44:649][888]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.23-01.19.44:649][888]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.23-01.19.44:650][888]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.23-01.19.44:652][888]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2025.10.23-01.19.44:652][888]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2025.10.23-01.19.44:655][888]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2025.10.23-01.19.44:655][888]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2025.10.23-01.19.44:655][888]LogInit: FAudioDevice initialized with ID 2.
+[2025.10.23-01.19.44:656][888]LogAudio: Display: Audio Device (ID: 2) registered with world 'Promrtheus'.
+[2025.10.23-01.19.44:658][888]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2025.10.23-01.19.44:699][888]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.10.23-01.19.44:734][888]LogWorld: Bringing World /Game/UEDPIE_0_Promrtheus.Promrtheus up for play (max tick rate 60) at 2025.10.23-02.19.44
+[2025.10.23-01.19.44:742][888]LogWorld: Bringing up level for play took: 0.040009
+[2025.10.23-01.19.44:748][888]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2025.10.23-01.19.44:869][888]PIE: Server logged in
+[2025.10.23-01.19.44:874][888]PIE: Play in editor total start time 0.755 seconds.
+[2025.10.23-01.19.45:067][889]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.10.23-01.19.56:818][401]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-01.19.56:818][401]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Promrtheus
+[2025.10.23-01.19.56:824][401]LogWorld: UWorld::CleanupWorld for Promrtheus, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-01.19.56:831][401]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-01.19.56:863][401]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.23-01.19.56:874][401]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-01.19.56:954][401]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.23-01.19.56:955][401]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2025.10.23-01.19.56:955][401]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=4
+[2025.10.23-01.19.56:959][401]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=2
+[2025.10.23-01.19.56:968][401]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-01.19.56:985][401]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2025.10.23-01.19.57:079][402]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2025.10.23-01.20.00:886][576]LogSlate: Took 0.016470 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2025.10.23-01.20.17:063][539]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.23-01.20.17:180][539]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonGameMode] ([2] browsable assets)...
+[2025.10.23-01.20.17:180][539]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonGameMode]
+[2025.10.23-01.20.17:204][539]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonGameMode
+[2025.10.23-01.20.17:205][539]LogSavePackage: Moving '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Saved/BP_FirstPersonGameMode86A8827A4876EC7365DDC4B9ABD2944A.tmp' to '../../../../../../Users/Elect/OneDrive/Documents/GitHub/game-development/prometheus_terrain1/Content/FirstPerson/Blueprints/BP_FirstPersonGameMode.uasset'
+[2025.10.23-01.20.17:228][539]LogFileHelpers: InternalPromptForCheckoutAndSave took 164.198 ms (total: 1.38 sec)
+[2025.10.23-01.20.17:373][539]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.23-01.20.17:373][539]LogContentValidation: Enabled validators:
+[2025.10.23-01.20.17:373][539]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.23-01.20.17:373][539]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.23-01.20.17:373][539]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.23-01.20.17:373][539]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.23-01.20.17:373][539]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.23-01.20.17:373][539]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.23-01.20.17:373][539]AssetCheck: /Game/FirstPerson/Blueprints/BP_FirstPersonGameMode Validating asset
+[2025.10.23-01.20.18:208][582]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2025.10.23-01.20.19:668][637]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.23-01.20.19:683][637]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.23-01.20.19:683][637]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Promrtheus
+[2025.10.23-01.20.19:795][637]LogPlayLevel: PIE: StaticDuplicateObject took: (0.111890s)
+[2025.10.23-01.20.19:795][637]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Promrtheus.Promrtheus to /Game/UEDPIE_0_Promrtheus.Promrtheus (0.111975s)
+[2025.10.23-01.20.19:838][637]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2025.10.23-01.20.19:842][637]LogChaosDD: Creating Chaos Debug Draw Scene for world Promrtheus
+[2025.10.23-01.20.19:845][637]LogPlayLevel: PIE: World Init took: (0.003507s)
+[2025.10.23-01.20.19:847][637]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2025.10.23-01.20.19:847][637]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.23-01.20.19:847][637]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.23-01.20.19:847][637]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.23-01.20.19:847][637]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.23-01.20.19:847][637]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.23-01.20.19:847][637]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.23-01.20.19:847][637]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.23-01.20.19:847][637]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.23-01.20.19:847][637]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.23-01.20.19:847][637]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.23-01.20.19:847][637]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.23-01.20.19:851][637]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.23-01.20.19:951][637]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- OW810)
+[2025.10.23-01.20.19:953][637]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.23-01.20.19:953][637]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.23-01.20.19:953][637]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.23-01.20.19:954][637]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2025.10.23-01.20.19:954][637]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2025.10.23-01.20.19:956][637]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2025.10.23-01.20.19:957][637]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2025.10.23-01.20.19:957][637]LogInit: FAudioDevice initialized with ID 3.
+[2025.10.23-01.20.19:957][637]LogAudio: Display: Audio Device (ID: 3) registered with world 'Promrtheus'.
+[2025.10.23-01.20.19:957][637]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2025.10.23-01.20.19:962][637]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.10.23-01.20.19:988][637]LogWorld: Bringing World /Game/UEDPIE_0_Promrtheus.Promrtheus up for play (max tick rate 60) at 2025.10.23-02.20.19
+[2025.10.23-01.20.19:990][637]LogWorld: Bringing up level for play took: 0.027207
+[2025.10.23-01.20.19:993][637]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2025.10.23-01.20.20:003][637]PIE: Server logged in
+[2025.10.23-01.20.20:005][637]PIE: Play in editor total start time 0.323 seconds.
+[2025.10.23-01.20.20:078][638]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.10.23-01.20.26:759][966]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-01.20.26:759][966]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Promrtheus
+[2025.10.23-01.20.26:760][966]LogWorld: UWorld::CleanupWorld for Promrtheus, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-01.20.26:763][966]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-01.20.26:771][966]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.23-01.20.26:779][966]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-01.20.26:820][966]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-01.20.26:821][966]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2025.10.23-01.20.26:821][966]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=4
+[2025.10.23-01.20.26:825][966]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=2
+[2025.10.23-01.20.26:846][966]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2025.10.23-01.20.26:958][967]LogPlayLevel: Display: Destroying online subsystem :Context_22
