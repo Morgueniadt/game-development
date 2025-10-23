@@ -1406,3 +1406,9 @@ Sampler Limit: 32
 [2025.10.23-02.20.55:829][ 74]LogD3D12RHI: Compiled PathTracingMainRG for RTPSO in 506510.38 ms.
 [2025.10.23-02.20.57:002][ 77]LogEOSSDK: Error: LogEOS: EOS_Auth_CopyUserAuthToken - One or more parameters are null
 [2025.10.23-02.20.57:003][ 77]LogFab: Error: User auth token is invalid - unable to get auth token
+[2025.10.23-02.26.25:070][ 61]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 847.190063
+[2025.10.23-02.26.26:062][ 64]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.23-02.26.26:062][ 64]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 847.851440, Update Interval: 352.638947
+[2025.10.23-02.32.21:463][130]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1203.583252
+[2025.10.23-02.32.22:499][133]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.23-02.32.22:499][133]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1204.282227, Update Interval: 354.199036
